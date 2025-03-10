@@ -2,6 +2,6 @@
 #include <stdlib.h> // Para funciones estándar como exit#include <stdio.h>
 
 int main() {
-    printf("Hola, mundowdadawdawddcad!\n");
+    printf("Hola, mundo!\n");
     return 0;
 }
