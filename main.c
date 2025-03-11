@@ -1,7 +1,10 @@
-#include <stdio.h>  // Para funciones de entrada/salida como printf
-#include <stdlib.h> // Para funciones estándar como exit#include <stdio.h>
+#include "juego.h"  // Incluye la lógica del juego
 
 int main() {
-    printf("Hola, mundo!\n");
-    return 0;
+    Juego juego;  // Crea una instancia de la estructura Juego
+
+    // Iniciar el juego
+    iniciar_juego(&juego);
+
+    return 0;  // Fin del programa
 }
