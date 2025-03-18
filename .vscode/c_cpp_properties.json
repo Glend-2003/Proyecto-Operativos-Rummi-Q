@@ -3,10 +3,12 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",  // Busca en toda la carpeta del proyecto
+                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q",  // Busca en toda la carpeta del proyecto
                 "/usr/include",           // Librerías estándar del sistema
                 "/usr/local/include",     // Librerías instaladas localmente
-                "/usr/include/x86_64-linux-gnu"  // Librerías específicas para arquitectura x86_64
+                "/usr/include/x86_64-linux-gnu",  // Librerías específicas para arquitectura x86_64
+                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q/jugadores.h"
+                
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
