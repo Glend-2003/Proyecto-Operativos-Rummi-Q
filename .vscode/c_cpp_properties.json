@@ -3,12 +3,11 @@
         {
             "name": "Linux",
             "includePath": [
-                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q",  // Busca en toda la carpeta del proyecto
-                "/usr/include",           // Librerías estándar del sistema
-                "/usr/local/include",     // Librerías instaladas localmente
-                "/usr/include/x86_64-linux-gnu",  // Librerías específicas para arquitectura x86_64
-                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q/jugadores.h"
-                
+                "/home/romero/Documentos/GitHub/Proyecto-Operativos-Rummi-Q",
+                "/usr/lib/gcc/x86_64-linux-gnu/13/include",
+                "/usr/local/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
