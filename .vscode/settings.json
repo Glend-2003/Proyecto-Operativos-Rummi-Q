@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "pthread.h": "c"
+        "pthread.h": "c",
+        "jugadores.h": "c"
     }
 }
