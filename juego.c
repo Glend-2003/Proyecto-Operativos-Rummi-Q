@@ -65,8 +65,20 @@ bool inicializarJuego(int cantidadJugadores) {
 void repartirFichas() {
     // Crear el mazo completo (2 barajas + 4 comodines)
     Mazo mazoCompleto;
+
+    // Inicializar a valores seguros
+    mazoCompleto.cartas = NULL;
+    mazoCompleto.numCartas = 0;
+    mazoCompleto.capacidad = 0;
+
     crearMazoCompleto(&mazoCompleto);
     
+    // Verificar si se creó correctamente
+    if (mazoCompleto.cartas == NULL) {
+        printf("Error: No se pudo crear el mazo completo\n");
+        return;
+    }
+
     // Mezclar el mazo
     mezclarMazo(&mazoCompleto);
     
@@ -84,7 +96,15 @@ void repartirFichas() {
             // Añadir a la mano del jugador
             if (jugadores[i].mano.numCartas >= jugadores[i].mano.capacidad) {
                 int nuevaCapacidad = jugadores[i].mano.capacidad == 0 ? cartasPorJugador : jugadores[i].mano.capacidad * 2;
-                jugadores[i].mano.cartas = realloc(jugadores[i].mano.cartas, nuevaCapacidad * sizeof(Carta));
+                Carta *nuevasCartas = realloc(jugadores[i].mano.cartas, nuevaCapacidad * sizeof(Carta));
+                
+                // Verificar si realloc tuvo éxito
+                if (nuevasCartas == NULL) {
+                    printf("Error: No se pudo reasignar memoria para la mano del jugador %d\n", i);
+                    continue; // Saltamos esta carta
+                }
+                
+                jugadores[i].mano.cartas = nuevasCartas;
                 jugadores[i].mano.capacidad = nuevaCapacidad;
             }
             
@@ -95,10 +115,27 @@ void repartirFichas() {
     
     // El resto de cartas van a la banca
     Mazo *banca = obtenerBanca();
+    if (banca == NULL) {
+        printf("Error: No se pudo obtener la banca\n");
+        // Liberar memoria antes de salir
+        if (mazoCompleto.cartas != NULL) {
+            free(mazoCompleto.cartas);
+        }
+        return;
+    }
+
     for (int i = 0; i < mazoCompleto.numCartas; i++) {
         if (banca->numCartas >= banca->capacidad) {
             int nuevaCapacidad = banca->capacidad == 0 ? mazoCompleto.numCartas : banca->capacidad * 2;
-            banca->cartas = realloc(banca->cartas, nuevaCapacidad * sizeof(Carta));
+            Carta *nuevasCartas = realloc(banca->cartas, nuevaCapacidad * sizeof(Carta));
+            
+            // Verificar si realloc tuvo éxito
+            if (nuevasCartas == NULL) {
+                printf("Error: No se pudo reasignar memoria para la banca\n");
+                break; // Salimos del bucle
+            }
+            
+            banca->cartas = nuevasCartas;
             banca->capacidad = nuevaCapacidad;
         }
         
@@ -107,7 +144,10 @@ void repartirFichas() {
     }
     
     // Liberar el mazo completo
-    free(mazoCompleto.cartas);
+    if (mazoCompleto.cartas != NULL) {
+        free(mazoCompleto.cartas);
+        mazoCompleto.cartas = NULL;
+    }
 }
 
 // Iniciar el juego, creando los hilos de los jugadores

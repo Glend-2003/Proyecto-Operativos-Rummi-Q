@@ -276,6 +276,13 @@ Mazo* obtenerBanca(void) {
 
 // Crear un mazo completo (2 barajas + 4 comodines)
 void crearMazoCompleto(Mazo *mazo) {
+
+    // Verificar si el puntero es nulo
+    if (mazo == NULL) {
+        printf("Error: Puntero de mazo nulo\n");
+        return;
+    }
+
     // Liberar memoria si ya hay cartas
     if (mazo->cartas != NULL) {
         free(mazo->cartas);
@@ -286,6 +293,13 @@ void crearMazoCompleto(Mazo *mazo) {
     mazo->numCartas = 0;
     mazo->cartas = malloc(mazo->capacidad * sizeof(Carta));
     
+
+    // Verificar si malloc tuvo éxito
+    if (mazo->cartas == NULL) {
+        printf("Error: No se pudo asignar memoria para el mazo\n");
+        return;
+    }
+
     // Crear las 2 barajas
     char palos[] = {'C', 'D', 'T', 'E'};  // Corazones, Diamantes, Tréboles, Espadas
     
@@ -368,12 +382,13 @@ void mostrarApeadas(void) {
     printf("\nBanca: %d cartas\n", mesaJuego.banca.numCartas);
 }
 
-// Liberar recursos de la mesa
+// 3. En mesa.c - Corregir liberarMesa()
 void liberarMesa(void) {
     // Liberar escaleras (que usan memoria dinámica)
     for (int i = 0; i < mesaJuego.numApeadas; i++) {
-        if (!mesaJuego.apeadas[i].esGrupo) {
+        if (!mesaJuego.apeadas[i].esGrupo && mesaJuego.apeadas[i].jugada.escalera.cartas != NULL) {
             free(mesaJuego.apeadas[i].jugada.escalera.cartas);
+            mesaJuego.apeadas[i].jugada.escalera.cartas = NULL;  // Importante!
         }
     }
     

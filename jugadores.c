@@ -1194,8 +1194,16 @@ Apeada* crearApeada(Jugador *jugador) {
                 nuevaApeada->jugada.escalera.palo = palo;
                 nuevaApeada->jugada.escalera.cartas = (Carta*)malloc(longitudFinal * sizeof(Carta));
                 
-                if (nuevaApeada->jugada.escalera.cartas == NULL) {
-                    printf("Error: No se pudo asignar memoria para las cartas de la escalera\n");
+                // Al liberar memoria, siempre verifica y establece a NULL
+                if (nuevaApeada != NULL) {
+                    free(nuevaApeada);
+                    nuevaApeada = NULL;
+                }
+
+                if (nuevaApeada != NULL && nuevaApeada->jugada.escalera.cartas == NULL) {
+                    if (nuevaApeada->jugada.escalera.cartas != NULL) {
+                        free(nuevaApeada->jugada.escalera.cartas);
+                    }
                     free(nuevaApeada);
                     return NULL;
                 }
