@@ -9,6 +9,7 @@ Mesa mesaJuego;
 
 // Inicializar la mesa
 bool inicializarMesa(void) {
+    pthread_mutex_init(&mesaJuego.mutex, NULL);
     // Inicializar el contador de apeadas
     mesaJuego.numApeadas = 0;
     

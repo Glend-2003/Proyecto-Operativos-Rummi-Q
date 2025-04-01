@@ -10,9 +10,10 @@
 
 // Estructura global para la mesa de juego
 typedef struct {
-    Apeada apeadas[MAX_APEADAS];  // Arreglo de apeadas en la mesa
-    int numApeadas;               // Número actual de apeadas
-    Mazo banca;                   // Mazo de la banca
+    Apeada apeadas[MAX_APEADAS];
+    int numApeadas;
+    Mazo banca;
+    pthread_mutex_t mutex; // Añadir mutex para sincronización
 } Mesa;
 
 // Variable global para la mesa

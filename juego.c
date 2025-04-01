@@ -10,12 +10,15 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
+#include <unistd.h>
 
 // Variables globales para el manejo del juego
 static bool juegoEnCurso = false;
 static bool hayGanador = false;
 static int idGanador = -1;
 static int algoritmoActual = ALG_FCFS;  // FCFS por defecto
+// Cambiar en juego.c, función repartirFichas()
+
 
 // Mutex y variables de condición para sincronización
 pthread_mutex_t mutexJuego = PTHREAD_MUTEX_INITIALIZER;
@@ -84,8 +87,7 @@ void repartirFichas() {
     
     // Calcular cuántas cartas repartir a cada jugador (2/3 del total)
     int cartasTotales = mazoCompleto.numCartas;
-    int cartasPorJugador = (cartasTotales * 2) / (3 * numJugadores);
-    
+    int cartasPorJugador = (cartasTotales * 3) / (4 * numJugadores);
     // Repartir a cada jugador
     for (int i = 0; i < numJugadores; i++) {
         for (int j = 0; j < cartasPorJugador && mazoCompleto.numCartas > 0; j++) {
@@ -225,21 +227,15 @@ int seleccionarJugadorFCFS() {
     return -1;  // No hay jugadores listos
 }
 
-// Seleccionar el próximo jugador según Round Robin
 int seleccionarJugadorRR() {
-    // En Round Robin, simplemente tomamos el siguiente jugador que no haya terminado
-    int inicio = (jugadorActual + 1) % numJugadores;
-    
-    for (int i = 0; i < numJugadores; i++) {
-        int idx = (inicio + i) % numJugadores;
-        
-        // Si el jugador no ha terminado
-        if (!jugadores[idx].terminado) {
+    // Buscar siguiente jugador que no haya terminado y esté LISTO
+    for (int i = 1; i <= numJugadores; i++) {
+        int idx = (jugadorActual + i) % numJugadores;
+        if (!jugadores[idx].terminado && jugadores[idx].estado == LISTO) {
             return idx;
         }
     }
-    
-    return -1;  // No hay jugadores disponibles
+    return -1;
 }
 
 // Asignar turno a un jugador

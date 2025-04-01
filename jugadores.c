@@ -9,6 +9,8 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
+#include <unistd.h>
+
 
 /* Mutex para acceso a recursos compartidos */
 pthread_mutex_t mutexApeadas = PTHREAD_MUTEX_INITIALIZER;
@@ -121,6 +123,7 @@ bool realizarTurno(Jugador *jugador, Apeada *apeadas, int numApeadas, Mazo *banc
     int tiempoTranscurrido;
     bool turnoCompletado = false;
     bool hizoJugada = false;
+    pthread_mutex_lock(&mesaJuego.mutex);
     
     printf("\n--- Jugador %d está ejecutando su turno ---\n", jugador->id);
     
@@ -345,6 +348,7 @@ bool realizarTurno(Jugador *jugador, Apeada *apeadas, int numApeadas, Mazo *banc
     printf("--- Fin del turno del Jugador %d (tiempo restante: %d ms) ---\n", 
            jugador->id, jugador->tiempoRestante);
     
+    pthread_mutex_unlock(&mesaJuego.mutex);
     return turnoCompletado;
 }
 
@@ -1381,7 +1385,7 @@ void pasarTurno(Jugador *jugador) {
 /* Entrar en estado de espera E/S */
 void entrarEsperaES(Jugador *jugador) {
     /* Tiempo aleatorio entre 2 y 5 segundos */
-    jugador->tiempoES = (rand() % 3 + 2) * 1000;
+    jugador->tiempoES = (rand() % 3 + 2) * 1000; // 2-5 segundos
     actualizarEstadoJugador(jugador, ESPERA_ES);
     
     colorMagenta();
