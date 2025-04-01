@@ -2,30 +2,25 @@
 #define UTILIDADES_H
 
 #include <stdbool.h>
-#include <time.h>
+#include "jugadores.h"
 
-// Funciones de utilidad para manejar tiempo
-void esperar_milisegundos(int milisegundos);
-time_t obtener_tiempo_actual();
-char* obtener_timestamp_formateado(time_t tiempo);
-char* obtener_timestamp_actual();
+/* Funciones auxiliares para manejo de cartas */
+void imprimirCarta(Carta carta);
+void imprimirMazo(Mazo *mazo);
+char* obtenerNombreCarta(Carta carta, char *buffer);
+int calcularPuntosCarta(Carta carta);
 
-// Funciones para manejo de archivos
-bool escribir_a_archivo(const char* nombre_archivo, const char* contenido);
-char* leer_de_archivo(const char* nombre_archivo);
-bool archivo_existe(const char* nombre_archivo);
+/* Funciones auxiliares para depuración y registro */
+void registrarEvento(const char *formato, ...);
+void guardarEstadisticasJuego(Jugador *jugadores, int numJugadores);
 
-// Funciones de generación aleatoria
-int numero_aleatorio(int min, int max);
-int seleccionar_aleatorio_de_arreglo(int arreglo[], int tamano);
+/* Funciones para colores en terminal (para visualización) */
+void colorRojo(void);
+void colorVerde(void);
+void colorAmarillo(void);
+void colorAzul(void);
+void colorMagenta(void);
+void colorCian(void);
+void colorReset(void);
 
-// Funciones de depuración
-void mostrar_debug(const char* formato, ...);
-void registrar_evento(const char* tipo_evento, const char* descripcion);
-
-// Funciones de manejo de strings
-char* concatenar_strings(const char* str1, const char* str2);
-char* int_a_string(int valor);
-bool strings_iguales(const char* str1, const char* str2);
-
-#endif
+#endif /* UTILIDADES_H */

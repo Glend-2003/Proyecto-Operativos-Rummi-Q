@@ -2,7 +2,6 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         "pthread.h": "c",
-        "stdlib.h": "c",
-        "unistd.h": "c"
+        "jugadores.h": "c"
     }
 }

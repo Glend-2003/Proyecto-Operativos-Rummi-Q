@@ -1,221 +1,166 @@
-#include "utilidades.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include <stdarg.h>
-#include <unistd.h>
-#include <sys/stat.h>
+#include <string.h>
+#include <time.h>
+#include "utilidades.h"
+#include "jugadores.h"
 
-// Variable global para controlar la depuración
-static bool modo_debug = false;
+/* Constantes para colores en terminal */
+#define COLOR_ROJO     "\x1b[31m"
+#define COLOR_VERDE    "\x1b[32m"
+#define COLOR_AMARILLO "\x1b[33m"
+#define COLOR_AZUL     "\x1b[34m"
+#define COLOR_MAGENTA  "\x1b[35m"
+#define COLOR_CIAN     "\x1b[36m"
+#define COLOR_RESET    "\x1b[0m"
 
-// Esperar un número específico de milisegundos
-void esperar_milisegundos(int milisegundos) {
-    struct timespec ts;
-    ts.tv_sec = milisegundos / 1000;
-    ts.tv_nsec = (milisegundos % 1000) * 1000000;
-    nanosleep(&ts, NULL);
+/* Nombres de palos */
+const char* nombrePalo(char palo) {
+    switch(palo) {
+        case 'C': return "Corazones";
+        case 'D': return "Diamantes";
+        case 'T': return "Tréboles";
+        case 'E': return "Espadas";
+        case 'J': return "Joker";
+        default: return "Desconocido";
+    }
 }
 
-// Obtener el tiempo actual
-time_t obtener_tiempo_actual() {
-    return time(NULL);
+/* Nombres de valores */
+const char* nombreValor(int valor) {
+    static char buffer[4];
+    
+    switch(valor) {
+        case 1: return "As";
+        case 11: return "J";
+        case 12: return "Q";
+        case 13: return "K";
+        default: 
+            sprintf(buffer, "%d", valor);
+            return buffer;
+    }
 }
 
-// Obtener un timestamp formateado
-char* obtener_timestamp_formateado(time_t tiempo) {
-    static char buffer[30];
-    struct tm *tm_info = localtime(&tiempo);
-    strftime(buffer, sizeof(buffer), "%Y-%m-%d %H:%M:%S", tm_info);
+/* Imprimir carta en formato legible */
+void imprimirCarta(Carta carta) {
+    if (carta.esComodin) {
+        printf("COMODÍN");
+    } else {
+        printf("%s de %s", nombreValor(carta.valor), nombrePalo(carta.palo));
+    }
+}
+
+/* Imprimir mazo completo */
+void imprimirMazo(Mazo *mazo) {
+    int i;
+    
+    printf("Mazo (%d cartas):\n", mazo->numCartas);
+    for (i = 0; i < mazo->numCartas; i++) {
+        printf("  %d. ", i+1);
+        imprimirCarta(mazo->cartas[i]);
+        printf("\n");
+    }
+}
+
+/* Obtener nombre de carta (para mostrar en log) */
+char* obtenerNombreCarta(Carta carta, char *buffer) {
+    if (carta.esComodin) {
+        strcpy(buffer, "COMODÍN");
+    } else {
+        sprintf(buffer, "%s de %s", nombreValor(carta.valor), nombrePalo(carta.palo));
+    }
     return buffer;
 }
 
-// Obtener el timestamp actual formateado
-char* obtener_timestamp_actual() {
-    return obtener_timestamp_formateado(obtener_tiempo_actual());
-}
-
-// Escribir contenido a un archivo
-bool escribir_a_archivo(const char* nombre_archivo, const char* contenido) {
-    FILE *file = fopen(nombre_archivo, "w");
-    if (!file) {
-        mostrar_debug("Error: No se pudo abrir el archivo %s para escritura\n", nombre_archivo);
-        return false;
+/* Calcular puntos de una carta */
+int calcularPuntosCarta(Carta carta) {
+    if (carta.esComodin) {
+        return 20; /* Los comodines valen 20 puntos */
+    } else if (carta.valor >= 11) { /* J, Q, K */
+        return 10;
+    } else if (carta.valor == 1) { /* As */
+        return 15;
+    } else {
+        return carta.valor;
     }
-    
-    fprintf(file, "%s", contenido);
-    fclose(file);
-    return true;
 }
 
-// Leer contenido de un archivo
-char* leer_de_archivo(const char* nombre_archivo) {
-    FILE *file = fopen(nombre_archivo, "r");
-    if (!file) {
-        mostrar_debug("Error: No se pudo abrir el archivo %s para lectura\n", nombre_archivo);
-        return NULL;
-    }
-    
-    // Determinar el tamaño del archivo
-    fseek(file, 0, SEEK_END);
-    long tamano = ftell(file);
-    rewind(file);
-    
-    // Asignar memoria para el contenido
-    char *contenido = (char*)malloc(tamano + 1);
-    if (!contenido) {
-        mostrar_debug("Error: No se pudo asignar memoria para el contenido del archivo\n");
-        fclose(file);
-        return NULL;
-    }
-    
-    // Leer el contenido
-    size_t bytes_leidos = fread(contenido, 1, tamano, file);
-    if (bytes_leidos != tamano) {
-        mostrar_debug("Error: No se pudo leer el archivo completo\n");
-        free(contenido);
-        fclose(file);
-        return NULL;
-    }
-    
-    // Agregar terminador nulo
-    contenido[tamano] = '\0';
-    
-    fclose(file);
-    return contenido;
-}
-
-// Verificar si un archivo existe
-bool archivo_existe(const char* nombre_archivo) {
-    struct stat buffer;
-    return (stat(nombre_archivo, &buffer) == 0);
-}
-
-// Generar un número aleatorio en un rango
-int numero_aleatorio(int min, int max) {
-    return min + (rand() % (max - min + 1));
-}
-
-// Seleccionar un elemento aleatorio de un arreglo
-int seleccionar_aleatorio_de_arreglo(int arreglo[], int tamano) {
-    int indice = rand() % tamano;
-    return arreglo[indice];
-}
-
-// Activar o desactivar el modo de depuración
-void establecer_modo_debug(bool activar) {
-    modo_debug = activar;
-    mostrar_debug("Modo debug %s\n", activar ? "activado" : "desactivado");
-}
-
-// Mostrar mensaje de depuración
-void mostrar_debug(const char* formato, ...) {
-    if (!modo_debug) return;
-    
+/* Registrar evento en un archivo log */
+void registrarEvento(const char *formato, ...) {
+    FILE *archivo;
+    time_t ahora;
+    struct tm *t;
+    char timestamp[25];
     va_list args;
-    va_start(args, formato);
     
-    printf("[DEBUG] ");
-    vprintf(formato, args);
-    
-    va_end(args);
-}
-
-// Registrar evento en archivo de log
-void registrar_evento(const char* tipo_evento, const char* descripcion) {
-    FILE *file = fopen("eventos.log", "a");
-    if (!file) {
-        mostrar_debug("Error: No se pudo abrir el archivo de log\n");
+    /* Abrir archivo en modo append */
+    archivo = fopen("juego.log", "a");
+    if (archivo == NULL) {
         return;
     }
     
-    fprintf(file, "[%s] %s: %s\n", obtener_timestamp_actual(), tipo_evento, descripcion);
-    fclose(file);
+    /* Obtener timestamp */
+    ahora = time(NULL);
+    t = localtime(&ahora);
+    strftime(timestamp, sizeof(timestamp), "%Y-%m-%d %H:%M:%S", t);
+    
+    /* Escribir timestamp */
+    fprintf(archivo, "[%s] ", timestamp);
+    
+    /* Escribir mensaje formateado */
+    va_start(args, formato);
+    vfprintf(archivo, formato, args);
+    va_end(args);
+    
+    /* Añadir salto de línea */
+    fprintf(archivo, "\n");
+    
+    /* Cerrar archivo */
+    fclose(archivo);
 }
 
-// Concatenar dos strings
-char* concatenar_strings(const char* str1, const char* str2) {
-    size_t len1 = strlen(str1);
-    size_t len2 = strlen(str2);
+/* Guardar estadísticas de juego en un archivo */
+void guardarEstadisticasJuego(Jugador *jugadores, int numJugadores) {
+    FILE *archivo;
+    int i;
     
-    char *resultado = (char*)malloc(len1 + len2 + 1);
-    if (!resultado) {
-        mostrar_debug("Error: No se pudo asignar memoria para concatenar strings\n");
-        return NULL;
+    archivo = fopen("estadisticas.txt", "w");
+    if (archivo == NULL) {
+        printf("Error: No se pudo crear el archivo de estadísticas\n");
+        return;
     }
     
-    strcpy(resultado, str1);
-    strcat(resultado, str2);
+    fprintf(archivo, "=== ESTADÍSTICAS DEL JUEGO ===\n\n");
     
-    return resultado;
+    /* Estadísticas por jugador */
+    for (i = 0; i < numJugadores; i++) {
+        fprintf(archivo, "Jugador %d:\n", jugadores[i].id);
+        fprintf(archivo, "  Cartas restantes: %d\n", jugadores[i].mano.numCartas);
+        fprintf(archivo, "  Puntos totales: %d\n", jugadores[i].puntosTotal);
+        
+        if (jugadores[i].bcp != NULL) {
+            fprintf(archivo, "  Tiempo de ejecución: %d ms\n", jugadores[i].bcp->tiempoEjecucion);
+            fprintf(archivo, "  Tiempo de espera: %d ms\n", jugadores[i].bcp->tiempoEspera);
+            fprintf(archivo, "  Tiempo de bloqueo: %d ms\n", jugadores[i].bcp->tiempoBloqueo);
+            fprintf(archivo, "  Veces apeado: %d\n", jugadores[i].bcp->vecesApeo);
+            fprintf(archivo, "  Cartas comidas: %d\n", jugadores[i].bcp->cartasComidas);
+            fprintf(archivo, "  Intentos fallidos: %d\n", jugadores[i].bcp->intentosFallidos);
+            fprintf(archivo, "  Turnos perdidos: %d\n", jugadores[i].bcp->turnosPerdidos);
+        }
+        
+        fprintf(archivo, "\n");
+    }
+    
+    fclose(archivo);
+    printf("Estadísticas del juego guardadas en 'estadisticas.txt'\n");
 }
 
-// Convertir un entero a string
-char* int_a_string(int valor) {
-    // Calcular el tamaño necesario para el string
-    int longitud = snprintf(NULL, 0, "%d", valor);
-    
-    char *str = (char*)malloc(longitud + 1);
-    if (!str) {
-        mostrar_debug("Error: No se pudo asignar memoria para convertir int a string\n");
-        return NULL;
-    }
-    
-    sprintf(str, "%d", valor);
-    return str;
-}
-
-// Comparar si dos strings son iguales
-bool strings_iguales(const char* str1, const char* str2) {
-    return strcmp(str1, str2) == 0;
-}
-
-// Función para dividir un string en tokens
-char** dividir_string(const char* str, const char* delimitador, int* num_tokens) {
-    // Copiar el string original ya que strtok modifica el string
-    char *copia = strdup(str);
-    if (!copia) {
-        mostrar_debug("Error: No se pudo asignar memoria para copiar string\n");
-        *num_tokens = 0;
-        return NULL;
-    }
-    
-    // Contar el número de tokens
-    *num_tokens = 0;
-    char *temp = strdup(str);
-    char *token = strtok(temp, delimitador);
-    while (token) {
-        (*num_tokens)++;
-        token = strtok(NULL, delimitador);
-    }
-    free(temp);
-    
-    // Crear arreglo de tokens
-    char **tokens = (char**)malloc((*num_tokens) * sizeof(char*));
-    if (!tokens) {
-        mostrar_debug("Error: No se pudo asignar memoria para tokens\n");
-        free(copia);
-        *num_tokens = 0;
-        return NULL;
-    }
-    
-    // Extraer los tokens
-    int i = 0;
-    token = strtok(copia, delimitador);
-    while (token && i < *num_tokens) {
-        tokens[i] = strdup(token);
-        i++;
-        token = strtok(NULL, delimitador);
-    }
-    
-    free(copia);
-    return tokens;
-}
-
-// Liberar memoria de los tokens
-void liberar_tokens(char** tokens, int num_tokens) {
-    for (int i = 0; i < num_tokens; i++) {
-        free(tokens[i]);
-    }
-    free(tokens);
-}
+/* Funciones para colorear la salida en terminal */
+void colorRojo(void) { printf(COLOR_ROJO); }
+void colorVerde(void) { printf(COLOR_VERDE); }
+void colorAmarillo(void) { printf(COLOR_AMARILLO); }
+void colorAzul(void) { printf(COLOR_AZUL); }
+void colorMagenta(void) { printf(COLOR_MAGENTA); }
+void colorCian(void) { printf(COLOR_CIAN); }
+void colorReset(void) { printf(COLOR_RESET); }
