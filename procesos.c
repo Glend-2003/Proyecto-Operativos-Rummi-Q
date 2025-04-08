@@ -369,6 +369,7 @@ void aumentarTiempoEspera(int id, int tiempo) {
         return;
     }
     
+    
     // Aumentar el tiempo de espera
     bcp->tiempoEspera += tiempo;
     
@@ -425,34 +426,74 @@ BCP* obtenerBCPActual(void) {
 
 // Imprimir estadísticas de la tabla de procesos
 void imprimirEstadisticasTabla(void) {
+    FILE *archivo;
+    const char *nombreArchivo = "estadisticas_procesos.txt";
+    
+    // Abrir archivo para escritura
+    archivo = fopen(nombreArchivo, "w");
+    if (archivo == NULL) {
+        printf("Error: No se pudo crear el archivo %s\n", nombreArchivo);
+        return;
+    }
+    
+    // Imprimir y guardar en archivo las estadísticas
     printf("\n=== ESTADÍSTICAS DE LA TABLA DE PROCESOS ===\n");
+    fprintf(archivo, "=== ESTADÍSTICAS DE LA TABLA DE PROCESOS ===\n");
+    
     printf("Número de procesos: %d\n", tablaProc.numProcesos);
+    fprintf(archivo, "Número de procesos: %d\n", tablaProc.numProcesos);
+    
     printf("Procesos listos: %d\n", tablaProc.numProcesosListos);
+    fprintf(archivo, "Procesos listos: %d\n", tablaProc.numProcesosListos);
+    
     printf("Procesos bloqueados: %d\n", tablaProc.numProcesosBloqueados);
+    fprintf(archivo, "Procesos bloqueados: %d\n", tablaProc.numProcesosBloqueados);
+    
     printf("Procesos terminados: %d\n", tablaProc.numProcesosTerminados);
+    fprintf(archivo, "Procesos terminados: %d\n", tablaProc.numProcesosTerminados);
+    
     printf("Cambios de contexto: %d\n", tablaProc.cambiosContexto);
+    fprintf(archivo, "Cambios de contexto: %d\n", tablaProc.cambiosContexto);
+    
     printf("Tiempo total de ejecución: %d ms\n", tablaProc.tiempoTotalEjecucion);
+    fprintf(archivo, "Tiempo total de ejecución: %d ms\n", tablaProc.tiempoTotalEjecucion);
+    
     printf("Tiempo total de espera: %d ms\n", tablaProc.tiempoTotalEspera);
+    fprintf(archivo, "Tiempo total de espera: %d ms\n", tablaProc.tiempoTotalEspera);
+    
     printf("Tiempo total de bloqueo: %d ms\n", tablaProc.tiempoTotalBloqueo);
+    fprintf(archivo, "Tiempo total de bloqueo: %d ms\n", tablaProc.tiempoTotalBloqueo);
+    
     printf("Tiempo total en E/S: %d ms\n", tablaProc.tiempoTotalES);
+    fprintf(archivo, "Tiempo total en E/S: %d ms\n", tablaProc.tiempoTotalES);
+    
     printf("Turnos asignados: %d\n", tablaProc.turnosAsignados);
+    fprintf(archivo, "Turnos asignados: %d\n", tablaProc.turnosAsignados);
+    
     printf("Turnos completados: %d\n", tablaProc.turnosCompletados);
+    fprintf(archivo, "Turnos completados: %d\n", tablaProc.turnosCompletados);
+    
     printf("Turnos interrumpidos: %d\n", tablaProc.turnosInterrumpidos);
+    fprintf(archivo, "Turnos interrumpidos: %d\n", tablaProc.turnosInterrumpidos);
     
     // Calcular tiempo total de la simulación
     tablaProc.tiempoActual = time(NULL);
     double tiempoTotal = difftime(tablaProc.tiempoActual, tablaProc.tiempoInicio);
     
     printf("Tiempo total de simulación: %.2f segundos\n", tiempoTotal);
+    fprintf(archivo, "Tiempo total de simulación: %.2f segundos\n", tiempoTotal);
     
     // Calcular uso de CPU
     if (tiempoTotal > 0) {
         tablaProc.usoCPU = (float)tablaProc.tiempoTotalEjecucion / (tiempoTotal * 1000) * 100;
         printf("Uso de CPU: %.2f%%\n", tablaProc.usoCPU);
+        fprintf(archivo, "Uso de CPU: %.2f%%\n", tablaProc.usoCPU);
     }
     
     // Imprimir detalles de cada proceso
     printf("\nDETALLES DE PROCESOS:\n");
+    fprintf(archivo, "\nDETALLES DE PROCESOS:\n");
+    
     for (int i = 0; i < tablaProc.numProcesos; i++) {
         BCP *bcp = tablaProc.procesos[i];
         
@@ -461,9 +502,16 @@ void imprimirEstadisticasTabla(void) {
         
         printf("Proceso %d: %s, Ejecución: %d ms, Espera: %d ms, Cartas: %d\n",
                bcp->id, estadoTexto[bcp->estado], bcp->tiempoEjecucion, bcp->tiempoEspera, bcp->numCartas);
+        fprintf(archivo, "Proceso %d: %s, Ejecución: %d ms, Espera: %d ms, Cartas: %d\n",
+                bcp->id, estadoTexto[bcp->estado], bcp->tiempoEjecucion, bcp->tiempoEspera, bcp->numCartas);
     }
     
     printf("===========================================\n");
+    fprintf(archivo, "===========================================\n");
+    
+    // Cerrar el archivo
+    fclose(archivo);
+    printf("Estadísticas de la tabla de procesos guardadas en '%s'\n", nombreArchivo);
 }
 
 // Liberar la memoria de la tabla de procesos
