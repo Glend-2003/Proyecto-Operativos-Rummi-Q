@@ -18,11 +18,11 @@
 /* Nombres de palos */
 const char* nombrePalo(char palo) {
     switch(palo) {
-        case 'C': return "Corazones";
-        case 'D': return "Diamantes";
-        case 'T': return "Tréboles";
-        case 'E': return "Espadas";
-        case 'J': return "Joker";
+        case 'C': return "Negro";
+        case 'D': return "Naranja";
+        case 'T': return "Azul";
+        case 'E': return "Rojo";
+        case 'J': return "Comodin";
         default: return "Desconocido";
     }
 }
@@ -32,10 +32,10 @@ const char* nombreValor(int valor) {
     static char buffer[4];
     
     switch(valor) {
-        case 1: return "As";
-        case 11: return "J";
-        case 12: return "Q";
-        case 13: return "K";
+        case 1: return "1";
+        case 11: return "11";
+        case 12: return "12";
+        case 13: return "13";
         default: 
             sprintf(buffer, "%d", valor);
             return buffer;
