@@ -13,6 +13,7 @@
 #include "procesos.h"
 #include "utilidades.h"
 
+
 /* Función para leer una tecla sin bloqueo */
 int leerTecla(void) {
     struct termios oldt, newt;

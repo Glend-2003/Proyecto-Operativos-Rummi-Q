@@ -1,0 +1,154 @@
+----------------------------------------
+========== RONDA 88 ==========
+----------------------------------------
+Fecha y hora: 2025-04-30 16:37:30
+
+ESTADO DE LA MESA:
+  Número de apeadas: 10
+  Cartas en la banca: 10
+
+  Detalle de apeadas:
+    Apeada 0 (Jugador 0): GRUPO, 4 cartas, 21 puntos
+    Apeada 1 (Jugador 1): GRUPO, 4 cartas, 50 puntos
+    Apeada 2 (Jugador 1): GRUPO, 4 cartas, 30 puntos
+    Apeada 3 (Jugador 2): GRUPO, 4 cartas, 28 puntos
+    Apeada 4 (Jugador 2): GRUPO, 4 cartas, 30 puntos
+    Apeada 5 (Jugador 3): GRUPO, 4 cartas, 50 puntos
+    Apeada 6 (Jugador 0): GRUPO, 4 cartas, 12 puntos
+    Apeada 7 (Jugador 3): GRUPO, 3 cartas, 30 puntos
+    Apeada 8 (Jugador 0): GRUPO, 4 cartas, 30 puntos
+    Apeada 9 (Jugador 3): GRUPO, 3 cartas, 15 puntos
+
+ESTADO DE LOS JUGADORES:
+  Jugador 0:
+    Estado: ESPERA E/S
+    Primera apeada: SÍ
+    Cartas restantes: 15
+    Cartas en mano:
+      1. 2 de Rojo
+      2. 10 de Negro
+      3. 8 de Negro
+      4. 5 de Azul
+      5. 6 de Negro
+      6. 2 de Negro
+      7. 13 de Naranja
+      8. 2 de Rojo
+      9. 9 de Naranja
+      10. 6 de Negro
+      11. 10 de Azul
+      12. 9 de Azul
+      13. 8 de Negro
+      14. 8 de Rojo
+      15. 3 de Negro
+    Estadísticas BCP:
+      Tiempo de ejecución: 0 ms
+      Tiempo de espera: 1038 ms
+      Tiempo de E/S: 2038 ms
+      Intentos fallidos: 0
+      Cartas comidas: 7
+      Veces apeado: 3
+      Turnos perdidos: 0
+      Cambios de estado: 0
+
+  Jugador 1:
+    Estado: ESPERA E/S
+    Primera apeada: SÍ
+    Cartas restantes: 14
+    Cartas en mano:
+      1. 13 de Negro
+      2. 3 de Naranja
+      3. 13 de Rojo
+      4. 7 de Azul
+      5. 9 de Rojo
+      6. 6 de Naranja
+      7. 6 de Rojo
+      8. 11 de Azul
+      9. 8 de Rojo
+      10. 4 de Rojo
+      11. 12 de Negro
+      12. 3 de Rojo
+      13. 11 de Rojo
+      14. 13 de Negro
+    Estadísticas BCP:
+      Tiempo de ejecución: 0 ms
+      Tiempo de espera: 3091 ms
+      Tiempo de E/S: 5541 ms
+      Intentos fallidos: 0
+      Cartas comidas: 5
+      Veces apeado: 2
+      Turnos perdidos: 0
+      Cambios de estado: 0
+
+  Jugador 2:
+    Estado: ESPERA E/S
+    Primera apeada: SÍ
+    Cartas restantes: 18
+    Cartas en mano:
+      1. 3 de Naranja
+      2. 12 de Rojo
+      3. 2 de Azul
+      4. 8 de Azul
+      5. 7 de Rojo
+      6. 6 de Azul
+      7. 13 de Azul
+      8. 8 de Naranja
+      9. 9 de Negro
+      10. 11 de Naranja
+      11. 8 de Azul
+      12. 9 de Rojo
+      13. 5 de Azul
+      14. 2 de Naranja
+      15. 7 de Negro
+      16. 3 de Azul
+      17. 13 de Rojo
+      18. 1 de Rojo
+    Estadísticas BCP:
+      Tiempo de ejecución: 0 ms
+      Tiempo de espera: 2351 ms
+      Tiempo de E/S: 2901 ms
+      Intentos fallidos: 0
+      Cartas comidas: 7
+      Veces apeado: 2
+      Turnos perdidos: 0
+      Cambios de estado: 0
+
+  Jugador 3:
+    Estado: ESPERA E/S
+    Primera apeada: SÍ
+    Cartas restantes: 13
+    Cartas en mano:
+      1. 9 de Negro
+      2. 9 de Azul
+      3. 2 de Naranja
+      4. 2 de Negro
+      5. 3 de Azul
+      6. 12 de Azul
+      7. 6 de Azul
+      8. 3 de Rojo
+      9. 13 de Naranja
+      10. 13 de Azul
+      11. 1 de Negro
+      12. 11 de Negro
+      13. 7 de Naranja
+    Estadísticas BCP:
+      Tiempo de ejecución: 0 ms
+      Tiempo de espera: 1022 ms
+      Tiempo de E/S: 1022 ms
+      Intentos fallidos: 0
+      Cartas comidas: 7
+      Veces apeado: 3
+      Turnos perdidos: 0
+      Cambios de estado: 0
+
+
+----------------------------------------
+========== RESULTADOS FINALES ==========
+----------------------------------------
+
+¡El Jugador -1 ha ganado!
+
+Puntuaciones finales:
+Jugador 0: 0 puntos, 15 cartas restantes
+Jugador 1: 0 puntos, 14 cartas restantes
+Jugador 2: 0 puntos, 18 cartas restantes
+Jugador 3: 0 puntos, 13 cartas restantes

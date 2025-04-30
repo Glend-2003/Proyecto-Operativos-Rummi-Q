@@ -11,6 +11,7 @@
 #include "procesos.h"
 #include "utilidades.h"
 
+
 // Variables globales para el manejo del juego
 static bool juegoEnCurso = false;
 static bool hayGanador = false;
@@ -35,6 +36,9 @@ bool inicializarJuego(int cantidadJugadores) {
         printf("Número de jugadores inválido. Debe ser entre 1 y %d\n", MAX_JUGADORES);
         return false;
     }
+    
+    // Inicializar la semilla aleatoria
+    srand((unsigned int)time(NULL));
     
     numJugadores = cantidadJugadores;
     juegoEnCurso = true;
@@ -164,11 +168,20 @@ void iniciarJuego() {
     bucleJuego();
 }
 
+
 // Bucle principal del juego
 void bucleJuego() {
     printf("¡Iniciando el juego con %d jugadores!\n", numJugadores);
     
+    // Variables para control de rondas y actualización
+    int numRonda = 0;
+    clock_t ultimaActualizacion = clock();
+    const int INTERVALO_ACTUALIZACION = 5000; // 5 segundos en ms
+    
     while (juegoEnCurso) {
+        // Incrementar el contador de rondas al inicio de cada iteración
+        numRonda++;
+        
         // Seleccionar el próximo jugador según el algoritmo de planificación
         int siguienteJugador;
         
@@ -197,9 +210,27 @@ void bucleJuego() {
             break;
         }
         
+        // Verificar si es tiempo de actualizar las estadísticas y registrar la ronda
+        clock_t ahora = clock();
+        int tiempoTranscurrido = (ahora - ultimaActualizacion) * 1000 / CLOCKS_PER_SEC;
+        
+        if (tiempoTranscurrido >= INTERVALO_ACTUALIZACION) {
+            // Registrar el historial de esta ronda
+            registrarHistorial(numRonda, jugadores, numJugadores);
+            
+            // Actualizar estadísticas
+            imprimirEstadisticasTabla();
+            
+            // Resetear el temporizador
+            ultimaActualizacion = ahora;
+        }
+        
         // Pequeña pausa para no consumir demasiado CPU
         usleep(10000);  // 10ms
     }
+    
+    // Registrar la última ronda antes de terminar
+    registrarHistorial(numRonda, jugadores, numJugadores);
     
     // Esperar a que todos los hilos de jugadores terminen
     for (int i = 0; i < numJugadores; i++) {
@@ -208,6 +239,9 @@ void bucleJuego() {
     
     // Mostrar resultados finales
     mostrarResultados();
+    
+    // Mostrar información del historial
+    printf("\nEl historial completo del juego se ha guardado en 'historial_juego.txt'\n");
 }
 
 // Seleccionar el próximo jugador según FCFS
@@ -286,12 +320,19 @@ void esperarFinTurno(int idJugador) {
             jugadores[idJugador].tiempoRestante = 0;
             jugadores[idJugador].turnoActual = false;
             printf("Tiempo agotado para Jugador %d\n", idJugador);
+            
+            // Actualizar el BCP después de agotar el tiempo
+            actualizarBCPJugador(&jugadores[idJugador]);
+            
             break;
         }
         
         // Pequeña pausa para no consumir demasiado CPU
         usleep(50000);  // 50ms
     }
+    
+    // Registrar evento de fin de turno
+    registrarEvento("Fin del turno del Jugador %d", idJugador);
 }
 
 // Cambiar el algoritmo de planificación
@@ -312,6 +353,13 @@ void finalizarJuego(int idJugadorGanador) {
     hayGanador = true;
     idGanador = idJugadorGanador;
     juegoEnCurso = false;
+    
+    // Registrar evento importante
+    if (idJugadorGanador >= 0) {
+        registrarEvento("¡El Jugador %d ha ganado el juego!", idJugadorGanador);
+    } else {
+        registrarEvento("Juego finalizado sin ganador");
+    }
 }
 
 // Verificar si el juego ha terminado
@@ -321,6 +369,36 @@ bool juegoTerminado() {
 
 // Mostrar resultados finales (continuación)
 void mostrarResultados() {
+    FILE *archivo;
+    
+    // Abrir archivo en modo append
+    archivo = fopen("historial_juego.txt", "a");
+    if (archivo == NULL) {
+        printf("Error: No se pudo abrir/crear el archivo de historial para resultados finales\n");
+    } else {
+        // Escribir separador para los resultados finales
+        fprintf(archivo, "----------------------------------------\n");
+        fprintf(archivo, "========== RESULTADOS FINALES ==========\n");
+        fprintf(archivo, "----------------------------------------\n\n");
+        
+        if (hayGanador) {
+            fprintf(archivo, "¡El Jugador %d ha ganado!\n\n", idGanador);
+        } else {
+            fprintf(archivo, "Juego terminado sin ganador\n\n");
+        }
+        
+        // Escribir puntuaciones finales
+        fprintf(archivo, "Puntuaciones finales:\n");
+        for (int i = 0; i < numJugadores; i++) {
+            fprintf(archivo, "Jugador %d: %d puntos, %d cartas restantes\n", 
+                   i, jugadores[i].puntosTotal, jugadores[i].mano.numCartas);
+        }
+        
+        // Cerrar el archivo
+        fclose(archivo);
+    }
+    
+    // Continuar con la impresión normal en la consola
     printf("\n=== RESULTADOS FINALES ===\n");
     
     if (hayGanador) {

@@ -1,0 +1,178 @@
+[2025-04-30 16:37:22] Proceso 0 cambió de estado: BLOQUEADO -> LISTO
+[2025-04-30 16:37:22] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:22] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:22] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:22] Jugador 0 entró en E/S por 2497 ms
+[2025-04-30 16:37:22] Fin del turno del Jugador 0
+[2025-04-30 16:37:22] Proceso 1 cambió de estado: BLOQUEADO -> LISTO
+[2025-04-30 16:37:22] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:22] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:22] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:22] Jugador 1 entró en E/S por 3908 ms
+[2025-04-30 16:37:22] Fin del turno del Jugador 1
+[2025-04-30 16:37:22] Proceso 2 cambió de estado: BLOQUEADO -> LISTO
+[2025-04-30 16:37:22] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:22] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:22] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:22] Jugador 2 entró en E/S por 2225 ms
+[2025-04-30 16:37:22] Fin del turno del Jugador 2
+[2025-04-30 16:37:22] Proceso 3 cambió de estado: BLOQUEADO -> LISTO
+[2025-04-30 16:37:22] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:22] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:22] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:22] Jugador 3 entró en E/S por 1177 ms
+[2025-04-30 16:37:22] Fin del turno del Jugador 3
+[2025-04-30 16:37:23] Proceso 3 cambió de estado: EJECUTANDO -> NUEVO
+[2025-04-30 16:37:23] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:23] Jugador 3 salió de E/S
+[2025-04-30 16:37:23] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:23] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:23] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:23] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:23] Jugador 3 entró en E/S por 4978 ms
+[2025-04-30 16:37:23] Fin del turno del Jugador 3
+[2025-04-30 16:37:24] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-04-30 16:37:24] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:24] Jugador 2 salió de E/S
+[2025-04-30 16:37:24] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-04-30 16:37:24] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:24] Jugador 0 salió de E/S
+[2025-04-30 16:37:24] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:24] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:24] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:24] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:24] Jugador 0 entró en E/S por 4140 ms
+[2025-04-30 16:37:24] Fin del turno del Jugador 0
+[2025-04-30 16:37:25] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:25] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:25] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:25] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:25] Jugador 2 entró en E/S por 2848 ms
+[2025-04-30 16:37:25] Fin del turno del Jugador 2
+[2025-04-30 16:37:26] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-04-30 16:37:26] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:26] Jugador 1 salió de E/S
+[2025-04-30 16:37:26] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:26] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:26] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:26] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:26] Jugador 1 entró en E/S por 3351 ms
+[2025-04-30 16:37:26] Fin del turno del Jugador 1
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 2 entró en E/S por 5938 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 2
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 3 entró en E/S por 1793 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 3
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 0 entró en E/S por 1256 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 0
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 1 entró en E/S por 4863 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 1
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 2 entró en E/S por 4856 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 2
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 3 entró en E/S por 5276 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 3
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 0 entró en E/S por 3561 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 0
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 1 entró en E/S por 2352 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 1
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 2 entró en E/S por 5849 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 2
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 3 entró en E/S por 5393 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 3
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 0 entró en E/S por 5516 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 0
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 1 entró en E/S por 5541 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 1
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:27] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:27] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:27] Jugador 2 entró en E/S por 1674 ms
+[2025-04-30 16:37:27] Fin del turno del Jugador 2
+[2025-04-30 16:37:28] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:28] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:28] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:28] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:28] Jugador 3 entró en E/S por 2169 ms
+[2025-04-30 16:37:28] Fin del turno del Jugador 3
+[2025-04-30 16:37:28] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-04-30 16:37:28] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-04-30 16:37:28] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:28] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:28] Jugador 0 entró en E/S por 1128 ms
+[2025-04-30 16:37:28] Fin del turno del Jugador 0
+[2025-04-30 16:37:29] Proceso 0 cambió de estado: EJECUTANDO -> NUEVO
+[2025-04-30 16:37:29] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:29] Jugador 0 salió de E/S
+[2025-04-30 16:37:29] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:29] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:29] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:29] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:29] Jugador 0 entró en E/S por 2038 ms
+[2025-04-30 16:37:29] Fin del turno del Jugador 0
+[2025-04-30 16:37:29] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-04-30 16:37:29] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:29] Jugador 2 salió de E/S
+[2025-04-30 16:37:29] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:29] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:29] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:29] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:29] Jugador 2 entró en E/S por 2901 ms
+[2025-04-30 16:37:29] Fin del turno del Jugador 2
+[2025-04-30 16:37:30] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-04-30 16:37:30] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-04-30 16:37:30] Jugador 3 salió de E/S
+[2025-04-30 16:37:30] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-04-30 16:37:30] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-04-30 16:37:30] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-04-30 16:37:30] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-04-30 16:37:30] Jugador 3 entró en E/S por 1022 ms
+[2025-04-30 16:37:30] Juego finalizado sin ganador
+[2025-04-30 16:37:30] Fin del turno del Jugador 3
