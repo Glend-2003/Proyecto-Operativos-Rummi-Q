@@ -231,11 +231,20 @@ void actualizarProcesoEnTabla(int id, int nuevoEstado) {
     
     // Decrementar el contador del estado anterior
     switch (bcp->estado) {
+        case PROC_NUEVO:
+            // No hacer nada para estado nuevo
+            break;
         case PROC_LISTO:
             tablaProc.numProcesosListos--;
             break;
+        case PROC_EJECUTANDO:
+            // No decrementar contador para ejecutando
+            break;
         case PROC_BLOQUEADO:
             tablaProc.numProcesosBloqueados--;
+            break;
+        case PROC_TERMINADO:
+            tablaProc.numProcesosTerminados--;
             break;
     }
     

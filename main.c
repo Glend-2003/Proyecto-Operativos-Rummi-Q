@@ -12,6 +12,7 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
+#include <unistd.h>
 
 /* Función para leer una tecla sin bloqueo */
 int leerTecla(void) {

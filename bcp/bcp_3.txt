@@ -1,0 +1,21 @@
+=== BLOQUE DE CONTROL DE PROCESO ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de creación: 2025-04-01 14:13:19
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2300 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4000 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 9998 ms
+Número de cartas: 13
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 2
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
