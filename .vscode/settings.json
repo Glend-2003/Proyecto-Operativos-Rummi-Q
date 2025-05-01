@@ -3,6 +3,7 @@
         "*.embeddedhtml": "html",
         "pthread.h": "c",
         "jugadores.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "utilidades.h": "c"
     }
 }
