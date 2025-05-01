@@ -47,13 +47,18 @@ void *monitorTeclas(void *arg) {
         } else if (tecla == 'q' || tecla == 'Q') {
             /* Opción para salir del juego con 'q' */
             printf("\nSaliendo del juego por solicitud del usuario...\n");
+            
+            // Forzar la finalización del juego sin ganador
             finalizarJuego(-1); /* -1 indica que no hay ganador */
+            
+            // Es importante salir del bucle después de finalizar
             break;
         }
         
         usleep(100000);  /* 100ms */
     }
     
+    printf("Hilo de monitoreo de teclas finalizado\n");
     return NULL;
 }
 
@@ -155,8 +160,23 @@ int main(int argc, char *argv[]) {
     /* Esta función ejecutará el bucle principal */
     iniciarJuego();
     
-    /* Esperar a que termine el hilo monitor */
-    pthread_join(hiloMonitor, NULL);
+    /* Esperar a que termine el hilo monitor con un timeout manual */
+    printf("Esperando a que el hilo monitor finalice...\n");
+    
+    /* Intento de join con tiempo límite */
+    time_t startTime = time(NULL);
+    const int MAX_WAIT_TIME = 3; // 3 segundos máximo
+    
+    /* Intentar hacer join normal con el hilo monitor */
+    void *status;
+    int joinResult = pthread_join(hiloMonitor, &status);
+    
+    if (joinResult != 0) {
+        printf("No se pudo esperar correctamente al hilo monitor, código: %d\n", joinResult);
+        printf("Continuando con la finalización del programa...\n");
+    } else {
+        printf("Hilo monitor finalizado correctamente\n");
+    }
     
     /* Liberar recursos */
     liberarJuego();

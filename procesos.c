@@ -13,69 +13,6 @@ static TablaProc tablaProc;
 // Funciones para el manejo del BCP
 
 // Crear un nuevo BCP
-BCP* crearBCP(int id) {
-    BCP* nuevoBCP = (BCP*)malloc(sizeof(BCP));
-    if (nuevoBCP == NULL) {
-        printf("Error: No se pudo asignar memoria para el BCP\n");
-        return NULL;
-    }
-    
-    // Inicializar todas las variables del BCP
-    nuevoBCP->id = id;
-    nuevoBCP->estado = PROC_NUEVO;
-    nuevoBCP->prioridad = 0;
-    nuevoBCP->tiempoCreacion = time(NULL);
-    nuevoBCP->tiempoEjecucion = 0;
-    nuevoBCP->tiempoEspera = 0;
-    nuevoBCP->tiempoBloqueo = 0;
-    nuevoBCP->tiempoES = 0;
-    nuevoBCP->tiempoQuantum = 0;
-    nuevoBCP->tiempoRestante = 0;
-    nuevoBCP->numCartas = 0;
-    nuevoBCP->puntosAcumulados = 0;
-    nuevoBCP->turnoActual = 0;
-    nuevoBCP->vecesApeo = 0;
-    nuevoBCP->cartasComidas = 0;
-    nuevoBCP->intentosFallidos = 0;
-    nuevoBCP->turnosPerdidos = 0;
-    nuevoBCP->cambiosEstado = 0;
-    nuevoBCP->tiempoUltimoEstado = 0;
-    nuevoBCP->tiempoUltimoBloqueo = 0;
-    
-    printf("BCP creado para el proceso %d\n", id);
-    
-    return nuevoBCP;
-}
-
-// Actualizar los datos de un BCP
-void actualizarBCP(BCP *bcp, int estado, int tiempoEjec, int tiempoEsp, int cartas) {
-    if (bcp == NULL) {
-        return;
-    }
-    
-    // Si el estado cambió, registrar el cambio
-    if (bcp->estado != estado) {
-        bcp->cambiosEstado++;
-        bcp->tiempoUltimoEstado = 0;
-        
-        // Si el nuevo estado es PROC_BLOQUEADO, actualizar tiempoUltimoBloqueo
-        if (estado == PROC_BLOQUEADO) {
-            bcp->tiempoUltimoBloqueo = 0;
-        }
-    } else {
-        bcp->tiempoUltimoEstado += tiempoEjec + tiempoEsp;
-    }
-    
-    bcp->estado = estado;
-    bcp->tiempoEjecucion += tiempoEjec;
-    bcp->tiempoEspera += tiempoEsp;
-    bcp->numCartas = cartas;
-    
-    // Guardar el BCP actualizado
-    guardarBCP(bcp);
-}
-
-// Guardar el BCP en un archivo para persistencia y análisis
 void guardarBCP(BCP *bcp) {
     if (bcp == NULL) {
         return;
@@ -124,8 +61,36 @@ void guardarBCP(BCP *bcp) {
     fprintf(archivo, "Tiempo en el estado actual: %d ms\n", bcp->tiempoUltimoEstado);
     fprintf(archivo, "Tiempo desde el último bloqueo: %d ms\n", bcp->tiempoUltimoBloqueo);
     
-    // Cerrar el archivo
+    // Cerrar el archivo y forzar la escritura al disco
     fclose(archivo);
+}
+
+// Actualizar los datos de un BCP
+void actualizarBCP(BCP *bcp, int estado, int tiempoEjec, int tiempoEsp, int cartas) {
+    if (bcp == NULL) {
+        return;
+    }
+    
+    // Si el estado cambió, registrar el cambio
+    if (bcp->estado != estado) {
+        bcp->cambiosEstado++;
+        bcp->tiempoUltimoEstado = 0;
+        
+        // Si el nuevo estado es PROC_BLOQUEADO, actualizar tiempoUltimoBloqueo
+        if (estado == PROC_BLOQUEADO) {
+            bcp->tiempoUltimoBloqueo = 0;
+        }
+    } else {
+        bcp->tiempoUltimoEstado += tiempoEjec + tiempoEsp;
+    }
+    
+    bcp->estado = estado;
+    bcp->tiempoEjecucion += tiempoEjec;
+    bcp->tiempoEspera += tiempoEsp;
+    bcp->numCartas = cartas;
+    
+    // Guardar el BCP actualizado
+    guardarBCP(bcp);
 }
 
 // Liberar la memoria de un BCP
@@ -134,7 +99,39 @@ void liberarBCP(BCP *bcp) {
         free(bcp);
     }
 }
-
+BCP* crearBCP(int id) {
+    BCP* nuevoBCP = (BCP*)malloc(sizeof(BCP));
+    if (nuevoBCP == NULL) {
+        printf("Error: No se pudo asignar memoria para el BCP\n");
+        return NULL;
+    }
+    
+    // Inicializar todas las variables del BCP
+    nuevoBCP->id = id;
+    nuevoBCP->estado = PROC_NUEVO;
+    nuevoBCP->prioridad = 0;
+    nuevoBCP->tiempoCreacion = time(NULL);
+    nuevoBCP->tiempoEjecucion = 0;
+    nuevoBCP->tiempoEspera = 0;
+    nuevoBCP->tiempoBloqueo = 0;
+    nuevoBCP->tiempoES = 0;
+    nuevoBCP->tiempoQuantum = 0;
+    nuevoBCP->tiempoRestante = 0;
+    nuevoBCP->numCartas = 0;
+    nuevoBCP->puntosAcumulados = 0;
+    nuevoBCP->turnoActual = 0;
+    nuevoBCP->vecesApeo = 0;
+    nuevoBCP->cartasComidas = 0;
+    nuevoBCP->intentosFallidos = 0;
+    nuevoBCP->turnosPerdidos = 0;
+    nuevoBCP->cambiosEstado = 0;
+    nuevoBCP->tiempoUltimoEstado = 0;
+    nuevoBCP->tiempoUltimoBloqueo = 0;
+    
+    printf("BCP creado para el proceso %d\n", id);
+    
+    return nuevoBCP;
+}
 // Funciones para el manejo de la tabla de procesos
 
 // Inicializar la tabla de procesos
@@ -232,19 +229,22 @@ void actualizarProcesoEnTabla(int id, int nuevoEstado) {
     // Decrementar el contador del estado anterior
     switch (bcp->estado) {
         case PROC_NUEVO:
-            // No hacer nada para estado nuevo
+            // El estado NUEVO no tiene contador específico
             break;
         case PROC_LISTO:
             tablaProc.numProcesosListos--;
             break;
         case PROC_EJECUTANDO:
-            // No decrementar contador para ejecutando
+            // Si tuvieras un contador para procesos en ejecución, lo decrementarías aquí
             break;
         case PROC_BLOQUEADO:
             tablaProc.numProcesosBloqueados--;
             break;
         case PROC_TERMINADO:
-            tablaProc.numProcesosTerminados--;
+            // Normalmente no decrementamos contador de terminados
+            break;
+        default:
+            printf("Error: Estado desconocido %d\n", bcp->estado);
             break;
     }
     
@@ -254,6 +254,9 @@ void actualizarProcesoEnTabla(int id, int nuevoEstado) {
     
     // Incrementar el contador del nuevo estado
     switch (nuevoEstado) {
+        case PROC_NUEVO:
+            // El estado NUEVO no tiene contador específico
+            break;
         case PROC_LISTO:
             tablaProc.numProcesosListos++;
             break;
@@ -278,12 +281,31 @@ void actualizarProcesoEnTabla(int id, int nuevoEstado) {
         case PROC_TERMINADO:
             tablaProc.numProcesosTerminados++;
             break;
+        default:
+            printf("Error: Estado desconocido %d\n", nuevoEstado);
+            break;
     }
     
     printf("Estado del proceso %d actualizado: %d -> %d\n", id, estadoAnterior, nuevoEstado);
     
+    // Actualizar el BCP para reflejar el cambio de estado
+    bcp->cambiosEstado++;
+    bcp->tiempoUltimoEstado = 0;
+    
+    // Si pasa a bloqueado, actualizar tiempo de último bloqueo
+    if (nuevoEstado == PROC_BLOQUEADO) {
+        bcp->tiempoUltimoBloqueo = 0;
+    }
+    
     // Guardar el BCP actualizado
     guardarBCP(bcp);
+    
+    // Registrar el evento en el log
+    const char *estadosTexto[] = {"NUEVO", "LISTO", "EJECUTANDO", "BLOQUEADO", "TERMINADO"};
+    registrarEvento("Proceso %d cambió de estado: %s -> %s", 
+                   id, 
+                   (estadoAnterior >= 0 && estadoAnterior <= 4) ? estadosTexto[estadoAnterior] : "DESCONOCIDO",
+                   (nuevoEstado >= 0 && nuevoEstado <= 4) ? estadosTexto[nuevoEstado] : "DESCONOCIDO");
 }
 
 // Cambiar el estado de un proceso

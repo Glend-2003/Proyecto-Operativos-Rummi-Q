@@ -9,7 +9,6 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
-#include <unistd.h>
 
 
 /* Mutex para acceso a recursos compartidos */
@@ -73,6 +72,11 @@ void *funcionHiloJugador(void *arg) {
                 /* Esperar a que le asignen su turno */
                 usleep(100000);  /* 100ms */
             }
+            
+            // Verificar si el juego terminó, para salir rápidamente
+            if (juegoTerminado()) {
+                break;
+            }
         }
         
         /* Si el juego terminó o el jugador terminó, salir del bucle */
@@ -107,10 +111,11 @@ void *funcionHiloJugador(void *arg) {
         pasarTurno(jugador);
     }
     
-    /* Registrar en tabla de procesos que el hilo ha terminado */
     pthread_mutex_lock(&mutexTabla);
-    registrarProcesoEnTabla(jugador->id, PROC_BLOQUEADO);
+    registrarProcesoEnTabla(jugador->id, PROC_TERMINADO);
     pthread_mutex_unlock(&mutexTabla);
+    /* Registrar en tabla de procesos que el hilo ha terminado */
+    printf("Hilo del Jugador %d ha terminado correctamente\n", jugador->id);
     
     return NULL;
 }
@@ -123,7 +128,6 @@ bool realizarTurno(Jugador *jugador, Apeada *apeadas, int numApeadas, Mazo *banc
     int tiempoTranscurrido;
     bool turnoCompletado = false;
     bool hizoJugada = false;
-    pthread_mutex_lock(&mesaJuego.mutex);
     
     printf("\n--- Jugador %d está ejecutando su turno ---\n", jugador->id);
     
@@ -184,8 +188,14 @@ bool realizarTurno(Jugador *jugador, Apeada *apeadas, int numApeadas, Mazo *banc
                     /* Actualizar BCP con intento fallido */
                     if (jugador->bcp != NULL) {
                         jugador->bcp->intentosFallidos++;
+                        int puntosFallidos = 5; 
+                        jugador->bcp->puntosAcumulados += puntosFallidos;
                         actualizarBCPJugador(jugador);
                     }
+                    
+                    registrarEvento("Jugador %d realizó una jugada en una apeada", jugador->id);
+        
+                    return true;
                 }
             } else {
                 colorAmarillo();
@@ -348,7 +358,6 @@ bool realizarTurno(Jugador *jugador, Apeada *apeadas, int numApeadas, Mazo *banc
     printf("--- Fin del turno del Jugador %d (tiempo restante: %d ms) ---\n", 
            jugador->id, jugador->tiempoRestante);
     
-    pthread_mutex_unlock(&mesaJuego.mutex);
     return turnoCompletado;
 }
 
@@ -1358,6 +1367,9 @@ bool comerFicha(Jugador *jugador, Mazo *banca) {
 void actualizarEstadoJugador(Jugador *jugador, EstadoJugador nuevoEstado) {
     const char *estados[] = {"LISTO", "EJECUCION", "ESPERA_ES", "BLOQUEADO"};
     
+    // Guardar estado anterior para log
+    EstadoJugador estadoAnterior = jugador->estado;
+    
     jugador->estado = nuevoEstado;
     
     /* Actualizar el BCP */
@@ -1370,6 +1382,10 @@ void actualizarEstadoJugador(Jugador *jugador, EstadoJugador nuevoEstado) {
     
     /* Mostrar cambio de estado */
     printf("Jugador %d cambió a estado: %s\n", jugador->id, estados[nuevoEstado]);
+    
+    /* Registrar el cambio de estado en el log */
+    registrarEvento("Jugador %d cambió de estado: %s -> %s", 
+                   jugador->id, estados[estadoAnterior], estados[nuevoEstado]);
 }
 
 /* Pasar el turno del jugador */
@@ -1385,7 +1401,7 @@ void pasarTurno(Jugador *jugador) {
 /* Entrar en estado de espera E/S */
 void entrarEsperaES(Jugador *jugador) {
     /* Tiempo aleatorio entre 2 y 5 segundos */
-    jugador->tiempoES = (rand() % 3 + 2) * 1000; // 2-5 segundos
+    jugador->tiempoES = (rand() % 5000 + 1000);
     actualizarEstadoJugador(jugador, ESPERA_ES);
     
     colorMagenta();

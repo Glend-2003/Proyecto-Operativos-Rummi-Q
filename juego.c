@@ -12,6 +12,7 @@
 #include "utilidades.h"
 #include <unistd.h>
 
+
 // Variables globales para el manejo del juego
 static bool juegoEnCurso = false;
 static bool hayGanador = false;
@@ -38,6 +39,9 @@ bool inicializarJuego(int cantidadJugadores) {
         printf("Número de jugadores inválido. Debe ser entre 1 y %d\n", MAX_JUGADORES);
         return false;
     }
+    
+    // Inicializar la semilla aleatoria
+    srand((unsigned int)time(NULL));
     
     numJugadores = cantidadJugadores;
     juegoEnCurso = true;
@@ -169,11 +173,25 @@ void iniciarJuego() {
     bucleJuego();
 }
 
+
 // Bucle principal del juego
 void bucleJuego() {
     printf("¡Iniciando el juego con %d jugadores!\n", numJugadores);
     
+    // Variables para control de rondas y actualización
+    int numRonda = 0;
+    clock_t ultimaActualizacion = clock();
+    const int INTERVALO_ACTUALIZACION = 5000; // 5 segundos en ms
+    
     while (juegoEnCurso) {
+        // Verificar primero si el juego debe terminar
+        if (juegoTerminado()) {
+            break;
+        }
+        
+        // Incrementar el contador de rondas al inicio de cada iteración
+        numRonda++;
+        
         // Seleccionar el próximo jugador según el algoritmo de planificación
         int siguienteJugador;
         
@@ -197,9 +215,24 @@ void bucleJuego() {
         // Esperar a que el jugador termine su turno o se agote su tiempo
         esperarFinTurno(siguienteJugador);
         
-        // Verificar si hay un ganador
-        if (hayGanador) {
+        // Verificar si hay un ganador o si el juego debe terminar
+        if (hayGanador || juegoTerminado()) {
             break;
+        }
+        
+        // Verificar si es tiempo de actualizar las estadísticas y registrar la ronda
+        clock_t ahora = clock();
+        int tiempoTranscurrido = (ahora - ultimaActualizacion) * 1000 / CLOCKS_PER_SEC;
+        
+        if (tiempoTranscurrido >= INTERVALO_ACTUALIZACION) {
+            // Registrar el historial de esta ronda
+            registrarHistorial(numRonda, jugadores, numJugadores);
+            
+            // Actualizar estadísticas
+            imprimirEstadisticasTabla();
+            
+            // Resetear el temporizador
+            ultimaActualizacion = ahora;
         }
         
         // Pequeña pausa para no consumir demasiado CPU
@@ -207,12 +240,50 @@ void bucleJuego() {
     }
     
     // Esperar a que todos los hilos de jugadores terminen
+    printf("Esperando a que terminen los hilos de los jugadores...\n");
+    
+    // Intentar join con los hilos con un tiempo máximo de espera
     for (int i = 0; i < numJugadores; i++) {
+        // Versión simplificada sin usar pthread_timedjoin_np
+        // Intentamos hacer join, pero solo esperamos un tiempo limitado
+        time_t startTime = time(NULL);
+        bool joined = false;
+        
+        // Usamos pthread_tryjoin_np si está disponible
+        #ifdef __USE_GNU
+        int result = pthread_tryjoin_np(jugadores[i].hilo, NULL);
+        if (result == 0) {
+            joined = true;
+        } else {
+            // Si no podemos hacer join inmediatamente, esperamos un poco e intentamos de nuevo
+            while (time(NULL) - startTime < 3) { // Máximo 3 segundos de espera
+                usleep(100000); // 100ms
+                result = pthread_tryjoin_np(jugadores[i].hilo, NULL);
+                if (result == 0) {
+                    joined = true;
+                    break;
+                }
+            }
+        }
+        #else
+        // Si no tenemos pthread_tryjoin_np, usamos el join normal
+        // pero asegurándonos de que el hilo esté en estado terminado
+        jugadores[i].terminado = true;
         pthread_join(jugadores[i].hilo, NULL);
+        joined = true;
+        #endif
+        
+        if (!joined) {
+            printf("No se pudo esperar al hilo del Jugador %d, continuando...\n", i);
+        }
     }
     
     // Mostrar resultados finales
     mostrarResultados();
+    
+    // Mensaje final
+    printf("\nEl historial completo del juego se ha guardado en 'historial_juego.txt'\n");
+    printf("El juego ha terminado. ¡Gracias por jugar!\n");
 }
 
 // Seleccionar el próximo jugador según FCFS
@@ -277,6 +348,13 @@ void esperarFinTurno(int idJugador) {
     clock_t inicio = clock();
     
     while (jugadores[idJugador].turnoActual) {
+        // Verificar si el juego ha terminado
+        if (juegoTerminado()) {
+            // Forzar fin de turno si el juego terminó
+            jugadores[idJugador].turnoActual = false;
+            break;
+        }
+        
         // Verificar si se ha agotado el tiempo
         int tiempoTranscurrido = (clock() - inicio) * 1000 / CLOCKS_PER_SEC;
         
@@ -308,9 +386,37 @@ void cambiarAlgoritmo(int nuevoAlgoritmo) {
 
 // Finalizar el juego con un ganador
 void finalizarJuego(int idJugadorGanador) {
+    // Establecer las variables que controlan el bucle principal
     hayGanador = true;
     idGanador = idJugadorGanador;
     juegoEnCurso = false;
+    
+    // Registrar evento importante
+    if (idJugadorGanador >= 0) {
+        registrarEvento("¡El Jugador %d ha ganado el juego!", idJugadorGanador);
+    } else {
+        registrarEvento("Juego finalizado por el usuario");
+    }
+    
+    // Registrar historial final
+    registrarHistorial(-1, jugadores, numJugadores);
+    
+    // Forzar una última actualización de estadísticas
+    imprimirEstadisticasTabla();
+    
+    // Asegurarse de que todos los jugadores estén en estado BLOQUEADO
+    // Esto ayuda a que los hilos de los jugadores terminen correctamente
+    for (int i = 0; i < numJugadores; i++) {
+        // Interrumpir cualquier espera activa de los jugadores
+        jugadores[i].terminado = true;
+        jugadores[i].turnoActual = false;
+        
+        // Actualizar estado a BLOQUEADO
+        actualizarEstadoJugador(&jugadores[i], BLOQUEADO);
+    }
+    
+    // Mensaje de confirmación
+    printf("Se guardaron todas las estadísticas. El juego ha terminado.\n");
 }
 
 // Verificar si el juego ha terminado
@@ -320,6 +426,36 @@ bool juegoTerminado() {
 
 // Mostrar resultados finales (continuación)
 void mostrarResultados() {
+    FILE *archivo;
+    
+    // Abrir archivo en modo append
+    archivo = fopen("historial_juego.txt", "a");
+    if (archivo == NULL) {
+        printf("Error: No se pudo abrir/crear el archivo de historial para resultados finales\n");
+    } else {
+        // Escribir separador para los resultados finales
+        fprintf(archivo, "----------------------------------------\n");
+        fprintf(archivo, "========== RESULTADOS FINALES ==========\n");
+        fprintf(archivo, "----------------------------------------\n\n");
+        
+        if (hayGanador) {
+            fprintf(archivo, "¡El Jugador %d ha ganado!\n\n", idGanador);
+        } else {
+            fprintf(archivo, "Juego terminado sin ganador\n\n");
+        }
+        
+        // Escribir puntuaciones finales
+        fprintf(archivo, "Puntuaciones finales:\n");
+        for (int i = 0; i < numJugadores; i++) {
+            fprintf(archivo, "Jugador %d: %d puntos, %d cartas restantes\n", 
+                   i, jugadores[i].puntosTotal, jugadores[i].mano.numCartas);
+        }
+        
+        // Cerrar el archivo
+        fclose(archivo);
+    }
+    
+    // Continuar con la impresión normal en la consola
     printf("\n=== RESULTADOS FINALES ===\n");
     
     if (hayGanador) {
