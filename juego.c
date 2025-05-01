@@ -179,6 +179,11 @@ void bucleJuego() {
     const int INTERVALO_ACTUALIZACION = 5000; // 5 segundos en ms
     
     while (juegoEnCurso) {
+        // Verificar primero si el juego debe terminar
+        if (juegoTerminado()) {
+            break;
+        }
+        
         // Incrementar el contador de rondas al inicio de cada iteración
         numRonda++;
         
@@ -205,8 +210,8 @@ void bucleJuego() {
         // Esperar a que el jugador termine su turno o se agote su tiempo
         esperarFinTurno(siguienteJugador);
         
-        // Verificar si hay un ganador
-        if (hayGanador) {
+        // Verificar si hay un ganador o si el juego debe terminar
+        if (hayGanador || juegoTerminado()) {
             break;
         }
         
@@ -229,19 +234,51 @@ void bucleJuego() {
         usleep(10000);  // 10ms
     }
     
-    // Registrar la última ronda antes de terminar
-    registrarHistorial(numRonda, jugadores, numJugadores);
-    
     // Esperar a que todos los hilos de jugadores terminen
+    printf("Esperando a que terminen los hilos de los jugadores...\n");
+    
+    // Intentar join con los hilos con un tiempo máximo de espera
     for (int i = 0; i < numJugadores; i++) {
+        // Versión simplificada sin usar pthread_timedjoin_np
+        // Intentamos hacer join, pero solo esperamos un tiempo limitado
+        time_t startTime = time(NULL);
+        bool joined = false;
+        
+        // Usamos pthread_tryjoin_np si está disponible
+        #ifdef __USE_GNU
+        int result = pthread_tryjoin_np(jugadores[i].hilo, NULL);
+        if (result == 0) {
+            joined = true;
+        } else {
+            // Si no podemos hacer join inmediatamente, esperamos un poco e intentamos de nuevo
+            while (time(NULL) - startTime < 3) { // Máximo 3 segundos de espera
+                usleep(100000); // 100ms
+                result = pthread_tryjoin_np(jugadores[i].hilo, NULL);
+                if (result == 0) {
+                    joined = true;
+                    break;
+                }
+            }
+        }
+        #else
+        // Si no tenemos pthread_tryjoin_np, usamos el join normal
+        // pero asegurándonos de que el hilo esté en estado terminado
+        jugadores[i].terminado = true;
         pthread_join(jugadores[i].hilo, NULL);
+        joined = true;
+        #endif
+        
+        if (!joined) {
+            printf("No se pudo esperar al hilo del Jugador %d, continuando...\n", i);
+        }
     }
     
     // Mostrar resultados finales
     mostrarResultados();
     
-    // Mostrar información del historial
+    // Mensaje final
     printf("\nEl historial completo del juego se ha guardado en 'historial_juego.txt'\n");
+    printf("El juego ha terminado. ¡Gracias por jugar!\n");
 }
 
 // Seleccionar el próximo jugador según FCFS
@@ -312,6 +349,13 @@ void esperarFinTurno(int idJugador) {
     clock_t inicio = clock();
     
     while (jugadores[idJugador].turnoActual) {
+        // Verificar si el juego ha terminado
+        if (juegoTerminado()) {
+            // Forzar fin de turno si el juego terminó
+            jugadores[idJugador].turnoActual = false;
+            break;
+        }
+        
         // Verificar si se ha agotado el tiempo
         int tiempoTranscurrido = (clock() - inicio) * 1000 / CLOCKS_PER_SEC;
         
@@ -320,19 +364,12 @@ void esperarFinTurno(int idJugador) {
             jugadores[idJugador].tiempoRestante = 0;
             jugadores[idJugador].turnoActual = false;
             printf("Tiempo agotado para Jugador %d\n", idJugador);
-            
-            // Actualizar el BCP después de agotar el tiempo
-            actualizarBCPJugador(&jugadores[idJugador]);
-            
             break;
         }
         
         // Pequeña pausa para no consumir demasiado CPU
         usleep(50000);  // 50ms
     }
-    
-    // Registrar evento de fin de turno
-    registrarEvento("Fin del turno del Jugador %d", idJugador);
 }
 
 // Cambiar el algoritmo de planificación
@@ -350,6 +387,7 @@ void cambiarAlgoritmo(int nuevoAlgoritmo) {
 
 // Finalizar el juego con un ganador
 void finalizarJuego(int idJugadorGanador) {
+    // Establecer las variables que controlan el bucle principal
     hayGanador = true;
     idGanador = idJugadorGanador;
     juegoEnCurso = false;
@@ -358,8 +396,28 @@ void finalizarJuego(int idJugadorGanador) {
     if (idJugadorGanador >= 0) {
         registrarEvento("¡El Jugador %d ha ganado el juego!", idJugadorGanador);
     } else {
-        registrarEvento("Juego finalizado sin ganador");
+        registrarEvento("Juego finalizado por el usuario");
     }
+    
+    // Registrar historial final
+    registrarHistorial(-1, jugadores, numJugadores);
+    
+    // Forzar una última actualización de estadísticas
+    imprimirEstadisticasTabla();
+    
+    // Asegurarse de que todos los jugadores estén en estado BLOQUEADO
+    // Esto ayuda a que los hilos de los jugadores terminen correctamente
+    for (int i = 0; i < numJugadores; i++) {
+        // Interrumpir cualquier espera activa de los jugadores
+        jugadores[i].terminado = true;
+        jugadores[i].turnoActual = false;
+        
+        // Actualizar estado a BLOQUEADO
+        actualizarEstadoJugador(&jugadores[i], BLOQUEADO);
+    }
+    
+    // Mensaje de confirmación
+    printf("Se guardaron todas las estadísticas. El juego ha terminado.\n");
 }
 
 // Verificar si el juego ha terminado

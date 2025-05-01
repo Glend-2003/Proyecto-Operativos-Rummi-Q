@@ -72,6 +72,11 @@ void *funcionHiloJugador(void *arg) {
                 /* Esperar a que le asignen su turno */
                 usleep(100000);  /* 100ms */
             }
+            
+            // Verificar si el juego terminó, para salir rápidamente
+            if (juegoTerminado()) {
+                break;
+            }
         }
         
         /* Si el juego terminó o el jugador terminó, salir del bucle */
@@ -106,10 +111,11 @@ void *funcionHiloJugador(void *arg) {
         pasarTurno(jugador);
     }
     
-    /* Registrar en tabla de procesos que el hilo ha terminado */
     pthread_mutex_lock(&mutexTabla);
-    registrarProcesoEnTabla(jugador->id, PROC_BLOQUEADO);
+    registrarProcesoEnTabla(jugador->id, PROC_TERMINADO);
     pthread_mutex_unlock(&mutexTabla);
+    /* Registrar en tabla de procesos que el hilo ha terminado */
+    printf("Hilo del Jugador %d ha terminado correctamente\n", jugador->id);
     
     return NULL;
 }

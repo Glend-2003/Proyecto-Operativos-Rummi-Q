@@ -1,8 +1,8 @@
 === BLOQUE DE CONTROL DE PROCESO ===
 ID: 3
-Estado: BLOQUEADO
+Estado: TERMINADO
 Prioridad: 0
-Tiempo de creación: 2025-04-30 16:37:30
+Tiempo de creación: 2025-04-30 19:55:40
 Tiempo de ejecución: 0 ms
 Tiempo de espera: 0 ms
 Tiempo de bloqueo: 0 ms
