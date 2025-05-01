@@ -9,7 +9,7 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
-
+#define _DEFAULT_SOURCE
 
 /* Mutex para acceso a recursos compartidos */
 pthread_mutex_t mutexApeadas = PTHREAD_MUTEX_INITIALIZER;

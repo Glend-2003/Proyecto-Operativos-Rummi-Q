@@ -10,6 +10,7 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
+#define _DEFAULT_SOURCE
 
 
 // Variables globales para el manejo del juego
@@ -186,6 +187,7 @@ void bucleJuego() {
         
         // Incrementar el contador de rondas al inicio de cada iteración
         numRonda++;
+        rondaActual = numRonda;  // Actualizar variable global
         
         // Seleccionar el próximo jugador según el algoritmo de planificación
         int siguienteJugador;

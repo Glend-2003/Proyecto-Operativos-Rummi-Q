@@ -1,0 +1,23 @@
+--- RONDA FINAL ---
+Fecha y hora: 2025-04-30 21:22:11
+Estado: LISTO
+Cartas restantes: 8
+Cartas en mano:
+  1. 7 de Naranja
+  2. 6 de Rojo
+  3. 6 de Azul
+  4. 7 de Azul
+  5. 11 de Azul
+  6. 12 de Negro
+  7. 12 de Naranja
+  8. 11 de Rojo
+Estadísticas:
+  Primera apeada: SÍ
+  Intentos fallidos: 0
+  Cartas comidas: 9
+  Veces apeado: 3
+  Turnos perdidos: 0
+  Tiempo de ejecución: 0 ms
+  Tiempo de espera: 1841 ms
+  Cambios de estado: 0
+

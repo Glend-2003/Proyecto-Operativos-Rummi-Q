@@ -12,6 +12,7 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
+#define _DEFAULT_SOURCE
 
 /* Función para leer una tecla sin bloqueo */
 int leerTecla(void) {

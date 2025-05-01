@@ -9,7 +9,7 @@ void imprimirCarta(Carta carta);
 void imprimirMazo(Mazo *mazo);
 char* obtenerNombreCarta(Carta carta, char *buffer);
 int calcularPuntosCarta(Carta carta);
-
+extern int rondaActual;
 void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores);
 void registrarHistorialRonda(int numRonda, Jugador *jugadores, int numJugadores);
 void registrarHistorialJugador(int numRonda, Jugador *jugador);

@@ -3,6 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include "procesos.h"
+#include "utilidades.h" 
 
 // Variable global para la tabla de procesos
 static TablaProc tablaProc;
@@ -13,6 +14,9 @@ static TablaProc tablaProc;
 // Funciones para el manejo del BCP
 
 // Crear un nuevo BCP
+// Guardar BCP con historial por ronda
+// Guardar BCP con historial por ronda
+// Guardar BCP con historial por ronda
 void guardarBCP(BCP *bcp) {
     if (bcp == NULL) {
         return;
@@ -22,15 +26,24 @@ void guardarBCP(BCP *bcp) {
     char ruta[100];
     sprintf(ruta, "%s/bcp_%d.txt", RUTA_BCP, bcp->id);
     
-    // Abrir el archivo (o crearlo si no existe)
-    FILE *archivo = fopen(ruta, "w");
+    // Obtener el tiempo actual para el registro
+    time_t ahora = time(NULL);
+    struct tm *t = localtime(&ahora);
+    char timestamp[25];
+    strftime(timestamp, sizeof(timestamp), "%Y-%m-%d %H:%M:%S", t);
+    
+    // Abrir el archivo en modo append (para no sobrescribir datos anteriores)
+    FILE *archivo = fopen(ruta, "a");
     if (archivo == NULL) {
         printf("Error: No se pudo abrir/crear el archivo BCP para el proceso %d\n", bcp->id);
         return;
     }
     
+    // Agregar un separador con timestamp y número de ronda para cada nueva actualización
+    fprintf(archivo, "\n=== ACTUALIZACIÓN BCP [%s] - RONDA %d ===\n", 
+            timestamp, rondaActual > 0 ? rondaActual : 0);
+    
     // Guardar los datos del BCP en el archivo
-    fprintf(archivo, "=== BLOQUE DE CONTROL DE PROCESO ===\n");
     fprintf(archivo, "ID: %d\n", bcp->id);
     
     // Estado como texto
@@ -38,12 +51,6 @@ void guardarBCP(BCP *bcp) {
     fprintf(archivo, "Estado: %s\n", estadoTexto[bcp->estado]);
     
     fprintf(archivo, "Prioridad: %d\n", bcp->prioridad);
-    
-    // Tiempo de creación como texto legible
-    char tiempoCreacion[50];
-    strftime(tiempoCreacion, sizeof(tiempoCreacion), "%Y-%m-%d %H:%M:%S", localtime(&bcp->tiempoCreacion));
-    fprintf(archivo, "Tiempo de creación: %s\n", tiempoCreacion);
-    
     fprintf(archivo, "Tiempo de ejecución: %d ms\n", bcp->tiempoEjecucion);
     fprintf(archivo, "Tiempo de espera: %d ms\n", bcp->tiempoEspera);
     fprintf(archivo, "Tiempo de bloqueo: %d ms\n", bcp->tiempoBloqueo);
