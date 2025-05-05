@@ -40,35 +40,34 @@ int leerTecla(void) {
 void *monitorTeclas(void *arg) {
     while (!juegoTerminado()) {
         int tecla = leerTecla();
-        
+
         if (tecla == '1') {
             cambiarAlgoritmo(ALG_FCFS);
         } else if (tecla == '2') {
             cambiarAlgoritmo(ALG_RR);
         } else if (tecla == '3') {
-            // NUEVO: Cambiar a algoritmo de memoria Ajuste Óptimo
+            // Cambiar a algoritmo de memoria Ajuste Óptimo
             cambiarAlgoritmoMemoria(ALG_AJUSTE_OPTIMO);
         } else if (tecla == '4') {
-            // NUEVO: Cambiar a algoritmo de memoria LRU
+            // Cambiar a algoritmo de memoria LRU (para virtual) - Esto parece que ya estaba
             cambiarAlgoritmoMemoria(ALG_LRU);
-        } else if (tecla == 'm' || tecla == 'M') {
-            // NUEVO: Mostrar estado de la memoria
+        } else if (tecla == '5') {
+            // NUEVO: Cambiar a algoritmo de memoria Mapa de Bits (para particionamiento)
+             cambiarAlgoritmoMemoria(ALG_MAPA_BITS);
+        }
+         else if (tecla == 'm' || tecla == 'M') {
+            // Mostrar estado de la memoria
             imprimirEstadoMemoria();
-            imprimirEstadoMemoriaVirtual();
+            imprimirEstadoMemoriaVirtual(); // Mantener esto para mostrar el estado de la memoria virtual
         } else if (tecla == 'q' || tecla == 'Q') {
-            /* Opción para salir del juego con 'q' */
+            // Opción para salir del juego con 'q'
             printf("\nSaliendo del juego por solicitud del usuario...\n");
-            
-            // Forzar la finalización del juego sin ganador
-            finalizarJuego(-1); /* -1 indica que no hay ganador */
-            
-            // Es importante salir del bucle después de finalizar
+            finalizarJuego(-1);
             break;
         }
-        
-        usleep(100000);  /* 100ms */
+
+        usleep(100000);
     }
-    
     printf("Hilo de monitoreo de teclas finalizado\n");
     return NULL;
 }

@@ -10,6 +10,9 @@
 #define NUM_MARCOS         6       // Número de marcos en memoria principal
 #define PAGINAS_POR_MARCO  4       // Número de páginas por marco
 #define MAX_PAGINAS        100     // Máximo número de páginas totales
+#define TAMANO_BLOQUE_BITMAP 16 // Define el tamaño de los bloques en bytes
+#define NUM_BLOQUES_BITMAP (MEM_TOTAL_SIZE / TAMANO_BLOQUE_BITMAP)
+#define ALG_MAPA_BITS 2 // Define un nuevo valor para Mapa de Bits
 
 // Algoritmos de asignación de memoria
 #define ALG_AJUSTE_OPTIMO  0
@@ -57,7 +60,9 @@ typedef struct {
     int contadorTiempo;    // Contador global para el algoritmo LRU
     int fallosPagina;      // Contador de fallos de página
     int aciertosMemoria;   // Contador de aciertos de memoria
-    
+     // Para Mapa de Bits
+     unsigned char mapaBits[NUM_BLOQUES_BITMAP]; // O un tipo de datos adecuado para representar bits/bytes
+     int tamanoBloque; // Para almacenar el tamaño del bloque
     // Contador de crecimiento de procesos
     int creceProc1;        // ID del primer proceso que puede crecer
     int creceProc2;        // ID del segundo proceso que puede crecer

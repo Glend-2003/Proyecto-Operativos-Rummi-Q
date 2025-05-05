@@ -1,0 +1,523 @@
+[2025-05-05 11:09:23] [Ronda 0] Sistema de memoria inicializado: 1024 bytes disponibles
+[2025-05-05 11:09:23] [Ronda 0] Procesos que pueden crecer: 3 y 0
+[2025-05-05 11:09:23] [Ronda 1] Proceso 0 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-05 11:09:23] [Ronda 1] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:23] [Ronda 1] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:23] [Ronda 1] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:23] [Ronda 1] Jugador 0 entró en E/S por 5284 ms
+[2025-05-05 11:09:23] [Ronda 1] Memoria asignada: Proceso 0, 36 bytes, dirección 0 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:23] [Ronda 1] Proceso 0 creció en 12 bytes
+[2025-05-05 11:09:23] [Ronda 1] Fallo de página: Proceso 0, Página 0 -> Marco 0
+[2025-05-05 11:09:23] [Ronda 1] Fallo de página: Proceso 0, Página 1 -> Marco 1
+[2025-05-05 11:09:23] [Ronda 1] Fallo de página: Proceso 0, Página 2 -> Marco 2
+[2025-05-05 11:09:23] [Ronda 1] Fallo de página: Proceso 0, Página 3 -> Marco 3
+[2025-05-05 11:09:23] [Ronda 2] Proceso 1 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-05 11:09:23] [Ronda 2] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:23] [Ronda 2] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:23] [Ronda 2] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:23] [Ronda 2] Jugador 1 entró en E/S por 2233 ms
+[2025-05-05 11:09:23] [Ronda 2] Memoria asignada: Proceso 1, 60 bytes, dirección 48 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:23] [Ronda 2] Fallo de página: Proceso 1, Página 0 -> Marco 4
+[2025-05-05 11:09:23] [Ronda 2] Fallo de página: Proceso 1, Página 1 -> Marco 5
+[2025-05-05 11:09:23] [Ronda 2] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 1
+[2025-05-05 11:09:23] [Ronda 2] Fallo de página: Proceso 1, Página 2 -> Marco 1
+[2025-05-05 11:09:23] [Ronda 2] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 2
+[2025-05-05 11:09:23] [Ronda 2] Fallo de página: Proceso 1, Página 3 -> Marco 2
+[2025-05-05 11:09:23] [Ronda 3] Proceso 2 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-05 11:09:23] [Ronda 3] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:23] [Ronda 3] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:23] [Ronda 3] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:23] [Ronda 3] Jugador 2 entró en E/S por 2074 ms
+[2025-05-05 11:09:23] [Ronda 3] Memoria asignada: Proceso 2, 64 bytes, dirección 108 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:23] [Ronda 3] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 3
+[2025-05-05 11:09:23] [Ronda 3] Fallo de página: Proceso 2, Página 0 -> Marco 3
+[2025-05-05 11:09:23] [Ronda 3] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 0
+[2025-05-05 11:09:23] [Ronda 3] Fallo de página: Proceso 2, Página 1 -> Marco 0
+[2025-05-05 11:09:23] [Ronda 3] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 5
+[2025-05-05 11:09:23] [Ronda 3] Fallo de página: Proceso 2, Página 2 -> Marco 5
+[2025-05-05 11:09:23] [Ronda 3] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 1
+[2025-05-05 11:09:23] [Ronda 3] Fallo de página: Proceso 2, Página 3 -> Marco 1
+[2025-05-05 11:09:23] [Ronda 4] Proceso 3 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-05 11:09:23] [Ronda 4] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:24] [Ronda 4] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:24] [Ronda 4] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:24] [Ronda 4] Jugador 3 entró en E/S por 5546 ms
+[2025-05-05 11:09:24] [Ronda 4] Memoria asignada: Proceso 3, 48 bytes, dirección 172 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:24] [Ronda 4] Proceso 3 creció en 18 bytes
+[2025-05-05 11:09:24] [Ronda 4] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 2
+[2025-05-05 11:09:24] [Ronda 4] Fallo de página: Proceso 3, Página 0 -> Marco 2
+[2025-05-05 11:09:24] [Ronda 4] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 4
+[2025-05-05 11:09:24] [Ronda 4] Fallo de página: Proceso 3, Página 1 -> Marco 4
+[2025-05-05 11:09:24] [Ronda 4] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 0
+[2025-05-05 11:09:24] [Ronda 4] Fallo de página: Proceso 3, Página 2 -> Marco 0
+[2025-05-05 11:09:24] [Ronda 4] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 5
+[2025-05-05 11:09:24] [Ronda 4] Fallo de página: Proceso 3, Página 3 -> Marco 5
+[2025-05-05 11:09:26] [Ronda 24] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:26] [Ronda 24] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:26] [Ronda 24] Jugador 2 salió de E/S
+[2025-05-05 11:09:26] [Ronda 24] Memoria liberada: Proceso 2, 64 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:26] [Ronda 24] Páginas liberadas: Proceso 2
+[2025-05-05 11:09:26] [Ronda 24] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:26] [Ronda 24] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:26] [Ronda 24] Jugador 1 salió de E/S
+[2025-05-05 11:09:26] [Ronda 24] Memoria liberada: Proceso 1, 60 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:26] [Ronda 24] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:26] [Ronda 25] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:26] [Ronda 25] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:26] [Ronda 25] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:26] [Ronda 25] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:26] [Ronda 25] Jugador 1 entró en E/S por 2316 ms
+[2025-05-05 11:09:26] [Ronda 25] Memoria asignada: Proceso 1, 40 bytes, dirección 48 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:26] [Ronda 25] Fallo de página: Proceso 1, Página 0 -> Marco 1
+[2025-05-05 11:09:26] [Ronda 25] Fallo de página: Proceso 1, Página 1 -> Marco 3
+[2025-05-05 11:09:26] [Ronda 25] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 4
+[2025-05-05 11:09:26] [Ronda 25] Fallo de página: Proceso 1, Página 2 -> Marco 4
+[2025-05-05 11:09:26] [Ronda 25] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 0
+[2025-05-05 11:09:26] [Ronda 25] Fallo de página: Proceso 1, Página 3 -> Marco 0
+[2025-05-05 11:09:26] [Ronda 26] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:26] [Ronda 26] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:26] [Ronda 26] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:26] [Ronda 26] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:26] [Ronda 26] Jugador 2 entró en E/S por 1878 ms
+[2025-05-05 11:09:26] [Ronda 26] Memoria asignada: Proceso 2, 56 bytes, dirección 88 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:26] [Ronda 26] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 5
+[2025-05-05 11:09:26] [Ronda 26] Fallo de página: Proceso 2, Página 0 -> Marco 5
+[2025-05-05 11:09:26] [Ronda 26] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 2
+[2025-05-05 11:09:26] [Ronda 26] Fallo de página: Proceso 2, Página 1 -> Marco 2
+[2025-05-05 11:09:26] [Ronda 26] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 3
+[2025-05-05 11:09:26] [Ronda 26] Fallo de página: Proceso 2, Página 2 -> Marco 3
+[2025-05-05 11:09:26] [Ronda 26] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 4
+[2025-05-05 11:09:26] [Ronda 26] Fallo de página: Proceso 2, Página 3 -> Marco 4
+[2025-05-05 11:09:28] [Ronda 45] Proceso 2 cambió de estado: EJECUTANDO -> NUEVO
+[2025-05-05 11:09:28] [Ronda 45] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:28] [Ronda 45] Jugador 2 salió de E/S
+[2025-05-05 11:09:28] [Ronda 45] Memoria liberada: Proceso 2, 56 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:28] [Ronda 45] Páginas liberadas: Proceso 2
+[2025-05-05 11:09:28] [Ronda 46] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:28] [Ronda 46] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:28] [Ronda 46] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:28] [Ronda 46] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:28] [Ronda 46] Jugador 2 entró en E/S por 1346 ms
+[2025-05-05 11:09:28] [Ronda 46] Memoria asignada: Proceso 2, 36 bytes, dirección 88 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:28] [Ronda 46] Fallo de página: Proceso 2, Página 0 -> Marco 2
+[2025-05-05 11:09:28] [Ronda 46] Fallo de página: Proceso 2, Página 1 -> Marco 3
+[2025-05-05 11:09:28] [Ronda 46] Fallo de página: Proceso 2, Página 2 -> Marco 4
+[2025-05-05 11:09:28] [Ronda 46] Fallo de página: Proceso 2, Página 3 -> Marco 5
+[2025-05-05 11:09:28] [Ronda 48] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:28] [Ronda 48] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:28] [Ronda 48] Jugador 1 salió de E/S
+[2025-05-05 11:09:28] [Ronda 48] Memoria liberada: Proceso 1, 40 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:28] [Ronda 48] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:28] [Ronda 49] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:28] [Ronda 49] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:28] [Ronda 49] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:28] [Ronda 49] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:28] [Ronda 49] Jugador 1 entró en E/S por 3282 ms
+[2025-05-05 11:09:28] [Ronda 49] Memoria asignada: Proceso 1, 52 bytes, dirección 238 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:28] [Ronda 49] Fallo de página: Proceso 1, Página 0 -> Marco 0
+[2025-05-05 11:09:28] [Ronda 49] Fallo de página: Proceso 1, Página 1 -> Marco 1
+[2025-05-05 11:09:28] [Ronda 49] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 3
+[2025-05-05 11:09:28] [Ronda 49] Fallo de página: Proceso 1, Página 2 -> Marco 3
+[2025-05-05 11:09:28] [Ronda 49] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 4
+[2025-05-05 11:09:28] [Ronda 49] Fallo de página: Proceso 1, Página 3 -> Marco 4
+[2025-05-05 11:09:29] [Ronda 53] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:29] [Ronda 53] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:29] [Ronda 53] Jugador 0 salió de E/S
+[2025-05-05 11:09:29] [Ronda 53] Memoria liberada: Proceso 0, 48 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 53] Páginas liberadas: Proceso 0
+[2025-05-05 11:09:29] [Ronda 54] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:29] [Ronda 54] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:29] [Ronda 54] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:29] [Ronda 54] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:29] [Ronda 54] Jugador 0 entró en E/S por 3588 ms
+[2025-05-05 11:09:29] [Ronda 54] Memoria asignada: Proceso 0, 52 bytes, dirección 0 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 54] Proceso 0 creció en 22 bytes
+[2025-05-05 11:09:29] [Ronda 54] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 5
+[2025-05-05 11:09:29] [Ronda 54] Fallo de página: Proceso 0, Página 0 -> Marco 5
+[2025-05-05 11:09:29] [Ronda 54] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 2
+[2025-05-05 11:09:29] [Ronda 54] Fallo de página: Proceso 0, Página 1 -> Marco 2
+[2025-05-05 11:09:29] [Ronda 54] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 1
+[2025-05-05 11:09:29] [Ronda 54] Fallo de página: Proceso 0, Página 2 -> Marco 1
+[2025-05-05 11:09:29] [Ronda 54] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 3
+[2025-05-05 11:09:29] [Ronda 54] Fallo de página: Proceso 0, Página 3 -> Marco 3
+[2025-05-05 11:09:29] [Ronda 59] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:29] [Ronda 59] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:29] [Ronda 59] Jugador 3 salió de E/S
+[2025-05-05 11:09:29] [Ronda 59] Memoria liberada: Proceso 3, 66 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 59] Páginas liberadas: Proceso 3
+[2025-05-05 11:09:29] [Ronda 60] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:29] [Ronda 60] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:29] [Ronda 60] Jugador 2 salió de E/S
+[2025-05-05 11:09:29] [Ronda 60] Memoria liberada: Proceso 2, 36 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 60] Páginas liberadas: Proceso 2
+[2025-05-05 11:09:29] [Ronda 60] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:29] [Ronda 60] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:29] [Ronda 60] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:29] [Ronda 60] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:29] [Ronda 60] Jugador 3 entró en E/S por 4091 ms
+[2025-05-05 11:09:29] [Ronda 60] Memoria asignada: Proceso 3, 48 bytes, dirección 74 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 60] Proceso 3 creció en 19 bytes
+[2025-05-05 11:09:29] [Ronda 60] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 4
+[2025-05-05 11:09:29] [Ronda 60] Fallo de página: Proceso 3, Página 0 -> Marco 4
+[2025-05-05 11:09:29] [Ronda 60] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 0
+[2025-05-05 11:09:29] [Ronda 60] Fallo de página: Proceso 3, Página 1 -> Marco 0
+[2025-05-05 11:09:29] [Ronda 60] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 2
+[2025-05-05 11:09:29] [Ronda 60] Fallo de página: Proceso 3, Página 2 -> Marco 2
+[2025-05-05 11:09:29] [Ronda 60] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 1
+[2025-05-05 11:09:29] [Ronda 60] Fallo de página: Proceso 3, Página 3 -> Marco 1
+[2025-05-05 11:09:29] [Ronda 61] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:29] [Ronda 61] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:29] [Ronda 61] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:29] [Ronda 61] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:29] [Ronda 61] Jugador 2 entró en E/S por 1848 ms
+[2025-05-05 11:09:29] [Ronda 61] Memoria asignada: Proceso 2, 36 bytes, dirección 141 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:29] [Ronda 61] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 3
+[2025-05-05 11:09:29] [Ronda 61] Fallo de página: Proceso 2, Página 0 -> Marco 3
+[2025-05-05 11:09:29] [Ronda 61] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 5
+[2025-05-05 11:09:29] [Ronda 61] Fallo de página: Proceso 2, Página 1 -> Marco 5
+[2025-05-05 11:09:29] [Ronda 61] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 4
+[2025-05-05 11:09:29] [Ronda 61] Fallo de página: Proceso 2, Página 2 -> Marco 4
+[2025-05-05 11:09:29] [Ronda 61] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 0
+[2025-05-05 11:09:29] [Ronda 61] Fallo de página: Proceso 2, Página 3 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 66] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 66] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 66] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 66] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 66] Jugador 3 entró en E/S por 5657 ms
+[2025-05-05 11:09:30] [Ronda 66] Memoria asignada: Proceso 3, 60 bytes, dirección 177 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 66] Memoria asignada: Proceso 3, 15 bytes, dirección 290 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 66] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 2
+[2025-05-05 11:09:30] [Ronda 66] Fallo de página: Proceso 3, Página 0 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 66] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 1
+[2025-05-05 11:09:30] [Ronda 66] Fallo de página: Proceso 3, Página 1 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 66] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 5
+[2025-05-05 11:09:30] [Ronda 66] Fallo de página: Proceso 3, Página 2 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 67] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 67] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 67] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 67] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 67] Jugador 0 entró en E/S por 3819 ms
+[2025-05-05 11:09:30] [Ronda 67] Memoria asignada: Proceso 0, 60 bytes, dirección 305 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 67] Proceso 0 creció en 20 bytes
+[2025-05-05 11:09:30] [Ronda 67] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 4
+[2025-05-05 11:09:30] [Ronda 67] Fallo de página: Proceso 0, Página 0 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 67] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 0
+[2025-05-05 11:09:30] [Ronda 67] Fallo de página: Proceso 0, Página 1 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 67] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 3
+[2025-05-05 11:09:30] [Ronda 67] Fallo de página: Proceso 0, Página 2 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 67] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 2
+[2025-05-05 11:09:30] [Ronda 67] Fallo de página: Proceso 0, Página 3 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 68] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 68] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 68] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 68] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 68] Jugador 1 entró en E/S por 3995 ms
+[2025-05-05 11:09:30] [Ronda 68] Memoria asignada: Proceso 1, 40 bytes, dirección 385 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 68] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 1
+[2025-05-05 11:09:30] [Ronda 68] Fallo de página: Proceso 1, Página 0 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 68] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 5
+[2025-05-05 11:09:30] [Ronda 68] Fallo de página: Proceso 1, Página 1 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 68] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 0
+[2025-05-05 11:09:30] [Ronda 68] Fallo de página: Proceso 1, Página 2 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 68] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 3
+[2025-05-05 11:09:30] [Ronda 68] Fallo de página: Proceso 1, Página 3 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 69] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 69] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 69] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 69] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 69] Jugador 2 entró en E/S por 2155 ms
+[2025-05-05 11:09:30] [Ronda 69] Memoria asignada: Proceso 2, 40 bytes, dirección 425 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 69] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 2
+[2025-05-05 11:09:30] [Ronda 69] Fallo de página: Proceso 2, Página 0 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 69] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 4
+[2025-05-05 11:09:30] [Ronda 69] Fallo de página: Proceso 2, Página 1 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 69] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 5
+[2025-05-05 11:09:30] [Ronda 69] Fallo de página: Proceso 2, Página 2 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 69] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 0
+[2025-05-05 11:09:30] [Ronda 69] Fallo de página: Proceso 2, Página 3 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 70] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 70] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 70] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 70] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 70] Jugador 3 entró en E/S por 3492 ms
+[2025-05-05 11:09:30] [Ronda 70] Memoria asignada: Proceso 3, 48 bytes, dirección 465 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 70] Proceso 3 creció en 13 bytes
+[2025-05-05 11:09:30] [Ronda 70] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 3
+[2025-05-05 11:09:30] [Ronda 70] Fallo de página: Proceso 3, Página 0 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 70] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 1
+[2025-05-05 11:09:30] [Ronda 70] Fallo de página: Proceso 3, Página 1 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 70] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 4
+[2025-05-05 11:09:30] [Ronda 70] Fallo de página: Proceso 3, Página 2 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 70] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 5
+[2025-05-05 11:09:30] [Ronda 70] Fallo de página: Proceso 3, Página 3 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 71] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 71] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 71] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 71] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 71] Jugador 0 entró en E/S por 1191 ms
+[2025-05-05 11:09:30] [Ronda 71] Memoria asignada: Proceso 0, 36 bytes, dirección 526 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 71] Proceso 0 creció en 23 bytes
+[2025-05-05 11:09:30] [Ronda 71] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 0
+[2025-05-05 11:09:30] [Ronda 71] Fallo de página: Proceso 0, Página 0 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 71] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 2
+[2025-05-05 11:09:30] [Ronda 71] Fallo de página: Proceso 0, Página 1 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 71] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 3
+[2025-05-05 11:09:30] [Ronda 71] Fallo de página: Proceso 0, Página 2 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 71] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 1
+[2025-05-05 11:09:30] [Ronda 71] Fallo de página: Proceso 0, Página 3 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 72] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 72] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 72] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 72] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 72] Jugador 1 entró en E/S por 5016 ms
+[2025-05-05 11:09:30] [Ronda 72] Memoria asignada: Proceso 1, 64 bytes, dirección 585 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 72] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 4
+[2025-05-05 11:09:30] [Ronda 72] Fallo de página: Proceso 1, Página 0 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 72] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 5
+[2025-05-05 11:09:30] [Ronda 72] Fallo de página: Proceso 1, Página 1 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 72] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 2
+[2025-05-05 11:09:30] [Ronda 72] Fallo de página: Proceso 1, Página 2 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 72] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 3
+[2025-05-05 11:09:30] [Ronda 72] Fallo de página: Proceso 1, Página 3 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 73] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 73] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 73] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 73] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 73] Jugador 2 entró en E/S por 3749 ms
+[2025-05-05 11:09:30] [Ronda 73] Memoria asignada: Proceso 2, 44 bytes, dirección 649 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 73] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 1
+[2025-05-05 11:09:30] [Ronda 73] Fallo de página: Proceso 2, Página 0 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 73] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 0
+[2025-05-05 11:09:30] [Ronda 73] Fallo de página: Proceso 2, Página 1 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 73] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 5
+[2025-05-05 11:09:30] [Ronda 73] Fallo de página: Proceso 2, Página 2 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 73] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 2
+[2025-05-05 11:09:30] [Ronda 73] Fallo de página: Proceso 2, Página 3 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 74] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 74] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 74] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 74] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 74] Jugador 3 entró en E/S por 4919 ms
+[2025-05-05 11:09:30] [Ronda 74] Memoria asignada: Proceso 3, 64 bytes, dirección 693 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 74] Proceso 3 creció en 15 bytes
+[2025-05-05 11:09:30] [Ronda 74] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 3
+[2025-05-05 11:09:30] [Ronda 74] Fallo de página: Proceso 3, Página 0 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 74] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 4
+[2025-05-05 11:09:30] [Ronda 74] Fallo de página: Proceso 3, Página 1 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 74] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 0
+[2025-05-05 11:09:30] [Ronda 74] Fallo de página: Proceso 3, Página 2 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 74] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 5
+[2025-05-05 11:09:30] [Ronda 74] Fallo de página: Proceso 3, Página 3 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 75] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 75] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 75] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 75] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 75] Jugador 0 entró en E/S por 2507 ms
+[2025-05-05 11:09:30] [Ronda 75] Memoria asignada: Proceso 0, 48 bytes, dirección 772 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 75] Proceso 0 creció en 25 bytes
+[2025-05-05 11:09:30] [Ronda 75] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 2
+[2025-05-05 11:09:30] [Ronda 75] Fallo de página: Proceso 0, Página 0 -> Marco 2
+[2025-05-05 11:09:30] [Ronda 75] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 1
+[2025-05-05 11:09:30] [Ronda 75] Fallo de página: Proceso 0, Página 1 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 75] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 4
+[2025-05-05 11:09:30] [Ronda 75] Fallo de página: Proceso 0, Página 2 -> Marco 4
+[2025-05-05 11:09:30] [Ronda 75] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 0
+[2025-05-05 11:09:30] [Ronda 75] Fallo de página: Proceso 0, Página 3 -> Marco 0
+[2025-05-05 11:09:30] [Ronda 76] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:30] [Ronda 76] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:30] [Ronda 76] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:30] [Ronda 76] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:30] [Ronda 76] Jugador 1 entró en E/S por 1950 ms
+[2025-05-05 11:09:30] [Ronda 76] Memoria asignada: Proceso 1, 60 bytes, dirección 845 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:30] [Ronda 76] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 5
+[2025-05-05 11:09:30] [Ronda 76] Fallo de página: Proceso 1, Página 0 -> Marco 5
+[2025-05-05 11:09:30] [Ronda 76] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 3
+[2025-05-05 11:09:30] [Ronda 76] Fallo de página: Proceso 1, Página 1 -> Marco 3
+[2025-05-05 11:09:30] [Ronda 76] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 1
+[2025-05-05 11:09:30] [Ronda 76] Fallo de página: Proceso 1, Página 2 -> Marco 1
+[2025-05-05 11:09:30] [Ronda 76] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 4
+[2025-05-05 11:09:30] [Ronda 76] Fallo de página: Proceso 1, Página 3 -> Marco 4
+[2025-05-05 11:09:31] [Ronda 77] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:31] [Ronda 77] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:31] [Ronda 77] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:31] [Ronda 77] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:31] [Ronda 77] Jugador 2 entró en E/S por 1741 ms
+[2025-05-05 11:09:31] [Ronda 77] Memoria asignada: Proceso 2, 64 bytes, dirección 905 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:31] [Ronda 77] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 0
+[2025-05-05 11:09:31] [Ronda 77] Fallo de página: Proceso 2, Página 0 -> Marco 0
+[2025-05-05 11:09:31] [Ronda 77] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 2
+[2025-05-05 11:09:31] [Ronda 77] Fallo de página: Proceso 2, Página 1 -> Marco 2
+[2025-05-05 11:09:31] [Ronda 77] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 3
+[2025-05-05 11:09:31] [Ronda 77] Fallo de página: Proceso 2, Página 2 -> Marco 3
+[2025-05-05 11:09:31] [Ronda 77] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 1
+[2025-05-05 11:09:31] [Ronda 77] Fallo de página: Proceso 2, Página 3 -> Marco 1
+[2025-05-05 11:09:31] [Ronda 78] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:31] [Ronda 78] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:31] [Ronda 78] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:31] [Ronda 78] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:31] [Ronda 78] Jugador 3 entró en E/S por 2998 ms
+[2025-05-05 11:09:31] [Ronda 78] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 4
+[2025-05-05 11:09:31] [Ronda 78] Fallo de página: Proceso 3, Página 0 -> Marco 4
+[2025-05-05 11:09:31] [Ronda 78] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 5
+[2025-05-05 11:09:31] [Ronda 78] Fallo de página: Proceso 3, Página 1 -> Marco 5
+[2025-05-05 11:09:31] [Ronda 78] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 2
+[2025-05-05 11:09:31] [Ronda 78] Fallo de página: Proceso 3, Página 2 -> Marco 2
+[2025-05-05 11:09:31] [Ronda 78] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 3
+[2025-05-05 11:09:31] [Ronda 78] Fallo de página: Proceso 3, Página 3 -> Marco 3
+[2025-05-05 11:09:31] [Ronda 79] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:31] [Ronda 79] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:31] [Ronda 79] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:31] [Ronda 79] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:31] [Ronda 79] Jugador 0 entró en E/S por 2709 ms
+[2025-05-05 11:09:31] [Ronda 79] Memoria asignada: Proceso 0, 52 bytes, dirección 969 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:31] [Ronda 79] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 1
+[2025-05-05 11:09:31] [Ronda 79] Fallo de página: Proceso 0, Página 0 -> Marco 1
+[2025-05-05 11:09:31] [Ronda 79] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 0
+[2025-05-05 11:09:31] [Ronda 79] Fallo de página: Proceso 0, Página 1 -> Marco 0
+[2025-05-05 11:09:31] [Ronda 79] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 5
+[2025-05-05 11:09:31] [Ronda 79] Fallo de página: Proceso 0, Página 2 -> Marco 5
+[2025-05-05 11:09:31] [Ronda 79] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 2
+[2025-05-05 11:09:31] [Ronda 79] Fallo de página: Proceso 0, Página 3 -> Marco 2
+[2025-05-05 11:09:31] [Ronda 80] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:31] [Ronda 80] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:31] [Ronda 80] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:31] [Ronda 80] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:31] [Ronda 80] Jugador 1 entró en E/S por 1059 ms
+[2025-05-05 11:09:31] [Ronda 80] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 3
+[2025-05-05 11:09:31] [Ronda 80] Fallo de página: Proceso 1, Página 0 -> Marco 3
+[2025-05-05 11:09:31] [Ronda 80] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 4
+[2025-05-05 11:09:31] [Ronda 80] Fallo de página: Proceso 1, Página 1 -> Marco 4
+[2025-05-05 11:09:31] [Ronda 80] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 0
+[2025-05-05 11:09:31] [Ronda 80] Fallo de página: Proceso 1, Página 2 -> Marco 0
+[2025-05-05 11:09:31] [Ronda 80] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 5
+[2025-05-05 11:09:31] [Ronda 80] Fallo de página: Proceso 1, Página 3 -> Marco 5
+[2025-05-05 11:09:31] [Ronda 81] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-05 11:09:31] [Ronda 81] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-05 11:09:31] [Ronda 81] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:31] [Ronda 81] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:31] [Ronda 81] Jugador 2 entró en E/S por 4917 ms
+[2025-05-05 11:09:31] [Ronda 81] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 2
+[2025-05-05 11:09:31] [Ronda 81] Fallo de página: Proceso 2, Página 0 -> Marco 2
+[2025-05-05 11:09:31] [Ronda 81] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 1
+[2025-05-05 11:09:31] [Ronda 81] Fallo de página: Proceso 2, Página 1 -> Marco 1
+[2025-05-05 11:09:31] [Ronda 81] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 4
+[2025-05-05 11:09:31] [Ronda 81] Fallo de página: Proceso 2, Página 2 -> Marco 4
+[2025-05-05 11:09:31] [Ronda 81] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 0
+[2025-05-05 11:09:31] [Ronda 81] Fallo de página: Proceso 2, Página 3 -> Marco 0
+[2025-05-05 11:09:32] [Ronda 91] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:32] [Ronda 91] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:32] [Ronda 91] Jugador 1 salió de E/S
+[2025-05-05 11:09:32] [Ronda 91] Memoria liberada: Proceso 1, 216 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:32] [Ronda 91] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:32] [Ronda 92] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:32] [Ronda 92] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:32] [Ronda 92] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:32] [Ronda 92] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:32] [Ronda 92] Jugador 1 entró en E/S por 2418 ms
+[2025-05-05 11:09:32] [Ronda 92] Memoria asignada: Proceso 1, 64 bytes, dirección 585 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:32] [Ronda 92] Fallo de página: Proceso 1, Página 0 -> Marco 3
+[2025-05-05 11:09:32] [Ronda 92] Fallo de página: Proceso 1, Página 1 -> Marco 5
+[2025-05-05 11:09:32] [Ronda 92] Reemplazo LRU: Víctima Proceso 2, Página 1, Marco 1
+[2025-05-05 11:09:32] [Ronda 92] Fallo de página: Proceso 1, Página 2 -> Marco 1
+[2025-05-05 11:09:32] [Ronda 92] Reemplazo LRU: Víctima Proceso 2, Página 2, Marco 4
+[2025-05-05 11:09:32] [Ronda 92] Fallo de página: Proceso 1, Página 3 -> Marco 4
+[2025-05-05 11:09:33] [Ronda 107] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:33] [Ronda 107] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:33] [Ronda 107] Jugador 0 salió de E/S
+[2025-05-05 11:09:33] [Ronda 107] Memoria liberada: Proceso 0, 338 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:33] [Ronda 107] Páginas liberadas: Proceso 0
+[2025-05-05 11:09:33] [Ronda 108] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:33] [Ronda 108] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:33] [Ronda 108] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:33] [Ronda 108] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:33] [Ronda 108] Jugador 0 entró en E/S por 1321 ms
+[2025-05-05 11:09:33] [Ronda 108] Memoria asignada: Proceso 0, 56 bytes, dirección 526 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:33] [Ronda 108] Memoria asignada: Proceso 0, 23 bytes, dirección 237 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:33] [Ronda 108] Reemplazo LRU: Víctima Proceso 2, Página 3, Marco 0
+[2025-05-05 11:09:33] [Ronda 108] Fallo de página: Proceso 0, Página 0 -> Marco 0
+[2025-05-05 11:09:33] [Ronda 108] Reemplazo LRU: Víctima Proceso 2, Página 0, Marco 2
+[2025-05-05 11:09:33] [Ronda 108] Fallo de página: Proceso 0, Página 1 -> Marco 2
+[2025-05-05 11:09:33] [Ronda 108] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 5
+[2025-05-05 11:09:33] [Ronda 108] Fallo de página: Proceso 0, Página 2 -> Marco 5
+[2025-05-05 11:09:33] [Ronda 108] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 1
+[2025-05-05 11:09:33] [Ronda 108] Fallo de página: Proceso 0, Página 3 -> Marco 1
+[2025-05-05 11:09:34] [Ronda 109] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:34] [Ronda 109] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:34] [Ronda 109] Jugador 3 salió de E/S
+[2025-05-05 11:09:34] [Ronda 109] Memoria liberada: Proceso 3, 282 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:34] [Ronda 109] Páginas liberadas: Proceso 3
+[2025-05-05 11:09:34] [Ronda 110] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:34] [Ronda 110] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:34] [Ronda 110] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:34] [Ronda 110] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:34] [Ronda 110] Jugador 3 entró en E/S por 2864 ms
+[2025-05-05 11:09:34] [Ronda 110] Memoria asignada: Proceso 3, 60 bytes, dirección 177 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:34] [Ronda 110] Memoria asignada: Proceso 3, 15 bytes, dirección 969 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:34] [Ronda 110] Reemplazo LRU: Víctima Proceso 1, Página 3, Marco 4
+[2025-05-05 11:09:34] [Ronda 110] Fallo de página: Proceso 3, Página 0 -> Marco 4
+[2025-05-05 11:09:34] [Ronda 110] Reemplazo LRU: Víctima Proceso 1, Página 0, Marco 3
+[2025-05-05 11:09:34] [Ronda 110] Fallo de página: Proceso 3, Página 1 -> Marco 3
+[2025-05-05 11:09:34] [Ronda 110] Reemplazo LRU: Víctima Proceso 0, Página 0, Marco 0
+[2025-05-05 11:09:34] [Ronda 110] Fallo de página: Proceso 3, Página 2 -> Marco 0
+[2025-05-05 11:09:34] [Ronda 110] Reemplazo LRU: Víctima Proceso 0, Página 1, Marco 2
+[2025-05-05 11:09:34] [Ronda 110] Fallo de página: Proceso 3, Página 3 -> Marco 2
+[2025-05-05 11:09:34] [Ronda 117] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:34] [Ronda 117] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:34] [Ronda 117] Jugador 1 salió de E/S
+[2025-05-05 11:09:34] [Ronda 117] Memoria liberada: Proceso 1, 64 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:34] [Ronda 117] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:34] [Ronda 118] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:34] [Ronda 118] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:34] [Ronda 118] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:34] [Ronda 118] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:34] [Ronda 118] Jugador 1 entró en E/S por 1880 ms
+[2025-05-05 11:09:34] [Ronda 118] Memoria asignada: Proceso 1, 56 bytes, dirección 465 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:34] [Ronda 118] Reemplazo LRU: Víctima Proceso 0, Página 2, Marco 5
+[2025-05-05 11:09:34] [Ronda 118] Fallo de página: Proceso 1, Página 0 -> Marco 5
+[2025-05-05 11:09:34] [Ronda 118] Reemplazo LRU: Víctima Proceso 0, Página 3, Marco 1
+[2025-05-05 11:09:34] [Ronda 118] Fallo de página: Proceso 1, Página 1 -> Marco 1
+[2025-05-05 11:09:34] [Ronda 118] Reemplazo LRU: Víctima Proceso 3, Página 1, Marco 3
+[2025-05-05 11:09:34] [Ronda 118] Fallo de página: Proceso 1, Página 2 -> Marco 3
+[2025-05-05 11:09:34] [Ronda 118] Reemplazo LRU: Víctima Proceso 3, Página 2, Marco 0
+[2025-05-05 11:09:34] [Ronda 118] Fallo de página: Proceso 1, Página 3 -> Marco 0
+[2025-05-05 11:09:35] [Ronda 122] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-05 11:09:35] [Ronda 122] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-05 11:09:35] [Ronda 122] Jugador 0 salió de E/S
+[2025-05-05 11:09:35] [Ronda 122] Memoria liberada: Proceso 0, 79 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 122] Páginas liberadas: Proceso 0
+[2025-05-05 11:09:35] [Ronda 123] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-05 11:09:35] [Ronda 123] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-05 11:09:35] [Ronda 123] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-05 11:09:35] [Ronda 123] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-05 11:09:35] [Ronda 123] Jugador 0 entró en E/S por 2991 ms
+[2025-05-05 11:09:35] [Ronda 123] Memoria asignada: Proceso 0, 44 bytes, dirección 521 (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 123] Proceso 0 creció en 15 bytes
+[2025-05-05 11:09:35] [Ronda 123] Reemplazo LRU: Víctima Proceso 3, Página 3, Marco 2
+[2025-05-05 11:09:35] [Ronda 123] Fallo de página: Proceso 0, Página 0 -> Marco 2
+[2025-05-05 11:09:35] [Ronda 123] Reemplazo LRU: Víctima Proceso 3, Página 0, Marco 4
+[2025-05-05 11:09:35] [Ronda 123] Fallo de página: Proceso 0, Página 1 -> Marco 4
+[2025-05-05 11:09:35] [Ronda 123] Reemplazo LRU: Víctima Proceso 1, Página 1, Marco 1
+[2025-05-05 11:09:35] [Ronda 123] Fallo de página: Proceso 0, Página 2 -> Marco 1
+[2025-05-05 11:09:35] [Ronda 123] Reemplazo LRU: Víctima Proceso 1, Página 2, Marco 3
+[2025-05-05 11:09:35] [Ronda 123] Fallo de página: Proceso 0, Página 3 -> Marco 3
+[2025-05-05 11:09:35] [Ronda 124] Juego finalizado por el usuario
+[2025-05-05 11:09:35] [Ronda 124] Memoria liberada: Proceso 0, 59 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 0
+[2025-05-05 11:09:35] [Ronda 124] Proceso 0 cambió de estado: EJECUTANDO -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Jugador 0 cambió de estado: ESPERA_ES -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Memoria liberada: Proceso 1, 56 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:35] [Ronda 124] Proceso 1 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Jugador 1 cambió de estado: ESPERA_ES -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Memoria liberada: Proceso 2, 184 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 2
+[2025-05-05 11:09:35] [Ronda 124] Proceso 2 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Jugador 2 cambió de estado: ESPERA_ES -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Memoria liberada: Proceso 3, 75 bytes (Algoritmo: Ajuste Óptimo)
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 3
+[2025-05-05 11:09:35] [Ronda 124] Proceso 3 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Jugador 3 cambió de estado: ESPERA_ES -> BLOQUEADO
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 0
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 1
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 2
+[2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 3

@@ -1,0 +1,5901 @@
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:23] - RONDA 0 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:23] - RONDA 1 ===
+ID: 3
+Estado: BLOQUEADO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:23] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 18
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:23] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 1
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:23] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 15
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 1
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 9
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 2
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 3
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 2
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 4 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 5 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 5 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 6 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 6 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 7 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 7 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 8 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 8 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 9 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5096 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 9 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5046 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 10 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4996 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 10 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4946 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 11 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4896 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 11 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4846 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 12 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4796 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 12 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4746 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 13 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4696 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:24] - RONDA 13 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4646 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 14 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4596 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 14 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 15 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 15 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 16 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 16 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 17 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 17 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 18 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 18 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 19 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4096 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 19 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4046 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 20 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3996 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 20 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3946 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 21 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3896 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 21 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3846 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 22 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3796 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 22 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3746 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 23 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3696 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:25] - RONDA 23 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3646 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 24 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3596 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 24 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 25 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 25 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 25 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 26 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 26 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 26 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 27 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 27 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 28 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3096 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 28 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3046 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 29 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2996 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 29 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2946 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 30 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2896 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 30 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2846 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 31 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2796 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 31 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2746 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 32 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2696 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:26] - RONDA 32 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2646 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 33 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2596 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 33 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 34 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 34 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 35 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 35 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 36 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 36 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 37 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 37 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 38 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2096 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 38 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2046 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 39 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1996 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 39 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1946 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 40 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1896 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 40 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1846 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 41 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1796 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 41 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1746 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 42 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1696 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:27] - RONDA 42 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1646 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 43 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1596 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 43 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 44 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 44 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 45 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 45 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 46 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 46 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 46 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 47 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 47 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1096 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 48 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1046 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 48 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 996 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 49 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 946 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 49 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 896 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 50 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 846 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 50 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 796 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 51 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 746 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 51 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 696 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:28] - RONDA 52 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 646 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 52 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 596 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 53 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 546 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 53 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 496 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 54 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 446 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 55 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 396 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 55 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 346 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 56 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 296 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 56 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 246 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 57 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 196 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 57 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 146 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 58 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 96 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 58 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 46 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 59 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: -4 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 59 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5546 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 59 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 3
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 59 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 6
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 3
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 4
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 1
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4091 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 5
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 60 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4091 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 61 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4041 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 61 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3991 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 62 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3941 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 62 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3891 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:29] - RONDA 63 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3841 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 63 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3791 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 64 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3741 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 64 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3691 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 65 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3641 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 65 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3591 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3541 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3541 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 2
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 6
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3541 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5657 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4091 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 7
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 66 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5657 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 67 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5607 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 68 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5557 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 69 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5507 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 69 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5457 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5407 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5407 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 3
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 3
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 8
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 5407 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3492 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 5657 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 9
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3492 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 70 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3442 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 71 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3392 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 72 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3342 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 73 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3292 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3242 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3242 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 4
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 4
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 10
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 3242 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4919 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 3492 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 11
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 74 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4919 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 75 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4869 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 75 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4819 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:30] - RONDA 76 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4769 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 77 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4719 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4669 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4669 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 5
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 12
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 4669 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2998 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 4919 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 13
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 78 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2998 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 79 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2948 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 80 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2898 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 81 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2848 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 81 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2798 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 81 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2748 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 82 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2698 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 82 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2648 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 83 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2598 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 83 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2548 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 84 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2498 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 84 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2448 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 85 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2398 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 85 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2348 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 86 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2298 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 86 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2248 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 87 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2198 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 87 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2148 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:31] - RONDA 88 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2098 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 88 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2048 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 89 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1998 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 89 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1948 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 90 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1898 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 90 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1848 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 91 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1798 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 91 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1748 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 92 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1698 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 93 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1648 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 93 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1598 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 94 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1548 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 94 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1498 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 95 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1448 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 95 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1398 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 96 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1348 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 96 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1298 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 97 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1248 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 97 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1198 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 98 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1148 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:32] - RONDA 98 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1098 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 99 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1048 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 99 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 998 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 100 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 948 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 100 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 898 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 101 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 848 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 101 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 798 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 102 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 748 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 102 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 698 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 103 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 648 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 103 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 598 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 104 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 548 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 104 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 498 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 105 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 448 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 105 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 398 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 106 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 348 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 106 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 298 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 107 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 248 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 107 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 198 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 108 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 148 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:33] - RONDA 108 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 98 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 109 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 48 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 109 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: -2 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 109 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2998 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 109 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 14
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 109 ===
+ID: 3
+Estado: NUEVO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 1500 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 6
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: LISTO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 15
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: LISTO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2864 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 16
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 110 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2864 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: SÍ
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 111 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2814 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 111 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2764 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 112 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2714 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 112 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2664 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 113 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2614 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 113 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2564 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 114 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2514 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 114 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2464 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 115 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2414 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 115 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2364 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 116 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2314 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 116 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2264 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 117 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2214 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 117 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2164 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 118 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2114 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:34] - RONDA 119 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2064 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 119 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 2014 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 120 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1964 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 120 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1914 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 121 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1864 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 121 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1814 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 122 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1764 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 122 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1714 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 123 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1664 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 123 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1614 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 124 ===
+ID: 3
+Estado: EJECUTANDO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1564 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 124 ===
+ID: 3
+Estado: BLOQUEADO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1564 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 124 ===
+ID: 3
+Estado: BLOQUEADO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 17
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 124 ===
+ID: 3
+Estado: BLOQUEADO
+Prioridad: 3
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 1514 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 2864 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 10000 ms
+Número de cartas: 5
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 4
+Cartas comidas: 7
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
+
+=== ACTUALIZACIÓN BCP [2025-05-05 11:09:35] - RONDA 124 ===
+ID: 3
+Estado: TERMINADO
+Prioridad: 0
+Tiempo de ejecución: 0 ms
+Tiempo de espera: 0 ms
+Tiempo de bloqueo: 0 ms
+Tiempo de E/S restante: 0 ms
+Tiempo de quantum: 0 ms
+Tiempo restante: 0 ms
+Número de cartas: 0
+Puntos acumulados: 0
+Turno actual: NO
+Veces que se ha apeado: 0
+Cartas comidas: 0
+Intentos fallidos: 0
+Turnos perdidos: 0
+Cambios de estado: 0
+Tiempo en el estado actual: 0 ms
+Tiempo desde el último bloqueo: 0 ms
