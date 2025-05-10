@@ -1,0 +1,19 @@
+--- RONDA FINAL ---
+Fecha y hora: 2025-05-05 11:09:35
+Estado: ESPERA E/S
+Cartas restantes: 4
+Cartas en mano:
+  1. 2 de Negro
+  2. 2 de Rojo
+  3. 9 de Rojo
+  4. 9 de Negro
+Estadísticas:
+  Primera apeada: SÍ
+  Intentos fallidos: 0
+  Cartas comidas: 8
+  Veces apeado: 5
+  Turnos perdidos: 0
+  Tiempo de ejecución: 0 ms
+  Tiempo de espera: 2941 ms
+  Cambios de estado: 0
+

@@ -16,9 +16,11 @@
 #define COLOR_CIAN     "\x1b[36m"
 #define COLOR_RESET    "\x1b[0m"
 
-static int rondaActual = 0;
+// Declarar como global (ya no static) y exportarla
+int rondaActual = 0;
 static const char* ARCHIVO_HISTORIAL = "historial_juego.txt";
 
+// Función para registrar el historial de una ronda completa
 // Función para registrar el historial de una ronda completa
 void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores) {
     FILE *archivo;
@@ -51,7 +53,11 @@ void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores) {
     
     // Escribir separador para esta ronda
     fprintf(archivo, "----------------------------------------\n");
-    fprintf(archivo, "========== RONDA %d ==========\n", numRonda);
+    if (numRonda == -1) {
+        fprintf(archivo, "========== RONDA FINAL ==========\n");
+    } else {
+        fprintf(archivo, "========== RONDA %d ==========\n", numRonda);
+    }
     fprintf(archivo, "----------------------------------------\n");
     
     // Obtener y escribir timestamp
@@ -138,6 +144,9 @@ void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores) {
         }
         
         fprintf(archivo, "\n");
+        
+        // También actualizamos el historial individual del jugador
+        registrarHistorialJugador(numRonda, &jugadores[i]);
     }
     
     // Añadir una línea para separar rondas
@@ -147,10 +156,14 @@ void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores) {
     fclose(archivo);
     
     // Actualizar contador de rondas para futuras referencias
-    rondaActual = numRonda;
+    if (numRonda > 0) {
+        rondaActual = numRonda;
+    }
     
     // Mensaje de confirmación en la consola
-    printf("Historial de la ronda %d guardado en '%s'\n", numRonda, ARCHIVO_HISTORIAL);
+    printf("Historial de la ronda %s guardado en '%s'\n", 
+           numRonda == -1 ? "final" : "actual", 
+           ARCHIVO_HISTORIAL);
 }
 // Función para mostrar el historial completo
 void mostrarHistorialCompleto(void) {
@@ -175,6 +188,8 @@ void mostrarHistorialCompleto(void) {
 }
 
 // Función para registrar el historial de un jugador específico
+// Función para registrar el historial de un jugador específico
+// Función para registrar el historial de un jugador específico
 void registrarHistorialJugador(int numRonda, Jugador *jugador) {
     FILE *archivo;
     char nombreArchivo[100];
@@ -195,7 +210,11 @@ void registrarHistorialJugador(int numRonda, Jugador *jugador) {
     }
     
     // Escribir información de la ronda
-    fprintf(archivo, "--- RONDA %d ---\n", numRonda);
+    if (numRonda == -1) {
+        fprintf(archivo, "--- RONDA FINAL ---\n");
+    } else {
+        fprintf(archivo, "--- RONDA %d ---\n", numRonda);
+    }
     
     // Obtener y escribir timestamp
     time_t ahora = time(NULL);
@@ -327,6 +346,7 @@ int calcularPuntosCarta(Carta carta) {
 }
 
 /* Registrar evento en un archivo log */
+/* Registrar evento en un archivo log con número de ronda */
 void registrarEvento(const char *formato, ...) {
     FILE *archivo;
     time_t ahora;
@@ -346,8 +366,8 @@ void registrarEvento(const char *formato, ...) {
     t = localtime(&ahora);
     strftime(timestamp, sizeof(timestamp), "%Y-%m-%d %H:%M:%S", t);
     
-    /* Escribir timestamp */
-    fprintf(archivo, "[%s] ", timestamp);
+    /* Escribir timestamp y número de ronda */
+    fprintf(archivo, "[%s] [Ronda %d] ", timestamp, rondaActual);
     
     /* Escribir mensaje formateado */
     va_start(args, formato);

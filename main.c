@@ -12,7 +12,8 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
-#include <unistd.h>
+#include "memoria.h"
+#define _DEFAULT_SOURCE
 
 /* Función para leer una tecla sin bloqueo */
 int leerTecla(void) {
@@ -39,30 +40,39 @@ int leerTecla(void) {
 void *monitorTeclas(void *arg) {
     while (!juegoTerminado()) {
         int tecla = leerTecla();
-        
+
         if (tecla == '1') {
             cambiarAlgoritmo(ALG_FCFS);
         } else if (tecla == '2') {
             cambiarAlgoritmo(ALG_RR);
+        } else if (tecla == '3') {
+            // Cambiar a algoritmo de memoria Ajuste Óptimo
+            cambiarAlgoritmoMemoria(ALG_AJUSTE_OPTIMO);
+        } else if (tecla == '4') {
+            // Cambiar a algoritmo de memoria LRU (para virtual) - Esto parece que ya estaba
+            cambiarAlgoritmoMemoria(ALG_LRU);
+        } else if (tecla == '5') {
+            // NUEVO: Cambiar a algoritmo de memoria Mapa de Bits (para particionamiento)
+             cambiarAlgoritmoMemoria(ALG_MAPA_BITS);
+        }
+         else if (tecla == 'm' || tecla == 'M') {
+            // Mostrar estado de la memoria
+            imprimirEstadoMemoria();
+            imprimirEstadoMemoriaVirtual(); // Mantener esto para mostrar el estado de la memoria virtual
         } else if (tecla == 'q' || tecla == 'Q') {
-            /* Opción para salir del juego con 'q' */
+            // Opción para salir del juego con 'q'
             printf("\nSaliendo del juego por solicitud del usuario...\n");
-            
-            // Forzar la finalización del juego sin ganador
-            finalizarJuego(-1); /* -1 indica que no hay ganador */
-            
-            // Es importante salir del bucle después de finalizar
+            finalizarJuego(-1);
             break;
         }
-        
-        usleep(100000);  /* 100ms */
+
+        usleep(100000);
     }
-    
     printf("Hilo de monitoreo de teclas finalizado\n");
     return NULL;
 }
 
-/* Mostrar información del juego y reglas */
+// Modificar la función mostrarInformacion para incluir información sobre memoria
 void mostrarInformacion(void) {
     colorCian();
     printf("\n================================\n");
@@ -86,10 +96,18 @@ void mostrarInformacion(void) {
     printf("- FCFS (First-Come, First-Served): Primer jugador listo, primero en ser atendido\n");
     printf("- Round Robin: Asigna un quantum de tiempo a cada jugador en turnos\n\n");
     
+    // NUEVO: Información sobre algoritmos de memoria
+    printf("ALGORITMOS DE GESTIÓN DE MEMORIA:\n");
+    printf("- Ajuste Óptimo: Utiliza la partición más pequeña que pueda contener el proceso\n");
+    printf("- LRU (Least Recently Used): Reemplaza la página menos usada recientemente\n\n");
+    
     colorVerde();
     printf("CONTROLES:\n");
-    printf("- Presione '1' para cambiar a algoritmo FCFS\n");
-    printf("- Presione '2' para cambiar a algoritmo Round Robin\n");
+    printf("- Presione '1' para cambiar a algoritmo de CPU FCFS\n");
+    printf("- Presione '2' para cambiar a algoritmo de CPU Round Robin\n");
+    printf("- Presione '3' para cambiar a algoritmo de memoria Ajuste Óptimo\n");
+    printf("- Presione '4' para cambiar a algoritmo de memoria LRU\n");
+    printf("- Presione 'm' para mostrar el estado actual de la memoria\n");
     printf("- Presione 'q' para salir del juego\n\n");
     colorReset();
 }
@@ -127,6 +145,9 @@ int main(int argc, char *argv[]) {
     
     /* Crear directorio para los BCP si no existe */
     system("mkdir -p bcp");
+    
+    /* NUEVO: Inicializar el sistema de memoria */
+    inicializarMemoria();
     
     /* Inicializar el juego */
     colorVerde();
@@ -177,6 +198,11 @@ int main(int argc, char *argv[]) {
     } else {
         printf("Hilo monitor finalizado correctamente\n");
     }
+    
+    /* NUEVO: Mostrar estadísticas finales de memoria */
+    printf("\n=== ESTADÍSTICAS FINALES DE MEMORIA ===\n");
+    imprimirEstadoMemoria();
+    imprimirEstadoMemoriaVirtual();
     
     /* Liberar recursos */
     liberarJuego();

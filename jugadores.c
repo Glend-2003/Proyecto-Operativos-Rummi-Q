@@ -9,7 +9,8 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
-
+#include "memoria.h"
+#define _DEFAULT_SOURCE
 
 /* Mutex para acceso a recursos compartidos */
 pthread_mutex_t mutexApeadas = PTHREAD_MUTEX_INITIALIZER;
@@ -1416,6 +1417,27 @@ void entrarEsperaES(Jugador *jugador) {
         jugador->bcp->tiempoES = jugador->tiempoES;
         actualizarBCPJugador(jugador);
     }
+    
+    /* NUEVO: Asignar memoria para este proceso en E/S */
+    if (asignarMemoriaES(jugador->id)) {
+        colorVerde();
+        printf("Jugador %d: Memoria asignada para operación E/S\n", jugador->id);
+        colorReset();
+    } else {
+        colorRojo();
+        printf("Jugador %d: Error al asignar memoria para operación E/S\n", jugador->id);
+        colorReset();
+    }
+    
+    /* NUEVO: Simular accesos a páginas */
+    // Acceder a páginas relacionadas con las cartas del jugador
+    for (int i = 0; i < jugador->mano.numCartas && i < 5; i++) {  // Limitar a 5 cartas para no sobrecargar
+        int idCarta = i;  // Usamos la posición como identificador de carta
+        int numPagina = i % PAGINAS_POR_MARCO;  // Distribuir entre páginas
+        
+        // Simular acceso a la página
+        accederPagina(jugador->id, numPagina, idCarta);
+    }
 }
 
 /* Salir del estado de espera E/S */
@@ -1435,6 +1457,9 @@ void salirEsperaES(Jugador *jugador) {
         jugador->bcp->tiempoES = 0;
         actualizarBCPJugador(jugador);
     }
+    
+    /* NUEVO: Liberar la memoria que se asignó para la operación E/S */
+    liberarMemoria(jugador->id);
 }
 
 /* Actualizar el BCP del jugador */

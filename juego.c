@@ -10,7 +10,8 @@
 #include "mesa.h"
 #include "procesos.h"
 #include "utilidades.h"
-#include <unistd.h>
+#include "memoria.h"
+#define _DEFAULT_SOURCE
 
 
 // Variables globales para el manejo del juego
@@ -18,8 +19,6 @@ static bool juegoEnCurso = false;
 static bool hayGanador = false;
 static int idGanador = -1;
 static int algoritmoActual = ALG_FCFS;  // FCFS por defecto
-// Cambiar en juego.c, función repartirFichas()
-
 
 // Mutex y variables de condición para sincronización
 pthread_mutex_t mutexJuego = PTHREAD_MUTEX_INITIALIZER;
@@ -85,16 +84,14 @@ void repartirFichas() {
         printf("Error: No se pudo crear el mazo completo\n");
         return;
     }
-    
-    // Iniciar el monitoreo de teclado para cambiar algoritmos
-    iniciar_monitoreo_teclado();
 
     // Mezclar el mazo
     mezclarMazo(&mazoCompleto);
     
     // Calcular cuántas cartas repartir a cada jugador (2/3 del total)
     int cartasTotales = mazoCompleto.numCartas;
-    int cartasPorJugador = (cartasTotales * 3) / (4 * numJugadores);
+    int cartasPorJugador = (cartasTotales * 2) / (3 * numJugadores);
+    
     // Repartir a cada jugador
     for (int i = 0; i < numJugadores; i++) {
         for (int j = 0; j < cartasPorJugador && mazoCompleto.numCartas > 0; j++) {
@@ -191,6 +188,7 @@ void bucleJuego() {
         
         // Incrementar el contador de rondas al inicio de cada iteración
         numRonda++;
+        rondaActual = numRonda;  // Actualizar variable global
         
         // Seleccionar el próximo jugador según el algoritmo de planificación
         int siguienteJugador;
@@ -301,18 +299,25 @@ int seleccionarJugadorFCFS() {
     return -1;  // No hay jugadores listos
 }
 
+// Seleccionar el próximo jugador según Round Robin
 int seleccionarJugadorRR() {
-    // Buscar siguiente jugador que no haya terminado y esté LISTO
-    for (int i = 1; i <= numJugadores; i++) {
-        int idx = (jugadorActual + i) % numJugadores;
-        if (!jugadores[idx].terminado && jugadores[idx].estado == LISTO) {
+    // En Round Robin, simplemente tomamos el siguiente jugador que no haya terminado
+    int inicio = (jugadorActual + 1) % numJugadores;
+    
+    for (int i = 0; i < numJugadores; i++) {
+        int idx = (inicio + i) % numJugadores;
+        
+        // Si el jugador no ha terminado
+        if (!jugadores[idx].terminado) {
             return idx;
         }
     }
-    return -1;
+    
+    return -1;  // No hay jugadores disponibles
 }
 
 // Asignar turno a un jugador
+// En juego.c - Necesitamos modificar la función asignarTurno
 void asignarTurno(int idJugador) {
     if (idJugador < 0 || idJugador >= numJugadores) {
         return;
@@ -325,8 +330,16 @@ void asignarTurno(int idJugador) {
         // En FCFS, tiempo ilimitado (o un valor alto)
         jugadores[idJugador].tiempoTurno = 10000;  // 10 segundos
     } else {
-        // En Round Robin, asignar quantum
-        jugadores[idJugador].tiempoTurno = quantum;
+        // En Round Robin, asignar quantum dinámico basado en número de cartas
+        // Base: 1000ms + 100ms por cada carta en la mano (mínimo 1500ms, máximo 5000ms)
+        int quantumDinamico = 1000 + (jugadores[idJugador].mano.numCartas * 100);
+        
+        // Establecer límites mínimo y máximo
+        if (quantumDinamico < 1500) quantumDinamico = 1500;
+        if (quantumDinamico > 5000) quantumDinamico = 5000;
+        
+        jugadores[idJugador].tiempoTurno = quantumDinamico;
+        quantum = quantumDinamico; // Actualizar el quantum global
     }
     
     // Establecer tiempo restante
@@ -337,7 +350,6 @@ void asignarTurno(int idJugador) {
     
     printf("Turno asignado al Jugador %d por %d ms\n", idJugador, jugadores[idJugador].tiempoTurno);
 }
-
 // Esperar a que un jugador termine su turno
 void esperarFinTurno(int idJugador) {
     if (idJugador < 0 || idJugador >= numJugadores) {
@@ -372,6 +384,7 @@ void esperarFinTurno(int idJugador) {
 }
 
 // Cambiar el algoritmo de planificación
+// Cambiar el algoritmo de planificación
 void cambiarAlgoritmo(int nuevoAlgoritmo) {
     if (nuevoAlgoritmo != ALG_FCFS && nuevoAlgoritmo != ALG_RR) {
         printf("Algoritmo no válido\n");
@@ -382,6 +395,13 @@ void cambiarAlgoritmo(int nuevoAlgoritmo) {
     
     const char *nombres[] = {"FCFS", "Round Robin"};
     printf("Algoritmo cambiado a: %s\n", nombres[algoritmoActual]);
+    
+    // Explicar el comportamiento del quantum dinámico si se cambió a Round Robin
+    if (nuevoAlgoritmo == ALG_RR) {
+        printf("Usando quantum dinámico basado en el número de cartas:\n");
+        printf("  - Base: 1000ms + 100ms por carta\n");
+        printf("  - Mínimo: 1500ms, Máximo: 5000ms\n");
+    }
 }
 
 // Finalizar el juego con un ganador
@@ -404,12 +424,19 @@ void finalizarJuego(int idJugadorGanador) {
     // Forzar una última actualización de estadísticas
     imprimirEstadisticasTabla();
     
+    // NUEVO: Mostrar estadísticas de memoria
+    imprimirEstadoMemoria();
+    imprimirEstadoMemoriaVirtual();
+    
     // Asegurarse de que todos los jugadores estén en estado BLOQUEADO
     // Esto ayuda a que los hilos de los jugadores terminen correctamente
     for (int i = 0; i < numJugadores; i++) {
         // Interrumpir cualquier espera activa de los jugadores
         jugadores[i].terminado = true;
         jugadores[i].turnoActual = false;
+        
+        // NUEVO: Liberar la memoria asignada a cada jugador
+        liberarMemoria(i);
         
         // Actualizar estado a BLOQUEADO
         actualizarEstadoJugador(&jugadores[i], BLOQUEADO);
@@ -497,6 +524,9 @@ void liberarJuego() {
     // Liberar recursos de los jugadores
     for (int i = 0; i < numJugadores; i++) {
         liberarJugador(&jugadores[i]);
+        
+        // NUEVO: Asegurarse de que toda la memoria esté liberada
+        liberarMemoria(i);
     }
     
     // Liberar recursos de la mesa
@@ -504,8 +534,13 @@ void liberarJuego() {
     
     // Liberar la tabla de procesos
     liberarTabla();
+    
+    // NUEVO: Mostrar estadísticas finales de memoria
+    imprimirEstadoMemoria();
+    imprimirEstadoMemoriaVirtual();
+    
+    printf("Todos los recursos liberados correctamente.\n");
 }
-
 // Calcular los puntos totales de una mano
 int calcularPuntosMano(Mazo *mano) {
     int total = 0;
