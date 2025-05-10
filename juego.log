@@ -521,3 +521,2288 @@
 [2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 1
 [2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 2
 [2025-05-05 11:09:35] [Ronda 124] Páginas liberadas: Proceso 3
+[2025-05-10 13:22:30] [Ronda 0] Memoria virtual (LRU) inicializada. Marcos: 6.
+[2025-05-10 13:22:30] [Ronda 0] Sistema de memoria inicializado: 1024 bytes disponibles. Algoritmo particionamiento: Ajuste Óptimo.
+[2025-05-10 13:22:30] [Ronda 0] Proceso autorizado para crecer 1: ID 1.
+[2025-05-10 13:22:30] [Ronda 0] Proceso autorizado para crecer 2: ID 0.
+[2025-05-10 13:22:30] [Ronda 1] Proceso 0 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:22:30] [Ronda 1] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:30] [Ronda 1] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:30] [Ronda 1] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:30] [Ronda 1] Jugador 0 entró en E/S por 5022 ms
+[2025-05-10 13:22:30] [Ronda 1] Proceso 0 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:30] [Ronda 1] Memoria física asignada: Proceso 0, 56 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:30] [Ronda 1] Proceso 0 (autorizado) intenta crecer 10 bytes.
+[2025-05-10 13:22:30] [Ronda 1] Proceso 0 creció en 10 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 958.
+[2025-05-10 13:22:30] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:30] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:30] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:30] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:30] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:30] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:30] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:30] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:30] [Ronda 2] Proceso 1 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:22:30] [Ronda 2] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:30] [Ronda 2] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:30] [Ronda 2] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:30] [Ronda 2] Jugador 1 entró en E/S por 1050 ms
+[2025-05-10 13:22:30] [Ronda 2] Proceso 1 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:22:30] [Ronda 2] Memoria física asignada: Proceso 1, 40 bytes, dir 66 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:30] [Ronda 2] Proceso 1 (autorizado) intenta crecer 30 bytes.
+[2025-05-10 13:22:30] [Ronda 2] Proceso 1 creció en 30 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 888.
+[2025-05-10 13:22:30] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:30] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:30] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:30] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:30] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:30] [Ronda 2] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:30] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:30] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:30] [Ronda 2] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:30] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:30] [Ronda 3] Proceso 2 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:22:30] [Ronda 3] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:30] [Ronda 3] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:30] [Ronda 3] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:30] [Ronda 3] Jugador 2 entró en E/S por 3529 ms
+[2025-05-10 13:22:30] [Ronda 3] Proceso 2 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:30] [Ronda 3] Memoria física asignada: Proceso 2, 60 bytes, dir 136 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:30] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:30] [Ronda 3] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:30] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:30] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:30] [Ronda 3] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:30] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:30] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:30] [Ronda 3] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:30] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:30] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:30] [Ronda 3] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:30] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:30] [Ronda 4] Proceso 3 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:22:30] [Ronda 4] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:30] [Ronda 4] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:30] [Ronda 4] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:30] [Ronda 4] Jugador 3 entró en E/S por 1430 ms
+[2025-05-10 13:22:30] [Ronda 4] Proceso 3 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:30] [Ronda 4] Memoria física asignada: Proceso 3, 60 bytes, dir 196 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:30] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:30] [Ronda 4] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:30] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:30] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:30] [Ronda 4] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:30] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:30] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:30] [Ronda 4] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:30] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:30] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:30] [Ronda 4] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:30] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:31] [Ronda 13] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:31] [Ronda 13] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:31] [Ronda 13] Jugador 1 salió de E/S
+[2025-05-10 13:22:31] [Ronda 13] Memoria física liberada: Proceso 1, 70 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:31] [Ronda 13] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:22:31] [Ronda 14] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:31] [Ronda 14] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:31] [Ronda 14] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:31] [Ronda 14] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:31] [Ronda 14] Jugador 1 entró en E/S por 3072 ms
+[2025-05-10 13:22:31] [Ronda 14] Proceso 1 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:22:31] [Ronda 14] Memoria física asignada: Proceso 1, 44 bytes, dir 66 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:31] [Ronda 14] Proceso 1 (autorizado) intenta crecer 27 bytes.
+[2025-05-10 13:22:31] [Ronda 14] Memoria física asignada: Proceso 1, 27 bytes, dir 256 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:31] [Ronda 14] Proceso 1 creció en 27 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 767.
+[2025-05-10 13:22:31] [Ronda 14] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:31] [Ronda 14] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:31] [Ronda 14] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:22:31] [Ronda 14] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:31] [Ronda 14] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:31] [Ronda 14] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:22:31] [Ronda 14] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:31] [Ronda 14] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:31] [Ronda 14] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:31] [Ronda 14] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:31] [Ronda 14] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:31] [Ronda 14] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:31] [Ronda 19] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:31] [Ronda 19] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:31] [Ronda 19] Jugador 3 salió de E/S
+[2025-05-10 13:22:31] [Ronda 19] Memoria física liberada: Proceso 3, 60 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:31] [Ronda 19] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:32] [Ronda 20] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:32] [Ronda 20] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:32] [Ronda 20] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:32] [Ronda 20] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:32] [Ronda 20] Jugador 3 entró en E/S por 3669 ms
+[2025-05-10 13:22:32] [Ronda 20] Proceso 3 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:22:32] [Ronda 20] Memoria física asignada: Proceso 3, 52 bytes, dir 196 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:32] [Ronda 20] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:32] [Ronda 20] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:32] [Ronda 20] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:32] [Ronda 20] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:32] [Ronda 20] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:32] [Ronda 20] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:32] [Ronda 20] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:32] [Ronda 20] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:32] [Ronda 20] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:32] [Ronda 20] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:22:33] [Ronda 38] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:33] [Ronda 38] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:33] [Ronda 38] Jugador 2 salió de E/S
+[2025-05-10 13:22:33] [Ronda 38] Memoria física liberada: Proceso 2, 60 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:33] [Ronda 38] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:22:33] [Ronda 39] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:33] [Ronda 39] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:33] [Ronda 39] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:33] [Ronda 39] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:33] [Ronda 39] Jugador 2 entró en E/S por 2203 ms
+[2025-05-10 13:22:33] [Ronda 39] Proceso 2 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:22:33] [Ronda 39] Memoria física asignada: Proceso 2, 44 bytes, dir 110 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:33] [Ronda 39] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:33] [Ronda 39] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:33] [Ronda 39] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:33] [Ronda 39] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:33] [Ronda 39] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:33] [Ronda 39] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:33] [Ronda 39] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:33] [Ronda 39] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:33] [Ronda 39] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:33] [Ronda 39] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:33] [Ronda 39] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:33] [Ronda 39] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:34] [Ronda 45] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:34] [Ronda 45] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:34] [Ronda 45] Jugador 1 salió de E/S
+[2025-05-10 13:22:34] [Ronda 45] Memoria física liberada: Proceso 1, 71 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:34] [Ronda 45] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:22:34] [Ronda 46] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:34] [Ronda 46] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:34] [Ronda 46] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:34] [Ronda 46] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:34] [Ronda 46] Jugador 1 entró en E/S por 5152 ms
+[2025-05-10 13:22:34] [Ronda 46] Proceso 1 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:22:34] [Ronda 46] Memoria física asignada: Proceso 1, 48 bytes, dir 248 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:34] [Ronda 46] Proceso 1 (autorizado) intenta crecer 22 bytes.
+[2025-05-10 13:22:34] [Ronda 46] Proceso 1 creció en 22 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 792.
+[2025-05-10 13:22:34] [Ronda 46] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:34] [Ronda 46] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:34] [Ronda 46] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:34] [Ronda 46] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:34] [Ronda 46] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:34] [Ronda 46] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:22:34] [Ronda 46] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:34] [Ronda 46] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:34] [Ronda 46] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:34] [Ronda 46] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:34] [Ronda 46] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:34] [Ronda 46] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:35] [Ronda 52] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:35] [Ronda 52] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:35] [Ronda 52] Jugador 0 salió de E/S
+[2025-05-10 13:22:35] [Ronda 52] Memoria física liberada: Proceso 0, 66 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:35] [Ronda 52] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:22:35] [Ronda 53] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:35] [Ronda 53] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:35] [Ronda 53] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:35] [Ronda 53] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:35] [Ronda 53] Jugador 0 entró en E/S por 1102 ms
+[2025-05-10 13:22:35] [Ronda 53] Proceso 0 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:35] [Ronda 53] Memoria física asignada: Proceso 0, 56 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:35] [Ronda 53] Proceso 0 (autorizado) intenta crecer 11 bytes.
+[2025-05-10 13:22:35] [Ronda 53] Proceso 0 creció en 11 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 791.
+[2025-05-10 13:22:35] [Ronda 53] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:35] [Ronda 53] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:35] [Ronda 53] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:35] [Ronda 53] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:35] [Ronda 53] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:35] [Ronda 53] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:35] [Ronda 53] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:35] [Ronda 53] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:35] [Ronda 53] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:35] [Ronda 53] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:35] [Ronda 53] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:35] [Ronda 53] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:35] [Ronda 58] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:35] [Ronda 58] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:35] [Ronda 58] Jugador 3 salió de E/S
+[2025-05-10 13:22:35] [Ronda 58] Memoria física liberada: Proceso 3, 52 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:35] [Ronda 58] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:35] [Ronda 59] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:35] [Ronda 59] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:35] [Ronda 59] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:35] [Ronda 59] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:35] [Ronda 59] Jugador 3 entró en E/S por 1282 ms
+[2025-05-10 13:22:35] [Ronda 59] Proceso 3 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:22:35] [Ronda 59] Memoria física asignada: Proceso 3, 52 bytes, dir 154 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:35] [Ronda 59] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:35] [Ronda 59] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:35] [Ronda 59] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:22:35] [Ronda 59] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:35] [Ronda 59] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:35] [Ronda 59] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:35] [Ronda 59] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:35] [Ronda 59] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:35] [Ronda 59] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:35] [Ronda 59] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:35] [Ronda 59] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:35] [Ronda 59] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:36] [Ronda 62] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:36] [Ronda 62] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:36] [Ronda 62] Jugador 2 salió de E/S
+[2025-05-10 13:22:36] [Ronda 62] Memoria física liberada: Proceso 2, 44 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:36] [Ronda 62] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:22:36] [Ronda 63] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:36] [Ronda 63] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:36] [Ronda 63] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:36] [Ronda 63] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:36] [Ronda 63] Jugador 2 entró en E/S por 4483 ms
+[2025-05-10 13:22:36] [Ronda 63] Proceso 2 entra a E/S, solicita 64 bytes.
+[2025-05-10 13:22:36] [Ronda 63] Memoria física asignada: Proceso 2, 64 bytes, dir 67 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:36] [Ronda 63] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:36] [Ronda 63] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:36] [Ronda 63] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:22:36] [Ronda 63] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:36] [Ronda 63] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:36] [Ronda 63] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:22:36] [Ronda 63] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:36] [Ronda 63] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:36] [Ronda 63] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:36] [Ronda 63] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:36] [Ronda 63] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:36] [Ronda 63] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:36] [Ronda 65] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:36] [Ronda 65] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:36] [Ronda 65] Jugador 0 salió de E/S
+[2025-05-10 13:22:36] [Ronda 65] Memoria física liberada: Proceso 0, 67 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:36] [Ronda 65] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:22:36] [Ronda 66] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:36] [Ronda 66] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:36] [Ronda 66] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:36] [Ronda 66] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:36] [Ronda 66] Jugador 0 entró en E/S por 5698 ms
+[2025-05-10 13:22:36] [Ronda 66] Proceso 0 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:36] [Ronda 66] Memoria física asignada: Proceso 0, 60 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:36] [Ronda 66] Proceso 0 (autorizado) intenta crecer 27 bytes.
+[2025-05-10 13:22:36] [Ronda 66] Memoria física asignada: Proceso 0, 27 bytes, dir 206 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:36] [Ronda 66] Proceso 0 creció en 27 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 751.
+[2025-05-10 13:22:36] [Ronda 66] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:36] [Ronda 66] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:36] [Ronda 66] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:36] [Ronda 66] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:36] [Ronda 66] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:36] [Ronda 66] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:36] [Ronda 66] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:36] [Ronda 66] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:36] [Ronda 66] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:36] [Ronda 66] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:36] [Ronda 66] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:36] [Ronda 66] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:22:37] [Ronda 72] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:37] [Ronda 72] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:37] [Ronda 72] Jugador 3 salió de E/S
+[2025-05-10 13:22:37] [Ronda 72] Memoria física liberada: Proceso 3, 52 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:37] [Ronda 72] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:37] [Ronda 73] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:37] [Ronda 73] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:37] [Ronda 73] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:37] [Ronda 73] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:37] [Ronda 73] Jugador 3 entró en E/S por 2031 ms
+[2025-05-10 13:22:37] [Ronda 73] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:37] [Ronda 73] Memoria física asignada: Proceso 3, 56 bytes, dir 131 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:37] [Ronda 73] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:37] [Ronda 73] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:37] [Ronda 73] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:37] [Ronda 73] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:37] [Ronda 73] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:37] [Ronda 73] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:37] [Ronda 73] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:37] [Ronda 73] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:37] [Ronda 73] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:37] [Ronda 73] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:37] [Ronda 73] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:37] [Ronda 73] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:39] [Ronda 94] Proceso 3 cambió de estado: EJECUTANDO -> NUEVO
+[2025-05-10 13:22:39] [Ronda 94] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:39] [Ronda 94] Jugador 3 salió de E/S
+[2025-05-10 13:22:39] [Ronda 94] Memoria física liberada: Proceso 3, 56 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:39] [Ronda 94] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:39] [Ronda 95] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:39] [Ronda 95] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:39] [Ronda 95] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:39] [Ronda 95] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:39] [Ronda 95] Jugador 3 entró en E/S por 3165 ms
+[2025-05-10 13:22:39] [Ronda 95] Proceso 3 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:22:39] [Ronda 95] Memoria física asignada: Proceso 3, 40 bytes, dir 131 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:39] [Ronda 95] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:39] [Ronda 95] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:39] [Ronda 95] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:39] [Ronda 95] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:39] [Ronda 95] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:39] [Ronda 95] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:39] [Ronda 95] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:39] [Ronda 95] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:39] [Ronda 99] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:39] [Ronda 99] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:39] [Ronda 99] Jugador 1 salió de E/S
+[2025-05-10 13:22:39] [Ronda 99] Memoria física liberada: Proceso 1, 70 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:39] [Ronda 99] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:22:39] [Ronda 100] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:39] [Ronda 100] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:39] [Ronda 100] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:39] [Ronda 100] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:39] [Ronda 100] Jugador 1 entró en E/S por 4895 ms
+[2025-05-10 13:22:39] [Ronda 100] Proceso 1 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:39] [Ronda 100] Memoria física asignada: Proceso 1, 60 bytes, dir 233 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:39] [Ronda 100] Proceso 1 (autorizado) intenta crecer 22 bytes.
+[2025-05-10 13:22:39] [Ronda 100] Proceso 1 creció en 22 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 751.
+[2025-05-10 13:22:39] [Ronda 100] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:39] [Ronda 100] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:39] [Ronda 100] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:39] [Ronda 100] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:39] [Ronda 100] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:39] [Ronda 100] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:22:39] [Ronda 100] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:39] [Ronda 100] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:39] [Ronda 100] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:39] [Ronda 100] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:39] [Ronda 100] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:39] [Ronda 100] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:40] [Ronda 109] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:40] [Ronda 109] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:40] [Ronda 109] Jugador 2 salió de E/S
+[2025-05-10 13:22:40] [Ronda 109] Memoria física liberada: Proceso 2, 64 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:40] [Ronda 109] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:22:40] [Ronda 110] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:40] [Ronda 110] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:40] [Ronda 110] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:40] [Ronda 110] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:40] [Ronda 110] Jugador 2 entró en E/S por 3776 ms
+[2025-05-10 13:22:40] [Ronda 110] Proceso 2 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:40] [Ronda 110] Memoria física asignada: Proceso 2, 56 bytes, dir 60 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:40] [Ronda 110] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:40] [Ronda 110] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:40] [Ronda 110] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:22:40] [Ronda 110] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:40] [Ronda 110] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:40] [Ronda 110] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:40] [Ronda 110] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:40] [Ronda 110] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:40] [Ronda 110] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:40] [Ronda 110] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:40] [Ronda 110] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:40] [Ronda 110] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:42] [Ronda 124] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:42] [Ronda 124] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:42] [Ronda 124] Jugador 0 salió de E/S
+[2025-05-10 13:22:42] [Ronda 124] Memoria física liberada: Proceso 0, 87 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:42] [Ronda 124] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:22:42] [Ronda 125] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:42] [Ronda 125] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:42] [Ronda 125] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:42] [Ronda 125] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:42] [Ronda 125] Jugador 0 entró en E/S por 5287 ms
+[2025-05-10 13:22:42] [Ronda 125] Proceso 0 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:42] [Ronda 125] Memoria física asignada: Proceso 0, 60 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:42] [Ronda 125] Proceso 0 (autorizado) intenta crecer 24 bytes.
+[2025-05-10 13:22:42] [Ronda 125] Memoria física asignada: Proceso 0, 24 bytes, dir 171 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:42] [Ronda 125] Proceso 0 creció en 24 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 762.
+[2025-05-10 13:22:42] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:42] [Ronda 125] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:42] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:42] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:42] [Ronda 125] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:42] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:42] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:42] [Ronda 125] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:42] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:42] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:42] [Ronda 125] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:42] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:42] [Ronda 128] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:42] [Ronda 128] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:42] [Ronda 128] Jugador 3 salió de E/S
+[2025-05-10 13:22:42] [Ronda 128] Memoria física liberada: Proceso 3, 40 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:42] [Ronda 128] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:42] [Ronda 129] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:42] [Ronda 129] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:42] [Ronda 129] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:42] [Ronda 129] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:42] [Ronda 129] Jugador 3 entró en E/S por 4713 ms
+[2025-05-10 13:22:42] [Ronda 129] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:42] [Ronda 129] Memoria física asignada: Proceso 3, 56 bytes, dir 315 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:42] [Ronda 129] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:42] [Ronda 129] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:42] [Ronda 129] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:22:42] [Ronda 129] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:42] [Ronda 129] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:42] [Ronda 129] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:42] [Ronda 129] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:42] [Ronda 129] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:42] [Ronda 129] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:42] [Ronda 129] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:42] [Ronda 129] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:42] [Ronda 129] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:44] [Ronda 149] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:44] [Ronda 149] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:44] [Ronda 149] Jugador 2 salió de E/S
+[2025-05-10 13:22:44] [Ronda 149] Memoria física liberada: Proceso 2, 56 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:44] [Ronda 149] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:22:44] [Ronda 150] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:44] [Ronda 150] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:44] [Ronda 150] Jugador 1 salió de E/S
+[2025-05-10 13:22:44] [Ronda 150] Memoria física liberada: Proceso 1, 82 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:44] [Ronda 150] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:22:44] [Ronda 150] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:44] [Ronda 150] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:44] [Ronda 150] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:44] [Ronda 150] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:44] [Ronda 150] Jugador 2 entró en E/S por 5491 ms
+[2025-05-10 13:22:44] [Ronda 150] Proceso 2 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:44] [Ronda 150] Memoria física asignada: Proceso 2, 56 bytes, dir 60 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:44] [Ronda 150] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:44] [Ronda 150] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:44] [Ronda 150] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:44] [Ronda 150] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:44] [Ronda 150] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:44] [Ronda 150] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:22:44] [Ronda 150] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:44] [Ronda 150] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:44] [Ronda 150] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:44] [Ronda 150] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:44] [Ronda 150] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:44] [Ronda 150] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:22:44] [Ronda 151] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:44] [Ronda 151] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:44] [Ronda 151] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:44] [Ronda 151] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:44] [Ronda 151] Jugador 1 entró en E/S por 5865 ms
+[2025-05-10 13:22:44] [Ronda 151] Proceso 1 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:44] [Ronda 151] Memoria física asignada: Proceso 1, 56 bytes, dir 195 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:44] [Ronda 151] Proceso 1 (autorizado) intenta crecer 20 bytes.
+[2025-05-10 13:22:44] [Ronda 151] Proceso 1 creció en 20 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 752.
+[2025-05-10 13:22:44] [Ronda 151] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:44] [Ronda 151] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:44] [Ronda 151] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:45] [Ronda 151] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:45] [Ronda 151] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:45] [Ronda 151] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:45] [Ronda 151] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:45] [Ronda 151] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:45] [Ronda 151] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:45] [Ronda 151] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:45] [Ronda 151] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:45] [Ronda 151] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:47] [Ronda 177] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:47] [Ronda 177] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:47] [Ronda 177] Jugador 3 salió de E/S
+[2025-05-10 13:22:47] [Ronda 177] Memoria física liberada: Proceso 3, 56 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:47] [Ronda 177] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:47] [Ronda 178] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:47] [Ronda 178] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:47] [Ronda 178] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:47] [Ronda 178] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:47] [Ronda 178] Jugador 3 entró en E/S por 1956 ms
+[2025-05-10 13:22:47] [Ronda 178] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:47] [Ronda 178] Memoria física asignada: Proceso 3, 56 bytes, dir 271 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:47] [Ronda 178] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:47] [Ronda 178] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:47] [Ronda 178] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:47] [Ronda 178] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:47] [Ronda 178] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:47] [Ronda 178] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:22:47] [Ronda 178] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:47] [Ronda 178] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:47] [Ronda 178] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:47] [Ronda 178] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:47] [Ronda 178] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:47] [Ronda 178] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:47] [Ronda 179] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:47] [Ronda 179] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:47] [Ronda 179] Jugador 0 salió de E/S
+[2025-05-10 13:22:47] [Ronda 179] Memoria física liberada: Proceso 0, 84 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:47] [Ronda 179] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:22:47] [Ronda 180] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:47] [Ronda 180] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:47] [Ronda 180] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:47] [Ronda 180] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:47] [Ronda 180] Jugador 0 entró en E/S por 5411 ms
+[2025-05-10 13:22:47] [Ronda 180] Proceso 0 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:22:47] [Ronda 180] Memoria física asignada: Proceso 0, 40 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:47] [Ronda 180] Proceso 0 (autorizado) intenta crecer 16 bytes.
+[2025-05-10 13:22:47] [Ronda 180] Proceso 0 creció en 16 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 780.
+[2025-05-10 13:22:47] [Ronda 180] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:47] [Ronda 180] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:47] [Ronda 180] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:22:47] [Ronda 180] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:47] [Ronda 180] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:47] [Ronda 180] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:47] [Ronda 180] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:47] [Ronda 180] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:47] [Ronda 180] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:47] [Ronda 180] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:47] [Ronda 180] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:47] [Ronda 180] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:49] [Ronda 198] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:49] [Ronda 198] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:22:49] [Ronda 198] Jugador 3 salió de E/S
+[2025-05-10 13:22:49] [Ronda 198] Memoria física liberada: Proceso 3, 56 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:49] [Ronda 198] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:22:49] [Ronda 199] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:49] [Ronda 199] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:49] [Ronda 199] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:49] [Ronda 199] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:49] [Ronda 199] Jugador 3 entró en E/S por 2045 ms
+[2025-05-10 13:22:49] [Ronda 199] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:49] [Ronda 199] Memoria física asignada: Proceso 3, 56 bytes, dir 116 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:49] [Ronda 199] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:49] [Ronda 199] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:49] [Ronda 199] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:49] [Ronda 199] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:49] [Ronda 199] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:49] [Ronda 199] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:49] [Ronda 199] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:49] [Ronda 199] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:49] [Ronda 199] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:49] [Ronda 199] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:49] [Ronda 201] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:49] [Ronda 201] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:49] [Ronda 201] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:49] [Ronda 201] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:49] [Ronda 201] Jugador 0 entró en E/S por 5654 ms
+[2025-05-10 13:22:49] [Ronda 201] Proceso 0 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:22:49] [Ronda 201] Memoria física asignada: Proceso 0, 52 bytes, dir 271 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:49] [Ronda 201] Proceso 0 (autorizado) intenta crecer 29 bytes.
+[2025-05-10 13:22:49] [Ronda 201] Proceso 0 creció en 29 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 699.
+[2025-05-10 13:22:49] [Ronda 201] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:49] [Ronda 201] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:49] [Ronda 201] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:49] [Ronda 201] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:49] [Ronda 201] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:49] [Ronda 201] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:49] [Ronda 201] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:49] [Ronda 201] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:49] [Ronda 201] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 202] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 202] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 202] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 202] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 202] Jugador 1 entró en E/S por 4124 ms
+[2025-05-10 13:22:50] [Ronda 202] Proceso 1 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:22:50] [Ronda 202] Memoria física asignada: Proceso 1, 52 bytes, dir 352 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 202] Proceso 1 (autorizado) intenta crecer 21 bytes.
+[2025-05-10 13:22:50] [Ronda 202] Proceso 1 creció en 21 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 626.
+[2025-05-10 13:22:50] [Ronda 202] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 202] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 202] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 202] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 202] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 202] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 202] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 202] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 202] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 202] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 202] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 202] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 203] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 203] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 203] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 203] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 203] Jugador 2 entró en E/S por 2969 ms
+[2025-05-10 13:22:50] [Ronda 203] Proceso 2 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:22:50] [Ronda 203] Memoria física asignada: Proceso 2, 40 bytes, dir 425 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 203] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 203] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 203] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 203] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 203] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 203] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 203] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 203] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 203] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 203] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 203] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 203] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 204] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 204] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 204] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 204] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 204] Jugador 3 entró en E/S por 1616 ms
+[2025-05-10 13:22:50] [Ronda 204] Proceso 3 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:22:50] [Ronda 204] Memoria física asignada: Proceso 3, 36 bytes, dir 465 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 204] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 204] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 204] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 204] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 204] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 204] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 204] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 204] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 204] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 204] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 204] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 204] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 205] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 205] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 205] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 205] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 205] Jugador 0 entró en E/S por 4951 ms
+[2025-05-10 13:22:50] [Ronda 205] Proceso 0 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:22:50] [Ronda 205] Memoria física asignada: Proceso 0, 36 bytes, dir 501 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 205] Proceso 0 (autorizado) intenta crecer 29 bytes.
+[2025-05-10 13:22:50] [Ronda 205] Proceso 0 creció en 29 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 485.
+[2025-05-10 13:22:50] [Ronda 205] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 205] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 205] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 205] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 205] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 205] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 205] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 205] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 205] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 205] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 205] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 205] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 206] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 206] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 206] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 206] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 206] Jugador 1 entró en E/S por 3348 ms
+[2025-05-10 13:22:50] [Ronda 206] Proceso 1 entra a E/S, solicita 64 bytes.
+[2025-05-10 13:22:50] [Ronda 206] Memoria física asignada: Proceso 1, 64 bytes, dir 566 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 206] Proceso 1 (autorizado) intenta crecer 17 bytes.
+[2025-05-10 13:22:50] [Ronda 206] Proceso 1 creció en 17 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 404.
+[2025-05-10 13:22:50] [Ronda 206] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 206] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 206] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 206] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 206] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 206] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 206] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 206] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 206] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 206] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 206] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 206] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 207] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 207] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 207] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 207] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 207] Jugador 2 entró en E/S por 5170 ms
+[2025-05-10 13:22:50] [Ronda 207] Proceso 2 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:22:50] [Ronda 207] Memoria física asignada: Proceso 2, 36 bytes, dir 647 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 207] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 207] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 207] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 207] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 207] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 207] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 207] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 207] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 207] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 207] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 207] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 207] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 208] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 208] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 208] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 208] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 208] Jugador 3 entró en E/S por 4309 ms
+[2025-05-10 13:22:50] [Ronda 208] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:22:50] [Ronda 208] Memoria física asignada: Proceso 3, 56 bytes, dir 683 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 208] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 208] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 208] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 208] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 208] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 208] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 208] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 208] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 208] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 208] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 208] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 208] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 209] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 209] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 209] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 209] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 209] Jugador 0 entró en E/S por 4981 ms
+[2025-05-10 13:22:50] [Ronda 209] Proceso 0 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:22:50] [Ronda 209] Memoria física asignada: Proceso 0, 60 bytes, dir 739 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 209] Proceso 0 (autorizado) intenta crecer 28 bytes.
+[2025-05-10 13:22:50] [Ronda 209] Proceso 0 creció en 28 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 224.
+[2025-05-10 13:22:50] [Ronda 209] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 209] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 209] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 209] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 209] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 209] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 209] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 209] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 209] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 209] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 209] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 209] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 210] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 210] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 210] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 210] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 210] Jugador 1 entró en E/S por 4290 ms
+[2025-05-10 13:22:50] [Ronda 210] Proceso 1 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:22:50] [Ronda 210] Memoria física asignada: Proceso 1, 44 bytes, dir 827 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 210] Proceso 1 (autorizado) intenta crecer 12 bytes.
+[2025-05-10 13:22:50] [Ronda 210] Proceso 1 creció en 12 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 168.
+[2025-05-10 13:22:50] [Ronda 210] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 210] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 210] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 210] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 210] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 210] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 210] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 210] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 210] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 210] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 210] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 210] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 211] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 211] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 211] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 211] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 211] Jugador 2 entró en E/S por 5053 ms
+[2025-05-10 13:22:50] [Ronda 211] Proceso 2 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:22:50] [Ronda 211] Memoria física asignada: Proceso 2, 48 bytes, dir 883 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 211] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 211] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 211] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 211] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 211] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:22:50] [Ronda 211] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 211] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 211] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 211] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 211] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 211] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 211] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 212] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 212] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 212] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 212] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 212] Jugador 3 entró en E/S por 1034 ms
+[2025-05-10 13:22:50] [Ronda 212] Proceso 3 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:22:50] [Ronda 212] Memoria física asignada: Proceso 3, 44 bytes, dir 931 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 212] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 212] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 212] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:22:50] [Ronda 212] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 212] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:22:50] [Ronda 212] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 212] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 212] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 212] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:22:50] [Ronda 212] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 212] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 212] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:22:50] [Ronda 213] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:50] [Ronda 213] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:50] [Ronda 213] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:22:50] [Ronda 213] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:22:50] [Ronda 213] Jugador 0 entró en E/S por 3265 ms
+[2025-05-10 13:22:50] [Ronda 213] Proceso 0 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:22:50] [Ronda 213] Memoria física asignada: Proceso 0, 36 bytes, dir 975 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 213] Proceso 0 (autorizado) intenta crecer 24 bytes.
+[2025-05-10 13:22:50] [Ronda 213] Fallo crecimiento: Proceso 0 no pudo crecer 24 bytes adicionales (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:22:50] [Ronda 213] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:22:50] [Ronda 213] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 213] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:22:50] [Ronda 213] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:22:50] [Ronda 213] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:22:50] [Ronda 213] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:22:50] [Ronda 213] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:22:50] [Ronda 213] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 213] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:22:50] [Ronda 213] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:22:50] [Ronda 213] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:22:50] [Ronda 213] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:22:51] [Ronda 214] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:51] [Ronda 214] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 214] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 214] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 215] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:51] [Ronda 215] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 215] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 215] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 216] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:22:51] [Ronda 216] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 216] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 216] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 217] Proceso 0 cambió de estado: EJECUTANDO -> LISTO
+[2025-05-10 13:22:51] [Ronda 217] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 217] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 217] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 218] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 218] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 218] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 218] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 219] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 219] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 219] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 219] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 220] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 220] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 220] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 220] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 221] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 221] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 221] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 221] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 222] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 222] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 222] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 222] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 223] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 223] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 223] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 223] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 224] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 224] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 224] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 224] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:51] [Ronda 225] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:51] [Ronda 225] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:51] [Ronda 225] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:51] [Ronda 225] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 226] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 226] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 226] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 226] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 227] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 227] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 227] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 227] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 228] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 228] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 228] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 228] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 229] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 229] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 229] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 229] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 230] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 230] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 230] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 230] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 231] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 231] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 231] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 231] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 232] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 232] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 232] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 232] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 233] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 233] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 233] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 233] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 234] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 234] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 234] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 234] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 235] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 235] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 235] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 235] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 236] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 236] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 236] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 236] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:52] [Ronda 237] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:52] [Ronda 237] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:52] [Ronda 237] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:52] [Ronda 237] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 238] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 238] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 238] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 238] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 239] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 239] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 239] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 239] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 240] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 240] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 240] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 240] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 241] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 241] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 241] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 241] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 242] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 242] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 242] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 242] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 243] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 243] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 243] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 243] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 244] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 244] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 244] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 244] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 245] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 245] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 245] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 245] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 246] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 246] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 246] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 246] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 247] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 247] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 247] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 247] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:53] [Ronda 248] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:53] [Ronda 248] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:53] [Ronda 248] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:53] [Ronda 248] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 249] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 249] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 249] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 249] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 250] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 250] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 250] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 250] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 251] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 251] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 251] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 251] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 252] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 252] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 252] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 252] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 253] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 253] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 253] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 253] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 254] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 254] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 254] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 254] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 255] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 255] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 255] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 255] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 256] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 256] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 256] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 256] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 257] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 257] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 257] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 257] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 258] Algoritmo de memoria cambiado a: LRU (Memoria Virtual).
+[2025-05-10 13:22:54] [Ronda 258] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 258] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 258] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 258] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 259] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 259] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 259] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 259] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:54] [Ronda 260] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:54] [Ronda 260] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:54] [Ronda 260] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:54] [Ronda 260] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 261] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 261] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 261] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 261] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 262] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 262] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 262] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 262] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 263] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 263] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 263] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 263] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 264] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 264] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 264] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 264] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 265] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 265] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 265] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 265] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 266] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 266] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 266] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 266] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 267] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 267] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 267] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 267] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 268] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 268] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 268] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 268] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 269] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 269] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 269] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 269] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 270] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 270] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 270] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 270] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 271] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 271] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 271] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 271] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:55] [Ronda 272] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:55] [Ronda 272] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:55] [Ronda 272] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:55] [Ronda 272] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 273] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 273] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 273] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 273] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 274] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 274] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 274] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 274] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 275] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 275] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 275] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 275] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 276] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 276] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 276] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 276] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 277] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 277] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 277] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 277] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 278] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 278] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 278] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 278] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 279] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 279] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 279] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 279] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 280] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 280] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 280] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 280] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 281] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 281] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 281] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 281] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 282] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 282] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 282] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 282] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:56] [Ronda 283] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:56] [Ronda 283] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:56] [Ronda 283] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:56] [Ronda 283] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 284] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 284] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 284] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 284] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 285] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 285] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 285] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 285] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 286] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 286] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 286] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 286] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 287] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 287] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 287] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 287] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 288] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 288] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 288] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 288] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 289] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 289] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 289] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 289] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 290] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 290] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 290] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 290] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 291] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 291] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 291] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 291] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 292] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 292] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 292] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 292] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:57] [Ronda 293] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:57] [Ronda 293] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:57] [Ronda 293] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:57] [Ronda 293] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 294] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 294] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 294] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 294] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 295] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 295] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 295] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 295] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 296] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 296] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 296] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 296] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 297] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 297] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 297] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 297] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 298] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 298] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 298] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 298] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 299] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 299] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 299] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 299] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 300] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 300] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 300] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 300] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 301] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 301] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 301] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 301] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 302] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 302] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 302] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 302] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:58] [Ronda 303] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:58] [Ronda 303] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:58] [Ronda 303] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:58] [Ronda 303] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 304] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 304] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 304] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 304] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 305] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 305] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 305] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 305] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 306] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 306] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 306] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 306] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 307] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 307] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 307] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 307] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 308] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 308] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 308] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 308] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 309] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 309] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 309] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 309] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 310] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 310] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 310] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 310] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 311] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 311] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 311] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 311] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 312] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 312] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 312] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 312] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 313] Algoritmo de memoria cambiado a: Mapa de Bits.
+[2025-05-10 13:22:59] [Ronda 313] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 313] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 313] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 313] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 314] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 314] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 314] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 314] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:22:59] [Ronda 315] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:22:59] [Ronda 315] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:22:59] [Ronda 315] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:22:59] [Ronda 315] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 316] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 316] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 316] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 316] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 317] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 317] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 317] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 317] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 318] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 318] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 318] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 318] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 319] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 319] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 319] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 319] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 320] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 320] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 320] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 320] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 321] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 321] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 321] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 321] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 322] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 322] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 322] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 322] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 323] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 323] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 323] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 323] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 324] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 324] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 324] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 324] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:00] [Ronda 325] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:00] [Ronda 325] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:00] [Ronda 325] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:00] [Ronda 325] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 326] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 326] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 326] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 326] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 327] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 327] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 327] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 327] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 328] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 328] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 328] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 328] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 329] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 329] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 329] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 329] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 330] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 330] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 330] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 330] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 331] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 331] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 331] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 331] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 332] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 332] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 332] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 332] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 333] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 333] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 333] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 333] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 334] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 334] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 334] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 334] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 335] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 335] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 335] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 335] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:01] [Ronda 336] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:01] [Ronda 336] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:01] [Ronda 336] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:01] [Ronda 336] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 337] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 337] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 337] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 337] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 338] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 338] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 338] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 338] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 339] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 339] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 339] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 339] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 340] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 340] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 340] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 340] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 341] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 341] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 341] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 341] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 342] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 342] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 342] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 342] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 343] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 343] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 343] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 343] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 344] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 344] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 344] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 344] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 345] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 345] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 345] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 345] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 346] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 346] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 346] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 346] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:02] [Ronda 347] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:02] [Ronda 347] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:02] [Ronda 347] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:02] [Ronda 347] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 348] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 348] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 348] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 348] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 349] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 349] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 349] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 349] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 350] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 350] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 350] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 350] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 351] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 351] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 351] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 351] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 352] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 352] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 352] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 352] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 353] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 353] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 353] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 353] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 354] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 354] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 354] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 354] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 355] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 355] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 355] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 355] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 356] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 356] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 356] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 356] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:03] [Ronda 357] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:03] [Ronda 357] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:03] [Ronda 357] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:03] [Ronda 357] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 358] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 358] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 358] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 358] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 359] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 359] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 359] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 359] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 360] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 360] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 360] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 360] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 361] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 361] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 361] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 361] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 362] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 362] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 362] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 362] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 363] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 363] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 363] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 363] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 364] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 364] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 364] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 364] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 365] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 365] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 365] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 365] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 366] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 366] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 366] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 366] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:04] [Ronda 367] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:04] [Ronda 367] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:04] [Ronda 367] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:04] [Ronda 367] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 368] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 368] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 368] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 368] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 369] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 369] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 369] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 369] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 370] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 370] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 370] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 370] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 371] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 371] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 371] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 371] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 372] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 372] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 372] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 372] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 373] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 373] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 373] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 373] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 374] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 374] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 374] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 374] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 375] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 375] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 375] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 375] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:23:05] [Ronda 376] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:23:05] [Ronda 376] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:23:05] [Ronda 376] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:23:05] [Ronda 376] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:33] [Ronda 0] Memoria virtual (LRU) inicializada. Marcos: 6.
+[2025-05-10 13:29:33] [Ronda 0] Sistema de memoria inicializado: 1024 bytes disponibles. Algoritmo particionamiento: Ajuste Óptimo.
+[2025-05-10 13:29:33] [Ronda 0] Proceso autorizado para crecer 1: ID 2.
+[2025-05-10 13:29:33] [Ronda 0] Proceso autorizado para crecer 2: ID 0.
+[2025-05-10 13:29:33] [Ronda 1] Proceso 0 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:29:33] [Ronda 1] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:33] [Ronda 1] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:33] [Ronda 1] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:33] [Ronda 1] Jugador 0 entró en E/S por 4010 ms
+[2025-05-10 13:29:33] [Ronda 1] Proceso 0 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:29:33] [Ronda 1] Memoria física asignada: Proceso 0, 52 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:33] [Ronda 1] Proceso 0 (autorizado) intenta crecer 26 bytes.
+[2025-05-10 13:29:33] [Ronda 1] Proceso 0 creció en 26 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 946.
+[2025-05-10 13:29:33] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:33] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:33] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:33] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:33] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:33] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:33] [Ronda 1] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:33] [Ronda 1] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:33] [Ronda 2] Proceso 1 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:29:33] [Ronda 2] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:33] [Ronda 2] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:33] [Ronda 2] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:33] [Ronda 2] Jugador 1 entró en E/S por 3251 ms
+[2025-05-10 13:29:33] [Ronda 2] Proceso 1 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:29:33] [Ronda 2] Memoria física asignada: Proceso 1, 36 bytes, dir 78 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:33] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:33] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:33] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:33] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:33] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:33] [Ronda 2] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:33] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:33] [Ronda 2] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:33] [Ronda 2] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:33] [Ronda 2] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:33] [Ronda 3] Proceso 2 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:29:33] [Ronda 3] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:33] [Ronda 3] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:33] [Ronda 3] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:33] [Ronda 3] Jugador 2 entró en E/S por 2345 ms
+[2025-05-10 13:29:33] [Ronda 3] Proceso 2 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:29:33] [Ronda 3] Memoria física asignada: Proceso 2, 60 bytes, dir 114 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:33] [Ronda 3] Proceso 2 (autorizado) intenta crecer 25 bytes.
+[2025-05-10 13:29:33] [Ronda 3] Proceso 2 creció en 25 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 825.
+[2025-05-10 13:29:33] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:33] [Ronda 3] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:33] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:33] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:33] [Ronda 3] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:33] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:33] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:33] [Ronda 3] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:33] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:33] [Ronda 3] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:33] [Ronda 3] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:33] [Ronda 3] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:34] [Ronda 4] Proceso 3 cambió de estado: BLOQUEADO -> LISTO
+[2025-05-10 13:29:34] [Ronda 4] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:34] [Ronda 4] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:34] [Ronda 4] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:34] [Ronda 4] Jugador 3 entró en E/S por 5777 ms
+[2025-05-10 13:29:34] [Ronda 4] Proceso 3 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:34] [Ronda 4] Memoria física asignada: Proceso 3, 40 bytes, dir 199 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:34] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:34] [Ronda 4] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:34] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:34] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:34] [Ronda 4] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:34] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:34] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:34] [Ronda 4] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:34] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:34] [Ronda 4] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:34] [Ronda 4] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:34] [Ronda 4] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:36] [Ronda 27] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:36] [Ronda 27] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:36] [Ronda 27] Jugador 2 salió de E/S
+[2025-05-10 13:29:36] [Ronda 27] Memoria física liberada: Proceso 2, 85 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:36] [Ronda 27] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:29:36] [Ronda 28] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:36] [Ronda 28] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:36] [Ronda 28] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:36] [Ronda 28] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:36] [Ronda 28] Jugador 2 entró en E/S por 5920 ms
+[2025-05-10 13:29:36] [Ronda 28] Proceso 2 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:29:36] [Ronda 28] Memoria física asignada: Proceso 2, 60 bytes, dir 114 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:36] [Ronda 28] Proceso 2 (autorizado) intenta crecer 24 bytes.
+[2025-05-10 13:29:36] [Ronda 28] Proceso 2 creció en 24 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 786.
+[2025-05-10 13:29:36] [Ronda 28] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:36] [Ronda 28] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:29:36] [Ronda 28] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:36] [Ronda 28] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:36] [Ronda 28] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:36] [Ronda 28] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:36] [Ronda 28] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:36] [Ronda 28] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:36] [Ronda 28] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:36] [Ronda 28] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:37] [Ronda 35] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:37] [Ronda 35] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:37] [Ronda 35] Jugador 1 salió de E/S
+[2025-05-10 13:29:37] [Ronda 35] Memoria física liberada: Proceso 1, 36 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:37] [Ronda 35] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:29:37] [Ronda 36] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:37] [Ronda 36] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:37] [Ronda 36] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:37] [Ronda 36] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:37] [Ronda 36] Jugador 1 entró en E/S por 5739 ms
+[2025-05-10 13:29:37] [Ronda 36] Proceso 1 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:29:37] [Ronda 36] Memoria física asignada: Proceso 1, 44 bytes, dir 239 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:37] [Ronda 36] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:37] [Ronda 36] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:37] [Ronda 36] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:37] [Ronda 36] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:37] [Ronda 36] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:37] [Ronda 36] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:37] [Ronda 36] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:37] [Ronda 36] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:37] [Ronda 36] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:37] [Ronda 36] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:37] [Ronda 36] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:37] [Ronda 36] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:37] [Ronda 42] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:37] [Ronda 42] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:37] [Ronda 42] Jugador 0 salió de E/S
+[2025-05-10 13:29:37] [Ronda 42] Memoria física liberada: Proceso 0, 78 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:37] [Ronda 42] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:29:37] [Ronda 43] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:37] [Ronda 43] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:37] [Ronda 43] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:37] [Ronda 43] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:37] [Ronda 43] Jugador 0 entró en E/S por 5276 ms
+[2025-05-10 13:29:37] [Ronda 43] Proceso 0 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:29:37] [Ronda 43] Memoria física asignada: Proceso 0, 44 bytes, dir 0 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:37] [Ronda 43] Proceso 0 (autorizado) intenta crecer 21 bytes.
+[2025-05-10 13:29:37] [Ronda 43] Proceso 0 creció en 21 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 791.
+[2025-05-10 13:29:37] [Ronda 43] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:37] [Ronda 43] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:37] [Ronda 43] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:37] [Ronda 43] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:37] [Ronda 43] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:37] [Ronda 43] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:37] [Ronda 43] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:37] [Ronda 43] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:37] [Ronda 43] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:37] [Ronda 43] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:37] [Ronda 43] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:37] [Ronda 43] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:38] [Ronda 50] Algoritmo de memoria cambiado a: Mapa de Bits.
+[2025-05-10 13:29:39] [Ronda 63] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:39] [Ronda 63] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:39] [Ronda 63] Jugador 3 salió de E/S
+[2025-05-10 13:29:39] [Ronda 63] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:29:39] [Ronda 64] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:39] [Ronda 64] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:39] [Ronda 64] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:39] [Ronda 64] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:39] [Ronda 64] Jugador 3 entró en E/S por 4074 ms
+[2025-05-10 13:29:39] [Ronda 64] Proceso 3 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:39] [Ronda 64] Memoria física asignada: Proceso 3, 40 bytes, dir 0 (Algoritmo: Mapa de Bits).
+[2025-05-10 13:29:39] [Ronda 64] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:39] [Ronda 64] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:39] [Ronda 64] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:39] [Ronda 64] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:39] [Ronda 64] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:39] [Ronda 64] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:39] [Ronda 64] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:39] [Ronda 64] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:39] [Ronda 64] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:39] [Ronda 64] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:39] [Ronda 64] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:39] [Ronda 64] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:40] [Ronda 68] Algoritmo de memoria cambiado a: LRU (Memoria Virtual).
+[2025-05-10 13:29:42] [Ronda 88] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:42] [Ronda 88] Jugador 2 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:42] [Ronda 88] Jugador 2 salió de E/S
+[2025-05-10 13:29:42] [Ronda 88] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:29:42] [Ronda 89] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:42] [Ronda 89] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:42] [Ronda 89] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:42] [Ronda 89] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:42] [Ronda 89] Jugador 2 entró en E/S por 3876 ms
+[2025-05-10 13:29:42] [Ronda 89] Proceso 2 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:29:42] [Ronda 89] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:42] [Ronda 89] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:42] [Ronda 89] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:42] [Ronda 89] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:42] [Ronda 89] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:42] [Ronda 89] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:42] [Ronda 89] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:42] [Ronda 89] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:42] [Ronda 89] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:42] [Ronda 89] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:42] [Ronda 89] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:42] [Ronda 89] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:43] [Ronda 94] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:43] [Ronda 94] Jugador 1 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:43] [Ronda 94] Jugador 1 salió de E/S
+[2025-05-10 13:29:43] [Ronda 94] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:29:43] [Ronda 95] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:43] [Ronda 95] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:43] [Ronda 95] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:43] [Ronda 95] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:43] [Ronda 95] Jugador 1 entró en E/S por 3854 ms
+[2025-05-10 13:29:43] [Ronda 95] Proceso 1 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:43] [Ronda 95] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:43] [Ronda 95] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:43] [Ronda 95] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:43] [Ronda 95] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:43] [Ronda 95] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:43] [Ronda 95] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:43] [Ronda 95] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:43] [Ronda 95] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:43] [Ronda 95] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:43] [Ronda 95] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:43] [Ronda 95] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:43] [Ronda 95] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:43] [Ronda 96] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:43] [Ronda 96] Jugador 0 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:43] [Ronda 96] Jugador 0 salió de E/S
+[2025-05-10 13:29:43] [Ronda 96] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:29:43] [Ronda 97] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:43] [Ronda 97] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:43] [Ronda 97] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:43] [Ronda 97] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:43] [Ronda 97] Jugador 0 entró en E/S por 4135 ms
+[2025-05-10 13:29:43] [Ronda 97] Proceso 0 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:43] [Ronda 97] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:43] [Ronda 97] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:43] [Ronda 97] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:29:43] [Ronda 97] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:43] [Ronda 97] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:43] [Ronda 97] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:43] [Ronda 97] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:43] [Ronda 97] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:43] [Ronda 97] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:43] [Ronda 97] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:43] [Ronda 97] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:43] [Ronda 97] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:44] [Ronda 105] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:44] [Ronda 105] Jugador 3 cambió de estado: ESPERA_ES -> LISTO
+[2025-05-10 13:29:44] [Ronda 105] Jugador 3 salió de E/S
+[2025-05-10 13:29:44] [Ronda 105] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:29:44] [Ronda 106] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:44] [Ronda 106] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:44] [Ronda 106] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:44] [Ronda 106] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:44] [Ronda 106] Jugador 3 entró en E/S por 5200 ms
+[2025-05-10 13:29:44] [Ronda 106] Proceso 3 entra a E/S, solicita 64 bytes.
+[2025-05-10 13:29:44] [Ronda 106] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:44] [Ronda 106] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:44] [Ronda 106] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:44] [Ronda 106] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:44] [Ronda 106] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:44] [Ronda 106] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:44] [Ronda 106] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:44] [Ronda 106] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:44] [Ronda 106] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:44] [Ronda 106] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:44] [Ronda 106] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:44] [Ronda 106] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 117] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 117] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 117] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 117] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 117] Jugador 0 entró en E/S por 2641 ms
+[2025-05-10 13:29:45] [Ronda 117] Proceso 0 entra a E/S, solicita 64 bytes.
+[2025-05-10 13:29:45] [Ronda 117] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 117] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 117] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 117] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 117] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 117] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 117] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 117] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 117] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 118] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 118] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 118] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 118] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 118] Jugador 1 entró en E/S por 5726 ms
+[2025-05-10 13:29:45] [Ronda 118] Proceso 1 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:45] [Ronda 118] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 118] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 118] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 118] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 118] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 118] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 118] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 118] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 118] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 118] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 118] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 118] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 119] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 119] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 119] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 119] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 119] Jugador 2 entró en E/S por 4707 ms
+[2025-05-10 13:29:45] [Ronda 119] Proceso 2 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:45] [Ronda 119] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 119] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 119] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 119] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 119] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 119] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 119] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 119] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 119] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 119] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 119] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 119] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 120] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 120] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 120] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 120] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 120] Jugador 3 entró en E/S por 2902 ms
+[2025-05-10 13:29:45] [Ronda 120] Proceso 3 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:45] [Ronda 120] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 120] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 120] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 120] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 120] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 120] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 120] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 120] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 120] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 120] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 120] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 120] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 121] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 121] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 121] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 121] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 121] Jugador 0 entró en E/S por 2892 ms
+[2025-05-10 13:29:45] [Ronda 121] Proceso 0 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:29:45] [Ronda 121] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 121] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 121] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 121] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 121] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 121] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 121] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 121] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 121] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 121] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 121] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 121] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 122] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 122] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 122] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 122] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 122] Jugador 1 entró en E/S por 1124 ms
+[2025-05-10 13:29:45] [Ronda 122] Proceso 1 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:29:45] [Ronda 122] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 122] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 122] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 122] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 122] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 122] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 122] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 122] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 122] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 122] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 122] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 122] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 123] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 123] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 123] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 123] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 123] Jugador 2 entró en E/S por 3470 ms
+[2025-05-10 13:29:45] [Ronda 123] Proceso 2 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:29:45] [Ronda 123] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 123] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 123] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 123] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 123] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 123] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 123] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 123] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 123] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 123] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 123] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 123] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 124] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 124] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 124] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 124] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 124] Jugador 3 entró en E/S por 3227 ms
+[2025-05-10 13:29:45] [Ronda 124] Proceso 3 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:29:45] [Ronda 124] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 124] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 124] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 124] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 124] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 124] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 124] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 124] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 124] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 124] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 124] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 124] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 125] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 125] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 125] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 125] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 125] Jugador 0 entró en E/S por 5783 ms
+[2025-05-10 13:29:45] [Ronda 125] Proceso 0 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:29:45] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 125] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 125] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:45] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 125] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 125] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 125] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 125] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 126] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 126] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 126] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 126] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 126] Jugador 1 entró en E/S por 1766 ms
+[2025-05-10 13:29:45] [Ronda 126] Proceso 1 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:45] [Ronda 126] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 126] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 126] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:45] [Ronda 126] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 126] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:45] [Ronda 126] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 126] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 126] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 126] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:45] [Ronda 126] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 126] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 126] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:45] [Ronda 127] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:45] [Ronda 127] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:45] [Ronda 127] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:45] [Ronda 127] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:45] [Ronda 127] Jugador 2 entró en E/S por 3113 ms
+[2025-05-10 13:29:45] [Ronda 127] Proceso 2 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:29:45] [Ronda 127] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:45] [Ronda 127] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 127] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:45] [Ronda 127] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:45] [Ronda 127] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:45] [Ronda 127] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:45] [Ronda 127] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:45] [Ronda 127] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 127] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:45] [Ronda 127] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:45] [Ronda 127] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:45] [Ronda 127] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 128] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 128] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 128] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 128] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 128] Jugador 3 entró en E/S por 1098 ms
+[2025-05-10 13:29:46] [Ronda 128] Proceso 3 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:29:46] [Ronda 128] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 128] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 128] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 128] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 128] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 128] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 128] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 128] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 128] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 128] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 128] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 128] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 129] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 129] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 129] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 129] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 129] Jugador 0 entró en E/S por 2252 ms
+[2025-05-10 13:29:46] [Ronda 129] Proceso 0 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:29:46] [Ronda 129] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 129] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 129] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 129] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 129] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 129] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 129] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 129] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 129] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 129] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 129] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 129] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 130] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 130] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 130] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 130] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 130] Jugador 1 entró en E/S por 1040 ms
+[2025-05-10 13:29:46] [Ronda 130] Proceso 1 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:46] [Ronda 130] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 130] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 130] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 130] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 130] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 130] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 130] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 130] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 130] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 130] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 130] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 130] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 131] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 131] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 131] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 131] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 131] Jugador 2 entró en E/S por 4577 ms
+[2025-05-10 13:29:46] [Ronda 131] Proceso 2 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:46] [Ronda 131] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 131] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 131] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 131] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 131] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 131] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 131] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 131] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 131] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 131] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 131] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 131] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 132] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 132] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 132] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 132] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 132] Jugador 3 entró en E/S por 1394 ms
+[2025-05-10 13:29:46] [Ronda 132] Proceso 3 entra a E/S, solicita 44 bytes.
+[2025-05-10 13:29:46] [Ronda 132] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 132] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 132] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 132] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 132] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 132] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 132] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 132] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 132] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 132] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 132] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 132] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 133] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 133] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 133] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 133] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 133] Jugador 0 entró en E/S por 3488 ms
+[2025-05-10 13:29:46] [Ronda 133] Proceso 0 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:46] [Ronda 133] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 133] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 133] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 133] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 133] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 133] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 133] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 133] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 133] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 133] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 133] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 133] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 134] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 134] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 134] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 134] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 134] Jugador 1 entró en E/S por 2221 ms
+[2025-05-10 13:29:46] [Ronda 134] Proceso 1 entra a E/S, solicita 48 bytes.
+[2025-05-10 13:29:46] [Ronda 134] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 134] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 134] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 134] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 134] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 134] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 134] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 134] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 134] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 134] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 134] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 134] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 135] Algoritmo de memoria cambiado a: Ajuste Óptimo.
+[2025-05-10 13:29:46] [Ronda 135] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 135] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 135] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 135] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 135] Jugador 2 entró en E/S por 1668 ms
+[2025-05-10 13:29:46] [Ronda 135] Proceso 2 entra a E/S, solicita 52 bytes.
+[2025-05-10 13:29:46] [Ronda 135] Memoria física asignada: Proceso 2, 52 bytes, dir 283 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 135] Proceso 2 (autorizado) intenta crecer 28 bytes.
+[2025-05-10 13:29:46] [Ronda 135] Proceso 2 creció en 28 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 663.
+[2025-05-10 13:29:46] [Ronda 135] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 135] Reemplazo LRU: Marco 1 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 135] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 135] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 135] Reemplazo LRU: Marco 0 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 135] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 135] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 135] Reemplazo LRU: Marco 2 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 135] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 135] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 135] Reemplazo LRU: Marco 3 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 135] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 136] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 136] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 136] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 136] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 136] Jugador 3 entró en E/S por 3560 ms
+[2025-05-10 13:29:46] [Ronda 136] Proceso 3 entra a E/S, solicita 40 bytes.
+[2025-05-10 13:29:46] [Ronda 136] Memoria física asignada: Proceso 3, 40 bytes, dir 65 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 136] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 136] Reemplazo LRU: Marco 4 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 136] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 136] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 136] Reemplazo LRU: Marco 5 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 136] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 136] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 136] Reemplazo LRU: Marco 0 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 136] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 136] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 136] Reemplazo LRU: Marco 2 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 136] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 137] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 137] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 137] Proceso 0 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 137] Jugador 0 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 137] Jugador 0 entró en E/S por 4723 ms
+[2025-05-10 13:29:46] [Ronda 137] Proceso 0 entra a E/S, solicita 56 bytes.
+[2025-05-10 13:29:46] [Ronda 137] Memoria física asignada: Proceso 0, 56 bytes, dir 363 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 137] Proceso 0 (autorizado) intenta crecer 20 bytes.
+[2025-05-10 13:29:46] [Ronda 137] Proceso 0 creció en 20 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 547.
+[2025-05-10 13:29:46] [Ronda 137] Fallo de página: Proceso 0, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 137] Reemplazo LRU: Marco 3 (Pág.Lógica 3, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 137] Página cargada: Proc 0, Pág.Lógica 0 (Carta 0) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 137] Fallo de página: Proceso 0, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 137] Reemplazo LRU: Marco 1 (Pág.Lógica 0, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 137] Página cargada: Proc 0, Pág.Lógica 1 (Carta 1) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 137] Fallo de página: Proceso 0, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 137] Reemplazo LRU: Marco 5 (Pág.Lógica 1, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 137] Página cargada: Proc 0, Pág.Lógica 2 (Carta 2) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 137] Fallo de página: Proceso 0, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 137] Reemplazo LRU: Marco 0 (Pág.Lógica 2, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 137] Página cargada: Proc 0, Pág.Lógica 3 (Carta 3) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 138] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 138] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 138] Proceso 1 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 138] Jugador 1 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 138] Jugador 1 entró en E/S por 1119 ms
+[2025-05-10 13:29:46] [Ronda 138] Proceso 1 entra a E/S, solicita 36 bytes.
+[2025-05-10 13:29:46] [Ronda 138] Memoria física asignada: Proceso 1, 36 bytes, dir 439 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 138] Fallo de página: Proceso 1, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 138] Reemplazo LRU: Marco 2 (Pág.Lógica 3, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 138] Página cargada: Proc 1, Pág.Lógica 0 (Carta 0) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 138] Fallo de página: Proceso 1, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 138] Reemplazo LRU: Marco 4 (Pág.Lógica 0, Proc 3) desalojada.
+[2025-05-10 13:29:46] [Ronda 138] Página cargada: Proc 1, Pág.Lógica 1 (Carta 1) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 138] Fallo de página: Proceso 1, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 138] Reemplazo LRU: Marco 1 (Pág.Lógica 1, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 138] Página cargada: Proc 1, Pág.Lógica 2 (Carta 2) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 138] Fallo de página: Proceso 1, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 138] Reemplazo LRU: Marco 5 (Pág.Lógica 2, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 138] Página cargada: Proc 1, Pág.Lógica 3 (Carta 3) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 139] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 139] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 139] Proceso 2 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 139] Jugador 2 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 139] Jugador 2 entró en E/S por 4521 ms
+[2025-05-10 13:29:46] [Ronda 139] Proceso 2 entra a E/S, solicita 60 bytes.
+[2025-05-10 13:29:46] [Ronda 139] Memoria física asignada: Proceso 2, 60 bytes, dir 475 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 139] Proceso 2 (autorizado) intenta crecer 30 bytes.
+[2025-05-10 13:29:46] [Ronda 139] Proceso 2 creció en 30 bytes (Algoritmo: Ajuste Óptimo). Memoria disponible: 421.
+[2025-05-10 13:29:46] [Ronda 139] Fallo de página: Proceso 2, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 139] Reemplazo LRU: Marco 0 (Pág.Lógica 3, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 139] Página cargada: Proc 2, Pág.Lógica 0 (Carta 0) -> Marco 0.
+[2025-05-10 13:29:46] [Ronda 139] Fallo de página: Proceso 2, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 139] Reemplazo LRU: Marco 3 (Pág.Lógica 0, Proc 0) desalojada.
+[2025-05-10 13:29:46] [Ronda 139] Página cargada: Proc 2, Pág.Lógica 1 (Carta 1) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 139] Fallo de página: Proceso 2, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 139] Reemplazo LRU: Marco 4 (Pág.Lógica 1, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 139] Página cargada: Proc 2, Pág.Lógica 2 (Carta 2) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 139] Fallo de página: Proceso 2, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 139] Reemplazo LRU: Marco 1 (Pág.Lógica 2, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 139] Página cargada: Proc 2, Pág.Lógica 3 (Carta 3) -> Marco 1.
+[2025-05-10 13:29:46] [Ronda 140] Proceso 3 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 140] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 140] Proceso 3 cambió de estado: LISTO -> EJECUTANDO
+[2025-05-10 13:29:46] [Ronda 140] Jugador 3 cambió de estado: EJECUCION -> ESPERA_ES
+[2025-05-10 13:29:46] [Ronda 140] Jugador 3 entró en E/S por 1639 ms
+[2025-05-10 13:29:46] [Ronda 140] Proceso 3 entra a E/S, solicita 64 bytes.
+[2025-05-10 13:29:46] [Ronda 140] Memoria física asignada: Proceso 3, 64 bytes, dir 565 (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:46] [Ronda 140] Fallo de página: Proceso 3, Pág.Lógica 0 (Carta 0).
+[2025-05-10 13:29:46] [Ronda 140] Reemplazo LRU: Marco 5 (Pág.Lógica 3, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 140] Página cargada: Proc 3, Pág.Lógica 0 (Carta 0) -> Marco 5.
+[2025-05-10 13:29:46] [Ronda 140] Fallo de página: Proceso 3, Pág.Lógica 1 (Carta 1).
+[2025-05-10 13:29:46] [Ronda 140] Reemplazo LRU: Marco 2 (Pág.Lógica 0, Proc 1) desalojada.
+[2025-05-10 13:29:46] [Ronda 140] Página cargada: Proc 3, Pág.Lógica 1 (Carta 1) -> Marco 2.
+[2025-05-10 13:29:46] [Ronda 140] Fallo de página: Proceso 3, Pág.Lógica 2 (Carta 2).
+[2025-05-10 13:29:46] [Ronda 140] Reemplazo LRU: Marco 3 (Pág.Lógica 1, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 140] Página cargada: Proc 3, Pág.Lógica 2 (Carta 2) -> Marco 3.
+[2025-05-10 13:29:46] [Ronda 140] Fallo de página: Proceso 3, Pág.Lógica 3 (Carta 3).
+[2025-05-10 13:29:46] [Ronda 140] Reemplazo LRU: Marco 4 (Pág.Lógica 2, Proc 2) desalojada.
+[2025-05-10 13:29:46] [Ronda 140] Página cargada: Proc 3, Pág.Lógica 3 (Carta 3) -> Marco 4.
+[2025-05-10 13:29:46] [Ronda 141] Proceso 0 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 141] Jugador 0 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 141] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:46] [Ronda 141] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:46] [Ronda 142] Proceso 1 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 142] Jugador 1 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:46] [Ronda 142] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:46] [Ronda 142] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:46] [Ronda 143] Proceso 2 cambió de estado: LISTO -> LISTO
+[2025-05-10 13:29:46] [Ronda 143] Jugador 2 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 143] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 143] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 144] Proceso 3 cambió de estado: EJECUTANDO -> LISTO
+[2025-05-10 13:29:47] [Ronda 144] Jugador 3 cambió de estado: ESPERA_ES -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 144] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 144] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 145] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 145] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 145] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 145] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 146] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 146] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 146] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 146] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 147] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 147] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 147] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 147] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 148] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 148] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 148] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 148] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 149] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 149] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 149] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 149] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 150] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 150] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 150] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 150] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 151] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 151] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 151] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 151] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 152] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 152] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 152] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 152] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 153] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 153] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 153] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 153] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 154] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 154] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 154] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 154] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 155] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 155] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 155] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 155] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:47] [Ronda 156] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:47] [Ronda 156] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:47] [Ronda 156] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:47] [Ronda 156] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 157] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 157] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 157] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 157] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 158] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 158] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 158] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 158] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 159] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 159] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 159] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 159] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 160] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 160] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 160] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 160] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 161] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 161] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 161] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 161] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 162] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 162] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 162] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 162] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 163] Proceso 2 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 163] Jugador 2 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 163] Proceso 2 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 163] Jugador 2 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 164] Proceso 3 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 164] Jugador 3 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 164] Proceso 3 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 164] Jugador 3 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 165] Proceso 0 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 165] Jugador 0 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 165] Proceso 0 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 165] Jugador 0 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 166] Proceso 1 cambió de estado: NUEVO -> LISTO
+[2025-05-10 13:29:48] [Ronda 166] Jugador 1 cambió de estado: LISTO -> EJECUCION
+[2025-05-10 13:29:48] [Ronda 166] Proceso 1 cambió de estado: LISTO -> NUEVO
+[2025-05-10 13:29:48] [Ronda 166] Jugador 1 cambió de estado: EJECUCION -> LISTO
+[2025-05-10 13:29:48] [Ronda 167] Juego finalizado por el usuario
+[2025-05-10 13:29:48] [Ronda 167] Memoria física liberada: Proceso 0, 141 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:48] [Ronda 167] Memoria virtual: 4 páginas del Proceso 0 liberadas.
+[2025-05-10 13:29:48] [Ronda 167] Proceso 0 cambió de estado: NUEVO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Jugador 0 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Memoria física liberada: Proceso 1, 80 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:48] [Ronda 167] Memoria virtual: 4 páginas del Proceso 1 liberadas.
+[2025-05-10 13:29:48] [Ronda 167] Proceso 1 cambió de estado: NUEVO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Jugador 1 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Memoria física liberada: Proceso 2, 254 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:48] [Ronda 167] Memoria virtual: 4 páginas del Proceso 2 liberadas.
+[2025-05-10 13:29:48] [Ronda 167] Proceso 2 cambió de estado: NUEVO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Jugador 2 cambió de estado: LISTO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Memoria física liberada: Proceso 3, 144 bytes (Algoritmo: Ajuste Óptimo).
+[2025-05-10 13:29:48] [Ronda 167] Memoria virtual: 4 páginas del Proceso 3 liberadas.
+[2025-05-10 13:29:48] [Ronda 167] Proceso 3 cambió de estado: NUEVO -> BLOQUEADO
+[2025-05-10 13:29:48] [Ronda 167] Jugador 3 cambió de estado: LISTO -> BLOQUEADO

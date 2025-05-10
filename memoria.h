@@ -2,94 +2,99 @@
 #define MEMORIA_H
 
 #include <stdbool.h>
-#include "procesos.h"
+#include "procesos.h" // Asegúrate que procesos.h esté disponible y correcto
 
 // Definición de constantes para memoria
 #define MEM_TOTAL_SIZE     1024    // Tamaño total de la memoria (1 KB)
 #define MAX_PARTICIONES    50      // Máximo número de particiones
-#define NUM_MARCOS         6       // Número de marcos en memoria principal
-#define PAGINAS_POR_MARCO  4       // Número de páginas por marco
-#define MAX_PAGINAS        100     // Máximo número de páginas totales
-#define TAMANO_BLOQUE_BITMAP 16 // Define el tamaño de los bloques en bytes
-#define NUM_BLOQUES_BITMAP (MEM_TOTAL_SIZE / TAMANO_BLOQUE_BITMAP)
-#define ALG_MAPA_BITS 2 // Define un nuevo valor para Mapa de Bits
+#define NUM_MARCOS         6       // Número de marcos en memoria principal para LRU
+#define PAGINAS_POR_MARCO  4       // Número de páginas por marco (según tu definición)
+#define MAX_PAGINAS        100     // Máximo número de páginas totales para LRU
 
-// Algoritmos de asignación de memoria
+// Constantes para Mapa de Bits
+#define TAMANO_BLOQUE_BITMAP 16    // Define el tamaño de los bloques en bytes
+#define NUM_BLOQUES_BITMAP (MEM_TOTAL_SIZE / TAMANO_BLOQUE_BITMAP) // Total de bloques
+
+// Algoritmos de gestión de memoria (usados en gestorMemoria.algoritmoActual)
 #define ALG_AJUSTE_OPTIMO  0
-#define ALG_LRU            1
+#define ALG_LRU            1 // Usado para la parte de memoria virtual
+#define ALG_MAPA_BITS      2 // Para particionamiento con Mapa de Bits
 
-// Estructura para una partición de memoria en el algoritmo de Ajuste Óptimo
+// Estructura para una partición de memoria (para Ajuste Óptimo)
 typedef struct {
-    int inicio;         // Dirección de inicio de la partición
-    int tamano;         // Tamaño de la partición
-    int idProceso;      // ID del proceso que está utilizando esta partición (-1 si está libre)
-    bool libre;         // Indica si la partición está libre
+    int inicio;
+    int tamano;
+    int idProceso;
+    bool libre;
 } Particion;
 
-// Estructura para una página de memoria
+// Estructura para una página de memoria (para LRU)
 typedef struct {
-    int idProceso;      // ID del proceso al que pertenece
-    int numPagina;      // Número de página dentro del proceso
-    int idCarta;        // ID de la carta almacenada en esta página (-1 si no hay carta)
-    int tiempoUltimoUso; // Tiempo del último uso (para LRU)
-    bool bitReferencia;  // Bit de referencia (para algoritmos que lo requieran)
-    bool bitModificacion; // Bit de modificación (para algoritmos que lo requieran)
-    bool enMemoria;      // Indica si la página está en memoria principal
-    int marcoAsignado;   // Marco asignado en memoria principal (-1 si no está en memoria)
+    int idProceso;
+    int numPagina;
+    int idCarta;        // ID de la carta/ficha almacenada
+    int tiempoUltimoUso;
+    bool bitReferencia;
+    bool bitModificacion;
+    bool enMemoria;
+    int marcoAsignado;
 } Pagina;
 
-// Estructura para un marco de página en memoria principal
+// Estructura para un marco de página en memoria principal (para LRU)
 typedef struct {
-    int idProceso;      // ID del proceso que está utilizando este marco (-1 si está libre)
-    int numPagina;      // Número de página que está en este marco (-1 si está libre)
-    bool libre;         // Indica si el marco está libre
+    int idProceso;
+    int numPagina; // Página que ocupa este marco
+    bool libre;
 } Marco;
 
 // Estructura principal para gestión de memoria
 typedef struct {
-    // Para ajuste óptimo
+    // Para Ajuste Óptimo
     Particion particiones[MAX_PARTICIONES];
     int numParticiones;
+
+    // Para Mapa de Bits
+    // Usaremos 'signed char' para poder almacenar -1 para libre, o el ID del proceso (0 a MAX_JUGADORES-1)
+    signed char mapaBits[NUM_BLOQUES_BITMAP];
+    int tamanoBloque; // Debe ser TAMANO_BLOQUE_BITMAP
+
+    // Común para particionamiento
     int memoriaDisponible;
-    int algoritmoActual;
-    
+    int algoritmoActual; // Puede ser ALG_AJUSTE_OPTIMO o ALG_MAPA_BITS (o ALG_LRU si lo usas para cambiar modo)
+
     // Para memoria virtual con LRU
     Pagina tablaPaginas[MAX_PAGINAS];
     int numPaginas;
     Marco marcosMemoria[NUM_MARCOS];
-    int contadorTiempo;    // Contador global para el algoritmo LRU
-    int fallosPagina;      // Contador de fallos de página
-    int aciertosMemoria;   // Contador de aciertos de memoria
-     // Para Mapa de Bits
-     unsigned char mapaBits[NUM_BLOQUES_BITMAP]; // O un tipo de datos adecuado para representar bits/bytes
-     int tamanoBloque; // Para almacenar el tamaño del bloque
-    // Contador de crecimiento de procesos
-    int creceProc1;        // ID del primer proceso que puede crecer
-    int creceProc2;        // ID del segundo proceso que puede crecer
+    int contadorTiempo;
+    int fallosPagina;
+    int aciertosMemoria;
+
+    // Para crecimiento de procesos
+    int creceProc1;
+    int creceProc2;
 } GestorMemoria;
 
-// Funciones para gestión de memoria con ajuste óptimo
-void inicializarMemoria(void);
-bool asignarMemoria(int idProceso, int cantidadRequerida);
-void liberarMemoria(int idProceso);
-bool crecerProceso(int idProceso, int cantidadAdicional);
-void imprimirEstadoMemoria(void);
+// Variable global para el gestor de memoria
+extern GestorMemoria gestorMemoria; // Declaración externa
 
-// Funciones para memoria virtual con LRU
+// Funciones para gestión de memoria (particionamiento y general)
+void inicializarMemoria(void);
+bool asignarMemoria(int idProceso, int cantidadRequerida); // Usada por ambos algoritmos de partición
+void liberarMemoria(int idProceso);                     // Usada por ambos algoritmos de partición
+bool crecerProceso(int idProceso, int cantidadAdicional);   // Debe manejar ambos algoritmos de partición
+void imprimirEstadoMemoria(void);                       // Muestra estado de particiones
+void cambiarAlgoritmoMemoria(int nuevoAlgoritmo);       // Cambia entre AJUSTE_OPTIMO, MAPA_BITS, y LRU
+
+// Funciones específicas para memoria virtual con LRU
 void inicializarMemoriaVirtual(void);
 int accederPagina(int idProceso, int numPagina, int idCarta);
-void liberarPaginasProceso(int idProceso);
-Pagina* buscarPaginaLibre(void);
+void liberarPaginasProceso(int idProceso); // Libera páginas virtuales de un proceso
+// Pagina* buscarPaginaLibre(void); // No parece ser usada, puedes quitarla si es así
 int seleccionarVictimaLRU(void);
 void imprimirEstadoMemoriaVirtual(void);
 
-// Funciones para cambio de algoritmo
-void cambiarAlgoritmoMemoria(int nuevoAlgoritmo);
-
-// Función para asignar memoria cuando un proceso entra en E/S
+// Función para simular asignación de memoria para E/S
 bool asignarMemoriaES(int idProceso);
-
-// Variable global para el gestor de memoria
-extern GestorMemoria gestorMemoria;
 
 #endif /* MEMORIA_H */

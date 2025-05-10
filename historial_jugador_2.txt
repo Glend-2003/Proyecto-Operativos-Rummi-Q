@@ -27,3 +27,30 @@ Estadísticas:
   Tiempo de espera: 717 ms
   Cambios de estado: 0
 
+--- RONDA FINAL ---
+Fecha y hora: 2025-05-10 13:29:48
+Estado: LISTO
+Cartas restantes: 12
+Cartas en mano:
+  1. 8 de Rojo
+  2. 8 de Rojo
+  3. 13 de Rojo
+  4. 6 de Azul
+  5. 9 de Rojo
+  6. 6 de Rojo
+  7. 3 de Azul
+  8. 10 de Negro
+  9. 1 de Naranja
+  10. 11 de Naranja
+  11. 1 de Rojo
+  12. 3 de Rojo
+Estadísticas:
+  Primera apeada: SÍ
+  Intentos fallidos: 0
+  Cartas comidas: 9
+  Veces apeado: 2
+  Turnos perdidos: 0
+  Tiempo de ejecución: 0 ms
+  Tiempo de espera: 4271 ms
+  Cambios de estado: 0
+
