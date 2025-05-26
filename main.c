@@ -15,11 +15,10 @@
 #include "memoria.h"
 #define _DEFAULT_SOURCE
 
-/* Función para leer una tecla sin bloqueo */
+// ============== ENTRADA SIN BLOQUEO ==============
 int leerTecla(void) {
     struct termios oldt, newt;
-    int ch;
-    int oldf;
+    int ch, oldf;
     
     tcgetattr(STDIN_FILENO, &oldt);
     newt = oldt;
@@ -36,88 +35,85 @@ int leerTecla(void) {
     return ch;
 }
 
-/* Hilo para monitorear cambios de algoritmo */
+// ============== MONITOR DE TECLAS ==============
 void *monitorTeclas(void *arg) {
     while (!juegoTerminado()) {
         int tecla = leerTecla();
 
-        if (tecla == '1') {
-            cambiarAlgoritmo(ALG_FCFS);
-        } else if (tecla == '2') {
-            cambiarAlgoritmo(ALG_RR);
-        } else if (tecla == '3') {
-            // Cambiar a algoritmo de memoria Ajuste Óptimo
-            cambiarAlgoritmoMemoria(ALG_AJUSTE_OPTIMO);
-        } else if (tecla == '4') {
-            // Cambiar a algoritmo de memoria LRU (para virtual) - Esto parece que ya estaba
-            cambiarAlgoritmoMemoria(ALG_LRU);
-        } else if (tecla == '5') {
-            // NUEVO: Cambiar a algoritmo de memoria Mapa de Bits (para particionamiento)
-             cambiarAlgoritmoMemoria(ALG_MAPA_BITS);
-        }
-         else if (tecla == 'm' || tecla == 'M') {
-            // Mostrar estado de la memoria
-            imprimirEstadoMemoria();
-            imprimirEstadoMemoriaVirtual(); // Mantener esto para mostrar el estado de la memoria virtual
-        } else if (tecla == 'q' || tecla == 'Q') {
-            // Opción para salir del juego con 'q'
-            printf("\nSaliendo del juego por solicitud del usuario...\n");
-            finalizarJuego(-1);
-            break;
+        switch (tecla) {
+            case '1':
+                cambiarAlgoritmo(ALG_FCFS);
+                break;
+            case '2':
+                cambiarAlgoritmo(ALG_RR);
+                break;
+            case '3':
+                cambiarAlgoritmoMemoria(ALG_AJUSTE_OPTIMO);
+                break;
+            case '4':
+                cambiarAlgoritmoMemoria(ALG_LRU);
+                break;
+            case '5':
+                cambiarAlgoritmoMemoria(ALG_MAPA_BITS);
+                break;
+            case 'm':
+            case 'M':
+                imprimirEstadoMemoria();
+                imprimirEstadoMemoriaVirtual();
+                break;
+            case 'q':
+            case 'Q':
+                printf("\nSaliendo del juego por solicitud del usuario...\n");
+                finalizarJuego(-1);
+                return NULL;
         }
 
         usleep(100000);
     }
+    
     printf("Hilo de monitoreo de teclas finalizado\n");
     return NULL;
 }
 
-// Modificar la función mostrarInformacion para incluir información sobre memoria
+// ============== INFORMACIÓN DEL JUEGO ==============
 void mostrarInformacion(void) {
     colorCian();
     printf("\n================================\n");
-    printf("       JUEGO RUMMY - SISTEMAS OPERATIVOS      \n");
+    printf("    JUEGO RUMMY - SISTEMAS OPERATIVOS\n");
     printf("================================\n\n");
     colorReset();
     
-    printf("Este programa simula el juego de Rummy para demostrar\n");
-    printf("conceptos de planificación de procesos en sistemas operativos.\n\n");
-    
     printf("REGLAS DEL JUEGO:\n");
-    printf("- Se juega con 2 barajas completas (104 cartas + 4 comodines)\n");
-    printf("- El objetivo es quedarse sin cartas\n");
-    printf("- Se pueden formar 'apeadas' de dos tipos:\n");
-    printf("  * Grupos: 3 o 4 cartas del mismo valor y diferentes palos\n");
-    printf("  * Escaleras: 3+ cartas consecutivas del mismo palo\n");
-    printf("- Para la primera apeada se necesitan 30+ puntos\n");
-    printf("- Si no puede hacer jugada, se come una carta de la banca\n\n");
+    printf("- 2 barajas completas (104 cartas + 4 comodines)\n");
+    printf("- Objetivo: quedarse sin cartas\n");
+    printf("- Apeadas: Grupos (3-4 cartas mismo valor) o Escaleras (3+ consecutivas)\n");
+    printf("- Primera apeada requiere 30+ puntos\n");
+    printf("- Sin jugada posible: comer carta de la banca\n\n");
     
     printf("ALGORITMOS DE PLANIFICACIÓN:\n");
-    printf("- FCFS (First-Come, First-Served): Primer jugador listo, primero en ser atendido\n");
-    printf("- Round Robin: Asigna un quantum de tiempo a cada jugador en turnos\n\n");
+    printf("- FCFS: Primer jugador listo, primero en ser atendido\n");
+    printf("- Round Robin: Quantum de tiempo por jugador\n\n");
     
-    // NUEVO: Información sobre algoritmos de memoria
-    printf("ALGORITMOS DE GESTIÓN DE MEMORIA:\n");
-    printf("- Ajuste Óptimo: Utiliza la partición más pequeña que pueda contener el proceso\n");
-    printf("- LRU (Least Recently Used): Reemplaza la página menos usada recientemente\n\n");
+    printf("ALGORITMOS DE MEMORIA:\n");
+    printf("- Ajuste Óptimo: Partición más pequeña disponible\n");
+    printf("- LRU: Reemplaza página menos usada recientemente\n");
+    printf("- Mapa de Bits: Gestión por bloques de bits\n\n");
     
     colorVerde();
     printf("CONTROLES:\n");
-    printf("- Presione '1' para cambiar a algoritmo de CPU FCFS\n");
-    printf("- Presione '2' para cambiar a algoritmo de CPU Round Robin\n");
-    printf("- Presione '3' para cambiar a algoritmo de memoria Ajuste Óptimo\n");
-    printf("- Presione '4' para cambiar a algoritmo de memoria LRU\n");
-    printf("- Presione 'm' para mostrar el estado actual de la memoria\n");
-    printf("- Presione 'q' para salir del juego\n\n");
+    printf("1 - FCFS CPU          | 2 - Round Robin CPU\n");
+    printf("3 - Ajuste Óptimo     | 4 - LRU Virtual\n");
+    printf("5 - Mapa de Bits      | m - Estado memoria\n");
+    printf("q - Salir del juego\n\n");
     colorReset();
 }
 
-/* Función principal */
+// ============== FUNCIÓN PRINCIPAL ==============
 int main(int argc, char *argv[]) {
-    int numJugadores = 4; /* Por defecto 4 jugadores según el enunciado */
+    int numJugadores = 4;
     int opcion;
     
-    /* Procesar argumentos de línea de comandos */
+    // Procesar argumentos
     if (argc > 1) {
         numJugadores = atoi(argv[1]);
         if (numJugadores <= 0 || numJugadores > MAX_JUGADORES) {
@@ -126,30 +122,24 @@ int main(int argc, char *argv[]) {
         }
     }
     
-    /* Inicializar semilla para números aleatorios */
     srand(time(NULL));
-    
-    /* Mostrar información del juego */
     mostrarInformacion();
     
-    /* Confirmar inicio del juego */
-    printf("¿Desea iniciar el juego con %d jugadores? (1: Sí, 0: No): ", numJugadores);
+    // Confirmar inicio
+    printf("¿Iniciar juego con %d jugadores? (1: Sí, 0: No): ", numJugadores);
     scanf("%d", &opcion);
     if (opcion != 1) {
         printf("Juego cancelado por el usuario.\n");
         return EXIT_SUCCESS;
     }
     
-    /* Limpiar el buffer de entrada */
     while (getchar() != '\n');
     
-    /* Crear directorio para los BCP si no existe */
+    // Preparar entorno
     system("mkdir -p bcp");
-    
-    /* NUEVO: Inicializar el sistema de memoria */
     inicializarMemoria();
     
-    /* Inicializar el juego */
+    // Inicializar juego
     colorVerde();
     printf("\nInicializando juego con %d jugadores...\n", numJugadores);
     colorReset();
@@ -161,7 +151,7 @@ int main(int argc, char *argv[]) {
         return EXIT_FAILURE;
     }
     
-    /* Crear hilo para monitorear teclas */
+    // Crear monitor de teclas
     pthread_t hiloMonitor;
     if (pthread_create(&hiloMonitor, NULL, monitorTeclas, NULL) != 0) {
         colorRojo();
@@ -170,7 +160,7 @@ int main(int argc, char *argv[]) {
         return EXIT_FAILURE;
     }
     
-    /* Iniciar el juego */
+    // Iniciar juego
     printf("\nPresione cualquier tecla para iniciar el juego...\n");
     getchar();
     
@@ -178,17 +168,11 @@ int main(int argc, char *argv[]) {
     printf("\n¡Que comience el juego!\n");
     colorReset();
     
-    /* Esta función ejecutará el bucle principal */
     iniciarJuego();
     
-    /* Esperar a que termine el hilo monitor con un timeout manual */
+    // Finalizar monitor
     printf("Esperando a que el hilo monitor finalice...\n");
     
-    /* Intento de join con tiempo límite */
-    time_t startTime = time(NULL);
-    const int MAX_WAIT_TIME = 3; // 3 segundos máximo
-    
-    /* Intentar hacer join normal con el hilo monitor */
     void *status;
     int joinResult = pthread_join(hiloMonitor, &status);
     
@@ -199,12 +183,11 @@ int main(int argc, char *argv[]) {
         printf("Hilo monitor finalizado correctamente\n");
     }
     
-    /* NUEVO: Mostrar estadísticas finales de memoria */
+    // Estadísticas finales
     printf("\n=== ESTADÍSTICAS FINALES DE MEMORIA ===\n");
     imprimirEstadoMemoria();
     imprimirEstadoMemoriaVirtual();
     
-    /* Liberar recursos */
     liberarJuego();
     
     colorCian();

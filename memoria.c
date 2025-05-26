@@ -6,7 +6,7 @@
 #include "memoria.h"
 #include "jugadores.h"
 #include "utilidades.h"
-#include "juego.h" // Cambio: Incluir juego.h en lugar de juego.c
+#include "juego.h"
 
 // Variable global para el gestor de memoria
 GestorMemoria gestorMemoria;
@@ -14,11 +14,14 @@ GestorMemoria gestorMemoria;
 // Declaración de funciones auxiliares privadas
 void consolidarParticiones(void);
 
-// Inicializar el sistema de memoria
+//==============================================================================
+// FUNCIONES DE INICIALIZACIÓN
+//==============================================================================
+
 void inicializarMemoria(void) {
-    // Inicializar las particiones para ajuste óptimo
     memset(&gestorMemoria, 0, NUM_BLOQUES_BITMAP);
     gestorMemoria.tamanoBloque = TAMANO_BLOQUE_BITMAP;
+    
     // Crear partición inicial que abarca toda la memoria
     gestorMemoria.particiones[0].inicio = 0;
     gestorMemoria.particiones[0].tamano = MEM_TOTAL_SIZE;
@@ -29,7 +32,6 @@ void inicializarMemoria(void) {
     gestorMemoria.memoriaDisponible = MEM_TOTAL_SIZE;
     gestorMemoria.algoritmoActual = ALG_AJUSTE_OPTIMO;
     
-    // Inicializar la memoria virtual
     inicializarMemoriaVirtual();
     
     // Seleccionar aleatoriamente dos procesos que pueden crecer
@@ -43,154 +45,46 @@ void inicializarMemoria(void) {
     printf("Procesos que pueden crecer: %d y %d\n", gestorMemoria.creceProc1, gestorMemoria.creceProc2);
     colorReset();
     
-    // Registrar evento
     registrarEvento("Sistema de memoria inicializado: %d bytes disponibles", MEM_TOTAL_SIZE);
     registrarEvento("Procesos que pueden crecer: %d y %d", gestorMemoria.creceProc1, gestorMemoria.creceProc2);
 }
-bool asignarMemoriaES(int idProceso) {
-    // En lugar de intentar acceder directamente a jugadores para saber el número de cartas,
-    // vamos a simular una cantidad de memoria requerida basada en una base fija
-    // más una cantidad aleatoria para emular diferentes tamaños de solicitud de memoria
-    int memoriaBase = 16; // Mínimo 16 bytes para la operación de E/S
-    int memoriaPorCartaSimulada = 4; // Simulamos 4 bytes por cada "carta" procesada
-    
-    // Simulamos un número de "cartas" para calcular la memoria requerida
-    // Podría ser aleatorio o basado en alguna otra métrica si fuera necesario.
-    // Aquí usamos un rango aleatorio para variar las solicitudes.
-    int numCartasSimuladas = 5 + (rand() % 8); // Simula entre 5 y 12 "cartas" procesadas
-    int cantidadRequerida = memoriaBase + (numCartasSimuladas * memoriaPorCartaSimulada);
-    
-    // Llamar a la función principal de asignación de memoria con el algoritmo actual
-    // Esta función usará Ajuste Óptimo o Mapa de Bits según esté configurado gestorMemoria.algoritmoActual
-    bool asignado = asignarMemoria(idProceso, cantidadRequerida);
-    
-    // Si la asignación inicial tuvo éxito, y si este proceso es uno de los que pueden crecer,
-    // intentar simular un crecimiento en su necesidad de memoria.
-    // La lógica de crecimiento se aplica independientemente del algoritmo de asignación actual,
-    // pero la forma en que crecerProceso lo maneje dependerá del algoritmo.
-    
-    // Nota: La lógica de `crecerProceso` necesita ser compatible tanto con Ajuste Óptimo
-    // como con Mapa de Bits si ambos algoritmos manejan crecimiento.
-    // Si crecerProceso solo fue implementado para un algoritmo, esta parte solo será efectiva con ese.
-    
-    if (asignado && (idProceso == gestorMemoria.creceProc1 || idProceso == gestorMemoria.creceProc2)) {
-        
-        // Calcular crecimiento (aleatorio entre 10 y 30 bytes adicionales solicitados)
-        int crecimiento = (rand() % 21) + 10;
-        
-        colorMagenta();
-        printf("El proceso %d (autorizado para crecer) intentará solicitar crecimiento en %d bytes\n", idProceso, crecimiento);
-        colorReset();
-        
-        // Intentar hacer crecer el proceso. La implementación de crecerProceso
-        // es responsable de cómo maneja esta solicitud con el algoritmo actual.
-        crecerProceso(idProceso, crecimiento);
+
+void inicializarMemoriaVirtual(void) {
+    // Inicializar tabla de páginas
+    for (int i = 0; i < MAX_PAGINAS; i++) {
+        gestorMemoria.tablaPaginas[i].idProceso = -1;
+        gestorMemoria.tablaPaginas[i].numPagina = -1;
+        gestorMemoria.tablaPaginas[i].idCarta = -1;
+        gestorMemoria.tablaPaginas[i].tiempoUltimoUso = 0;
+        gestorMemoria.tablaPaginas[i].bitReferencia = false;
+        gestorMemoria.tablaPaginas[i].bitModificacion = false;
+        gestorMemoria.tablaPaginas[i].enMemoria = false;
+        gestorMemoria.tablaPaginas[i].marcoAsignado = -1;
     }
     
-    return asignado; // Retorna si la asignación inicial fue exitosa
+    gestorMemoria.numPaginas = 0;
+    
+    // Inicializar marcos de memoria
+    for (int i = 0; i < NUM_MARCOS; i++) {
+        gestorMemoria.marcosMemoria[i].idProceso = -1;
+        gestorMemoria.marcosMemoria[i].numPagina = -1;
+        gestorMemoria.marcosMemoria[i].libre = true;
+    }
+    
+    gestorMemoria.contadorTiempo = 0;
+    gestorMemoria.fallosPagina = 0;
+    gestorMemoria.aciertosMemoria = 0;
+    
+    colorVerde();
+    printf("Memoria virtual inicializada: %d marcos, %d páginas por marco\n", 
+           NUM_MARCOS, PAGINAS_POR_MARCO);
+    colorReset();
 }
 
-// Implementación de la función liberarMemoria actualizada
-void liberarMemoria(int idProceso) {
-    bool liberada = false;
-    int bytesLiberados = 0;
+//==============================================================================
+// FUNCIONES DE ASIGNACIÓN DE MEMORIA
+//==============================================================================
 
-    if (gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO) {
-        // Lógica para Ajuste Óptimo (la que ya tenías)
-        for (int i = 0; i < gestorMemoria.numParticiones; i++) {
-            if (gestorMemoria.particiones[i].idProceso == idProceso) {
-                // Liberar esta partición
-                int tamanoLiberado = gestorMemoria.particiones[i].tamano;
-                gestorMemoria.particiones[i].libre = true;
-                gestorMemoria.particiones[i].idProceso = -1; // Marcar como libre
-                gestorMemoria.memoriaDisponible += tamanoLiberado;
-                bytesLiberados += tamanoLiberado;
-                liberada = true;
-
-                colorAmarillo();
-                printf("Memoria liberada (Ajuste Óptimo): Proceso %d, %d bytes\n", idProceso, tamanoLiberado);
-                colorReset();
-
-                // Fusionar con particiones libres adyacentes (solo para Ajuste Óptimo)
-                consolidarParticiones();
-                // Después de consolidar, es posible que el índice 'i' ya no sea válido para la siguiente iteración
-                // Podrías necesitar reiniciar el bucle o ajustar 'i'.
-                // Para simplificar, re-verificamos todas las particiones después de consolidar.
-                i = -1; // Reiniciar el bucle para volver a verificar desde el principio
-            }
-        }
-         if (!liberada) {
-             printf("No se encontró memoria asignada al proceso %d para liberar con Ajuste Óptimo.\n", idProceso);
-         }
-
-    } else if (gestorMemoria.algoritmoActual == ALG_MAPA_BITS) {
-        // Lógica para Mapa de Bits
-        int bloquesLiberados = 0;
-        for (int i = 0; i < NUM_BLOQUES_BITMAP; i++) {
-            if (gestorMemoria.mapaBits[i] == idProceso) { // Encontró un bloque que pertenece a este proceso
-                gestorMemoria.mapaBits[i] = -1; // Marcar como libre (-1 indica libre)
-                gestorMemoria.memoriaDisponible += gestorMemoria.tamanoBloque;
-                bloquesLiberados++;
-                liberada = true;
-            }
-        }
-
-        if (liberada) {
-             bytesLiberados = bloquesLiberados * gestorMemoria.tamanoBloque;
-             colorAmarillo();
-             printf("Memoria liberada (Mapa de Bits): Proceso %d, %d bloques (%d bytes)\n",
-                    idProceso, bloquesLiberados, bytesLiberados);
-             colorReset();
-        } else {
-             printf("No se encontró memoria asignada al proceso %d para liberar con Mapa de Bits.\n", idProceso);
-        }
-
-    } else {
-        // Manejar caso de algoritmo no válido
-        printf("Error: Algoritmo de liberación de memoria desconocido\n");
-        // Asumiendo que la memoria no se libera si el algoritmo es desconocido
-        return;
-    }
-
-    if (liberada) {
-        // Registrar evento
-        registrarEvento("Memoria liberada: Proceso %d, %d bytes (Algoritmo: %s)", idProceso, bytesLiberados,
-                       gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO ? "Ajuste Óptimo" :
-                       (gestorMemoria.algoritmoActual == ALG_MAPA_BITS ? "Mapa de Bits" : "Desconocido"));
-    }
-
-    // También liberar páginas virtuales (esto aplica independientemente del algoritmo de particionamiento)
-    // Asegúrate de que liberarPaginasProceso maneje correctamente los IDs de proceso
-    liberarPaginasProceso(idProceso);
-}
-
-// Consolidar particiones libres adyacentes
-void consolidarParticiones(void) {
-    int i = 0;
-    
-    while (i < gestorMemoria.numParticiones - 1) {
-        // Si esta partición y la siguiente están libres
-        if (gestorMemoria.particiones[i].libre && gestorMemoria.particiones[i + 1].libre) {
-            // Fusionar las particiones
-            gestorMemoria.particiones[i].tamano += gestorMemoria.particiones[i + 1].tamano;
-            
-            // Eliminar la partición siguiente
-            for (int j = i + 1; j < gestorMemoria.numParticiones - 1; j++) {
-                gestorMemoria.particiones[j] = gestorMemoria.particiones[j + 1];
-            }
-            
-            // Reducir el número de particiones
-            gestorMemoria.numParticiones--;
-            
-            // No incrementar i para verificar si hay más particiones adyacentes
-        } else {
-            // Avanzar a la siguiente partición
-            i++;
-        }
-    }
-}
-
-// Implementación de la función asignarMemoria actualizada
 bool asignarMemoria(int idProceso, int cantidadRequerida) {
     if (cantidadRequerida <= 0) {
         printf("Error: La cantidad de memoria solicitada debe ser mayor que cero\n");
@@ -207,7 +101,7 @@ bool asignarMemoria(int idProceso, int cantidadRequerida) {
     int direccionAsignada = -1;
 
     if (gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO) {
-        // CORRECCIÓN: Buscar la partición libre de MENOR tamaño que pueda contener el proceso
+        // Buscar la partición libre de MENOR tamaño que pueda contener el proceso
         int indiceOptimo = -1;
         int tamanoOptimo = INT_MAX;
 
@@ -215,7 +109,6 @@ bool asignarMemoria(int idProceso, int cantidadRequerida) {
             if (gestorMemoria.particiones[i].libre &&
                 gestorMemoria.particiones[i].tamano >= cantidadRequerida) {
 
-                // CORRECCIÓN: Buscar el MENOR tamaño que sea >= cantidadRequerida
                 if (gestorMemoria.particiones[i].tamano < tamanoOptimo) {
                     tamanoOptimo = gestorMemoria.particiones[i].tamano;
                     indiceOptimo = i;
@@ -227,7 +120,6 @@ bool asignarMemoria(int idProceso, int cantidadRequerida) {
             printf("Error (Ajuste Óptimo): No se encontró una partición adecuada para %d bytes\n", cantidadRequerida);
             asignado = false;
         } else {
-            // Obtener la partición seleccionada
             Particion *particion = &gestorMemoria.particiones[indiceOptimo];
 
             // Si la partición es exactamente del tamaño requerido
@@ -268,7 +160,6 @@ bool asignarMemoria(int idProceso, int cantidadRequerida) {
         }
 
     } else if (gestorMemoria.algoritmoActual == ALG_MAPA_BITS) {
-        // Lógica para Mapa de Bits (ya implementada correctamente)
         int numBloquesRequeridos = (cantidadRequerida + gestorMemoria.tamanoBloque - 1) / gestorMemoria.tamanoBloque;
         int bloquesLibresConsecutivos = 0;
         int inicioBloqueLibre = -1;
@@ -312,7 +203,28 @@ bool asignarMemoria(int idProceso, int cantidadRequerida) {
 
     return asignado;
 }
-// Permitir que un proceso crezca (requiere más memoria)
+
+bool asignarMemoriaES(int idProceso) {
+    int memoriaBase = 16;
+    int memoriaPorCartaSimulada = 4;
+    int numCartasSimuladas = 5 + (rand() % 8);
+    int cantidadRequerida = memoriaBase + (numCartasSimuladas * memoriaPorCartaSimulada);
+    
+    bool asignado = asignarMemoria(idProceso, cantidadRequerida);
+    
+    if (asignado && (idProceso == gestorMemoria.creceProc1 || idProceso == gestorMemoria.creceProc2)) {
+        int crecimiento = (rand() % 21) + 10;
+        
+        colorMagenta();
+        printf("El proceso %d (autorizado para crecer) intentará solicitar crecimiento en %d bytes\n", idProceso, crecimiento);
+        colorReset();
+        
+        crecerProceso(idProceso, crecimiento);
+    }
+    
+    return asignado;
+}
+
 bool crecerProceso(int idProceso, int cantidadAdicional) {
     if (cantidadAdicional <= 0) {
         printf("Error: La cantidad adicional debe ser mayor que cero\n");
@@ -327,7 +239,6 @@ bool crecerProceso(int idProceso, int cantidadAdicional) {
         return false;
     }
     
-    // Verificar si hay suficiente memoria disponible
     if (cantidadAdicional > gestorMemoria.memoriaDisponible) {
         colorRojo();
         printf("Error: No hay suficiente memoria disponible para el crecimiento (%d solicitados, %d disponibles)\n", 
@@ -336,14 +247,13 @@ bool crecerProceso(int idProceso, int cantidadAdicional) {
         return false;
     }
     
-    // Buscar todas las particiones del proceso
     int partidaEncontrada = -1;
     
     for (int i = 0; i < gestorMemoria.numParticiones; i++) {
         if (gestorMemoria.particiones[i].idProceso == idProceso) {
             partidaEncontrada = i;
             
-            // Verificar si hay una partición libre adyacente a esta que sea suficiente
+            // Verificar si hay una partición libre adyacente suficiente
             if (i + 1 < gestorMemoria.numParticiones && 
                 gestorMemoria.particiones[i + 1].libre && 
                 gestorMemoria.particiones[i + 1].tamano >= cantidadAdicional) {
@@ -354,8 +264,6 @@ bool crecerProceso(int idProceso, int cantidadAdicional) {
                 
                 // Aumentar el tamaño de la partición del proceso
                 gestorMemoria.particiones[i].tamano += cantidadAdicional;
-                
-                // Actualizar memoria disponible
                 gestorMemoria.memoriaDisponible -= cantidadAdicional;
                 
                 colorVerde();
@@ -371,20 +279,14 @@ bool crecerProceso(int idProceso, int cantidadAdicional) {
                     gestorMemoria.numParticiones--;
                 }
                 
-                // Registrar evento
                 registrarEvento("Proceso %d creció en %d bytes", idProceso, cantidadAdicional);
-                
                 return true;
             }
-            
-            // Si encontramos una partición del proceso pero no podemos expandirla,
-            // continuamos buscando otras
         }
     }
     
-    // Si no encontramos una partición adecuada para expandir, intentar asignar nueva memoria
+    // Si no se pudo expandir una partición existente, asignar nueva memoria
     if (partidaEncontrada != -1) {
-        // Asignar nueva memoria para el crecimiento
         if (asignarMemoria(idProceso, cantidadAdicional)) {
             colorVerde();
             printf("Proceso %d creció en %d bytes (nueva partición)\n", idProceso, cantidadAdicional);
@@ -399,82 +301,123 @@ bool crecerProceso(int idProceso, int cantidadAdicional) {
     return false;
 }
 
-// Imprimir el estado actual de la memoria
-void imprimirEstadoMemoria(void) {
-    printf("\n=== ESTADO DE LA MEMORIA ===\n");
-    printf("Algoritmo actual: %s\n", gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO ? "Ajuste Óptimo" : (gestorMemoria.algoritmoActual == ALG_LRU ? "LRU (Memoria Virtual)" : "Mapa de Bits"));
-    printf("Memoria total: %d bytes\n", MEM_TOTAL_SIZE);
-    printf("Memoria disponible: %d bytes\n", gestorMemoria.memoriaDisponible);
+//==============================================================================
+// FUNCIONES DE LIBERACIÓN DE MEMORIA
+//==============================================================================
+
+void liberarMemoria(int idProceso) {
+    bool liberada = false;
+    int bytesLiberados = 0;
 
     if (gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO) {
-         printf("Número de particiones: %d\n", gestorMemoria.numParticiones);
-         printf("\nParticiones:\n");
-         printf("%-10s %-10s %-10s %-10s\n", "Inicio", "Tamaño", "Proceso", "Estado");
-         printf("--------------------------------------\n");
-         for (int i = 0; i < gestorMemoria.numParticiones; i++) {
-             printf("%-10d %-10d %-10d %-10s\n",
-                    gestorMemoria.particiones[i].inicio,
-                    gestorMemoria.particiones[i].tamano,
-                    gestorMemoria.particiones[i].idProceso,
-                    gestorMemoria.particiones[i].libre ? "Libre" : "Ocupado");
-         }
-    } else if (gestorMemoria.algoritmoActual == ALG_MAPA_BITS) {
-        printf("Tamaño del bloque: %d bytes\n", gestorMemoria.tamanoBloque);
-        printf("Número de bloques: %d\n", NUM_BLOQUES_BITMAP);
-        printf("\nMapa de Bits:\n");
-        // Implementar la impresión del mapa de bits (puede ser compleja si es bit a bit)
-        // Un enfoque simple es imprimir el estado de cada byte/bloque
-        for (int i = 0; i < NUM_BLOQUES_BITMAP; i++) {
-             printf("%d", gestorMemoria.mapaBits[i]); // Imprime 0 o 1
-             if ((i + 1) % 32 == 0) printf("\n"); // Salto de línea cada 32 bloques para mejor visualización
+        for (int i = 0; i < gestorMemoria.numParticiones; i++) {
+            if (gestorMemoria.particiones[i].idProceso == idProceso) {
+                int tamanoLiberado = gestorMemoria.particiones[i].tamano;
+                gestorMemoria.particiones[i].libre = true;
+                gestorMemoria.particiones[i].idProceso = -1;
+                gestorMemoria.memoriaDisponible += tamanoLiberado;
+                bytesLiberados += tamanoLiberado;
+                liberada = true;
+
+                colorAmarillo();
+                printf("Memoria liberada (Ajuste Óptimo): Proceso %d, %d bytes\n", idProceso, tamanoLiberado);
+                colorReset();
+
+                consolidarParticiones();
+                i = -1; // Reiniciar el bucle después de consolidar
+            }
         }
-        printf("\n");
+        
+        if (!liberada) {
+             printf("No se encontró memoria asignada al proceso %d para liberar con Ajuste Óptimo.\n", idProceso);
+        }
+
+    } else if (gestorMemoria.algoritmoActual == ALG_MAPA_BITS) {
+        int bloquesLiberados = 0;
+        for (int i = 0; i < NUM_BLOQUES_BITMAP; i++) {
+            if (gestorMemoria.mapaBits[i] == idProceso) {
+                gestorMemoria.mapaBits[i] = -1;
+                gestorMemoria.memoriaDisponible += gestorMemoria.tamanoBloque;
+                bloquesLiberados++;
+                liberada = true;
+            }
+        }
+
+        if (liberada) {
+             bytesLiberados = bloquesLiberados * gestorMemoria.tamanoBloque;
+             colorAmarillo();
+             printf("Memoria liberada (Mapa de Bits): Proceso %d, %d bloques (%d bytes)\n",
+                    idProceso, bloquesLiberados, bytesLiberados);
+             colorReset();
+        } else {
+             printf("No se encontró memoria asignada al proceso %d para liberar con Mapa de Bits.\n", idProceso);
+        }
+
+    } else {
+        printf("Error: Algoritmo de liberación de memoria desconocido\n");
+        return;
     }
 
-    printf("\nProcesos que pueden crecer: %d y %d\n", gestorMemoria.creceProc1, gestorMemoria.creceProc2);
-    printf("===========================\n\n");
+    if (liberada) {
+        registrarEvento("Memoria liberada: Proceso %d, %d bytes (Algoritmo: %s)", idProceso, bytesLiberados,
+                       gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO ? "Ajuste Óptimo" :
+                       (gestorMemoria.algoritmoActual == ALG_MAPA_BITS ? "Mapa de Bits" : "Desconocido"));
+    }
+
+    liberarPaginasProceso(idProceso);
 }
 
-//---------------------- Funciones para memoria virtual con LRU -----------------------
-
-// Inicializar la memoria virtual
-void inicializarMemoriaVirtual(void) {
-    // Inicializar tabla de páginas
-    for (int i = 0; i < MAX_PAGINAS; i++) {
-        gestorMemoria.tablaPaginas[i].idProceso = -1;
-        gestorMemoria.tablaPaginas[i].numPagina = -1;
-        gestorMemoria.tablaPaginas[i].idCarta = -1;
-        gestorMemoria.tablaPaginas[i].tiempoUltimoUso = 0;
-        gestorMemoria.tablaPaginas[i].bitReferencia = false;
-        gestorMemoria.tablaPaginas[i].bitModificacion = false;
-        gestorMemoria.tablaPaginas[i].enMemoria = false;
-        gestorMemoria.tablaPaginas[i].marcoAsignado = -1;
+void consolidarParticiones(void) {
+    int i = 0;
+    
+    while (i < gestorMemoria.numParticiones - 1) {
+        // Si esta partición y la siguiente están libres
+        if (gestorMemoria.particiones[i].libre && gestorMemoria.particiones[i + 1].libre) {
+            // Fusionar las particiones
+            gestorMemoria.particiones[i].tamano += gestorMemoria.particiones[i + 1].tamano;
+            
+            // Eliminar la partición siguiente
+            for (int j = i + 1; j < gestorMemoria.numParticiones - 1; j++) {
+                gestorMemoria.particiones[j] = gestorMemoria.particiones[j + 1];
+            }
+            
+            gestorMemoria.numParticiones--;
+        } else {
+            i++;
+        }
     }
-    
-    gestorMemoria.numPaginas = 0;
-    
-    // Inicializar marcos de memoria
-    for (int i = 0; i < NUM_MARCOS; i++) {
-        gestorMemoria.marcosMemoria[i].idProceso = -1;
-        gestorMemoria.marcosMemoria[i].numPagina = -1;
-        gestorMemoria.marcosMemoria[i].libre = true;
-    }
-    
-    gestorMemoria.contadorTiempo = 0;
-    gestorMemoria.fallosPagina = 0;
-    gestorMemoria.aciertosMemoria = 0;
-    
-    colorVerde();
-    printf("Memoria virtual inicializada: %d marcos, %d páginas por marco\n", 
-           NUM_MARCOS, PAGINAS_POR_MARCO);
-    colorReset();
 }
 
-// Acceder a una página (leer o escribir)
+void liberarPaginasProceso(int idProceso) {
+    for (int i = 0; i < gestorMemoria.numPaginas; i++) {
+        if (gestorMemoria.tablaPaginas[i].idProceso == idProceso) {
+            // Si la página está en memoria, liberar el marco
+            if (gestorMemoria.tablaPaginas[i].enMemoria) {
+                int marco = gestorMemoria.tablaPaginas[i].marcoAsignado;
+                gestorMemoria.marcosMemoria[marco].idProceso = -1;
+                gestorMemoria.marcosMemoria[marco].numPagina = -1;
+                gestorMemoria.marcosMemoria[marco].libre = true;
+            }
+            
+            // Marcar la página como no utilizada
+            gestorMemoria.tablaPaginas[i].idProceso = -1;
+            gestorMemoria.tablaPaginas[i].numPagina = -1;
+            gestorMemoria.tablaPaginas[i].idCarta = -1;
+            gestorMemoria.tablaPaginas[i].enMemoria = false;
+            gestorMemoria.tablaPaginas[i].marcoAsignado = -1;
+        }
+    }
+    
+    registrarEvento("Páginas liberadas: Proceso %d", idProceso);
+}
+
+//==============================================================================
+// FUNCIONES DE MEMORIA VIRTUAL (LRU)
+//==============================================================================
+
 int accederPagina(int idProceso, int numPagina, int idCarta) {
     gestorMemoria.contadorTiempo++;
     
-    // Buscar la página en la tabla de páginas
     Pagina *pagina = NULL;
     
     for (int i = 0; i < gestorMemoria.numPaginas; i++) {
@@ -498,7 +441,7 @@ int accederPagina(int idProceso, int numPagina, int idCarta) {
         pagina->idProceso = idProceso;
         pagina->numPagina = numPagina;
         pagina->idCarta = idCarta;
-        pagina->tiempoUltimoUso = gestorMemoria.contadorTiempo; // CORRECCIÓN: Tiempo actual
+        pagina->tiempoUltimoUso = gestorMemoria.contadorTiempo;
         pagina->bitReferencia = true;
         pagina->bitModificacion = false;
         pagina->enMemoria = false;
@@ -507,7 +450,7 @@ int accederPagina(int idProceso, int numPagina, int idCarta) {
         gestorMemoria.numPaginas++;
     }
     
-    // CORRECCIÓN: Actualizar tiempo de último uso SIEMPRE que se accede a la página
+    // Actualizar tiempo de último uso
     pagina->tiempoUltimoUso = gestorMemoria.contadorTiempo;
     pagina->bitReferencia = true;
     
@@ -543,7 +486,6 @@ int accederPagina(int idProceso, int numPagina, int idCarta) {
     // Si no hay marcos libres, usar LRU para seleccionar víctima
     if (marcoLibre == -1) {
         marcoLibre = seleccionarVictimaLRU();
-        
 
         Pagina *paginaVictima = NULL;
         for (int i = 0; i < gestorMemoria.numPaginas; i++) {
@@ -589,7 +531,6 @@ int accederPagina(int idProceso, int numPagina, int idCarta) {
     return marcoLibre;
 }
 
-
 int seleccionarVictimaLRU(void) {
     int marcoVictima = -1;
     int tiempoMasAntiguo = INT_MAX;
@@ -597,17 +538,14 @@ int seleccionarVictimaLRU(void) {
     // Buscar la página con el tiempo de último uso MÁS ANTIGUO (menor)
     for (int i = 0; i < NUM_MARCOS; i++) {
         if (!gestorMemoria.marcosMemoria[i].libre) {
- 
             for (int j = 0; j < gestorMemoria.numPaginas; j++) {
                 if (gestorMemoria.tablaPaginas[j].enMemoria && 
                     gestorMemoria.tablaPaginas[j].marcoAsignado == i) {
                     
-                    //Seleccionar la página con MENOR tiempo de último uso
                     if (gestorMemoria.tablaPaginas[j].tiempoUltimoUso < tiempoMasAntiguo) {
                         tiempoMasAntiguo = gestorMemoria.tablaPaginas[j].tiempoUltimoUso;
                         marcoVictima = i;
                     }
-                    
                     break;
                 }
             }
@@ -615,7 +553,6 @@ int seleccionarVictimaLRU(void) {
     }
     
     if (marcoVictima == -1) {
-
         for (int i = 0; i < NUM_MARCOS; i++) {
             if (!gestorMemoria.marcosMemoria[i].libre) {
                 marcoVictima = i;
@@ -627,33 +564,43 @@ int seleccionarVictimaLRU(void) {
     return marcoVictima;
 }
 
+//==============================================================================
+// FUNCIONES DE VISUALIZACIÓN
+//==============================================================================
 
-// Liberar todas las páginas de un proceso
-void liberarPaginasProceso(int idProceso) {
-    for (int i = 0; i < gestorMemoria.numPaginas; i++) {
-        if (gestorMemoria.tablaPaginas[i].idProceso == idProceso) {
-            // Si la página está en memoria, liberar el marco
-            if (gestorMemoria.tablaPaginas[i].enMemoria) {
-                int marco = gestorMemoria.tablaPaginas[i].marcoAsignado;
-                gestorMemoria.marcosMemoria[marco].idProceso = -1;
-                gestorMemoria.marcosMemoria[marco].numPagina = -1;
-                gestorMemoria.marcosMemoria[marco].libre = true;
-            }
-            
-            // Marcar la página como no utilizada
-            gestorMemoria.tablaPaginas[i].idProceso = -1;
-            gestorMemoria.tablaPaginas[i].numPagina = -1;
-            gestorMemoria.tablaPaginas[i].idCarta = -1;
-            gestorMemoria.tablaPaginas[i].enMemoria = false;
-            gestorMemoria.tablaPaginas[i].marcoAsignado = -1;
+void imprimirEstadoMemoria(void) {
+    printf("\n=== ESTADO DE LA MEMORIA ===\n");
+    printf("Algoritmo actual: %s\n", gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO ? "Ajuste Óptimo" : (gestorMemoria.algoritmoActual == ALG_LRU ? "LRU (Memoria Virtual)" : "Mapa de Bits"));
+    printf("Memoria total: %d bytes\n", MEM_TOTAL_SIZE);
+    printf("Memoria disponible: %d bytes\n", gestorMemoria.memoriaDisponible);
+
+    if (gestorMemoria.algoritmoActual == ALG_AJUSTE_OPTIMO) {
+         printf("Número de particiones: %d\n", gestorMemoria.numParticiones);
+         printf("\nParticiones:\n");
+         printf("%-10s %-10s %-10s %-10s\n", "Inicio", "Tamaño", "Proceso", "Estado");
+         printf("--------------------------------------\n");
+         for (int i = 0; i < gestorMemoria.numParticiones; i++) {
+             printf("%-10d %-10d %-10d %-10s\n",
+                    gestorMemoria.particiones[i].inicio,
+                    gestorMemoria.particiones[i].tamano,
+                    gestorMemoria.particiones[i].idProceso,
+                    gestorMemoria.particiones[i].libre ? "Libre" : "Ocupado");
+         }
+    } else if (gestorMemoria.algoritmoActual == ALG_MAPA_BITS) {
+        printf("Tamaño del bloque: %d bytes\n", gestorMemoria.tamanoBloque);
+        printf("Número de bloques: %d\n", NUM_BLOQUES_BITMAP);
+        printf("\nMapa de Bits:\n");
+        for (int i = 0; i < NUM_BLOQUES_BITMAP; i++) {
+             printf("%d", gestorMemoria.mapaBits[i]);
+             if ((i + 1) % 32 == 0) printf("\n");
         }
+        printf("\n");
     }
-    
-    // Registrar evento
-    registrarEvento("Páginas liberadas: Proceso %d", idProceso);
+
+    printf("\nProcesos que pueden crecer: %d y %d\n", gestorMemoria.creceProc1, gestorMemoria.creceProc2);
+    printf("===========================\n\n");
 }
 
-// Imprimir el estado actual de la memoria virtual
 void imprimirEstadoMemoriaVirtual(void) {
     printf("\n=== ESTADO DE LA MEMORIA VIRTUAL (LRU) ===\n");
     printf("Algoritmo: LRU (Least Recently Used)\n");
@@ -752,7 +699,10 @@ void imprimirEstadoMemoriaVirtual(void) {
     printf("===========================\n\n");
 }
 
-// Cambiar entre algoritmos de memoria
+//==============================================================================
+// FUNCIONES DE CONFIGURACIÓN
+//==============================================================================
+
 void cambiarAlgoritmoMemoria(int nuevoAlgoritmo) {
     if (nuevoAlgoritmo != ALG_AJUSTE_OPTIMO && nuevoAlgoritmo != ALG_LRU && nuevoAlgoritmo != ALG_MAPA_BITS) {
         printf("Error: Algoritmo de memoria no válido\n");

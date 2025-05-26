@@ -2,59 +2,58 @@
 #define MESA_H
 
 #include <stdbool.h>
-
-// Incluir definiciones de Carta, Grupo, Escalera, Apeada y Mazo
 #include "jugadores.h"
 
 #define MAX_APEADAS 50
 
-// Estructura global para la mesa de juego
+//==============================================================================
+// ESTRUCTURAS
+//==============================================================================
+
 typedef struct {
-    Apeada apeadas[MAX_APEADAS];  // Arreglo de apeadas en la mesa
-    int numApeadas;               // Número actual de apeadas
-    Mazo banca;                   // Mazo de la banca
+    Apeada apeadas[MAX_APEADAS];
+    int numApeadas;
+    Mazo banca;
 } Mesa;
 
-// Variable global para la mesa
 extern Mesa mesaJuego;
 
-// Inicializar la mesa
+//==============================================================================
+// FUNCIONES DE INICIALIZACIÓN Y LIBERACIÓN
+//==============================================================================
+
 bool inicializarMesa(void);
+void liberarMesa(void);
 
-// Agregar una nueva apeada (grupo o escalera) a la mesa
-bool agregarApeada(Apeada *nuevaApeada);
+//==============================================================================
+// FUNCIONES DE MANEJO DE MAZO
+//==============================================================================
 
-// Modificar una apeada existente (añadir carta)
-bool modificarApeada(int indiceApeada, Carta carta, int posicion);
-
-// Validar si una apeada cumple con las reglas del juego
-bool validarApeada(Apeada *apeada);
-
-// Verificar si un conjunto de cartas forma una escalera válida
-bool esEscaleraValida(Carta *cartas, int numCartas);
-
-// Verificar si un conjunto de cartas forma un grupo válido (terna o cuaterna)
-bool esGrupoValido(Carta *cartas, int numCartas);
-
-// Obtener acceso a las apeadas
-Apeada* obtenerApeadas(void);
-
-// Obtener el número de apeadas
-int obtenerNumApeadas(void);
-
-// Obtener acceso al mazo de la banca
+void crearMazoCompleto(Mazo *mazo);
+void mezclarMazo(Mazo *mazo);
 Mazo* obtenerBanca(void);
 
-// Crear un mazo completo (2 barajas + 4 comodines)
-void crearMazoCompleto(Mazo *mazo);
+//==============================================================================
+// FUNCIONES DE MANEJO DE APEADAS
+//==============================================================================
 
-// Mezclar un mazo
-void mezclarMazo(Mazo *mazo);
+bool agregarApeada(Apeada *nuevaApeada);
+bool modificarApeada(int indiceApeada, Carta carta, int posicion);
+Apeada* obtenerApeadas(void);
+int obtenerNumApeadas(void);
 
-// Mostrar todas las apeadas en la mesa
+//==============================================================================
+// FUNCIONES DE VALIDACIÓN
+//==============================================================================
+
+bool validarApeada(Apeada *apeada);
+bool esEscaleraValida(Carta *cartas, int numCartas);
+bool esGrupoValido(Carta *cartas, int numCartas);
+
+//==============================================================================
+// FUNCIONES DE VISUALIZACIÓN
+//==============================================================================
+
 void mostrarApeadas(void);
-
-// Liberar recursos de la mesa
-void liberarMesa(void);
 
 #endif // MESA_H

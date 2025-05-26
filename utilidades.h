@@ -4,22 +4,36 @@
 #include <stdbool.h>
 #include "jugadores.h"
 
-/* Funciones auxiliares para manejo de cartas */
+//==============================================================================
+// VARIABLES GLOBALES
+//==============================================================================
+
+extern int rondaActual;
+
+//==============================================================================
+// FUNCIONES DE MANEJO DE CARTAS
+//==============================================================================
+
 void imprimirCarta(Carta carta);
 void imprimirMazo(Mazo *mazo);
 char* obtenerNombreCarta(Carta carta, char *buffer);
 int calcularPuntosCarta(Carta carta);
-extern int rondaActual;
+
+//==============================================================================
+// FUNCIONES DE HISTORIAL Y REGISTRO
+//==============================================================================
+
 void registrarHistorial(int numRonda, Jugador *jugadores, int numJugadores);
 void registrarHistorialRonda(int numRonda, Jugador *jugadores, int numJugadores);
 void registrarHistorialJugador(int numRonda, Jugador *jugador);
 void mostrarHistorialCompleto(void);
-
-/* Funciones auxiliares para depuración y registro */
 void registrarEvento(const char *formato, ...);
 void guardarEstadisticasJuego(Jugador *jugadores, int numJugadores);
 
-/* Funciones para colores en terminal (para visualización) */
+//==============================================================================
+// FUNCIONES DE VISUALIZACIÓN
+//==============================================================================
+
 void colorRojo(void);
 void colorVerde(void);
 void colorAmarillo(void);
