@@ -490,14 +490,14 @@ void mostrarResultados() {
     } else {
         printf("Juego terminado sin ganador\n");
         
-        // Mostrar puntuaciones
+
         printf("\nPuntuaciones finales:\n");
         for (int i = 0; i < numJugadores; i++) {
             printf("Jugador %d: %d puntos, %d cartas restantes\n", 
                    i, jugadores[i].puntosTotal, jugadores[i].mano.numCartas);
         }
         
-        // Determinar quien tiene menos puntos si no hay un ganador claro
+
         int menorPuntos = INT_MAX;
         int jugadorMenorPuntos = -1;
         
@@ -521,27 +521,27 @@ void mostrarResultados() {
 
 // Liberar recursos del juego
 void liberarJuego() {
-    // Liberar recursos de los jugadores
+  
     for (int i = 0; i < numJugadores; i++) {
         liberarJugador(&jugadores[i]);
         
-        // NUEVO: Asegurarse de que toda la memoria esté liberada
+        
         liberarMemoria(i);
     }
     
-    // Liberar recursos de la mesa
+
     liberarMesa();
     
-    // Liberar la tabla de procesos
+ 
     liberarTabla();
     
-    // NUEVO: Mostrar estadísticas finales de memoria
+
     imprimirEstadoMemoria();
     imprimirEstadoMemoriaVirtual();
     
     printf("Todos los recursos liberados correctamente.\n");
 }
-// Calcular los puntos totales de una mano
+
 int calcularPuntosMano(Mazo *mano) {
     int total = 0;
     
@@ -551,10 +551,10 @@ int calcularPuntosMano(Mazo *mano) {
         if (carta.esComodin) {
             total += 20;  // Los comodines valen 20 puntos
         } else {
-            // Asignar valor según la carta
-            if (carta.valor >= 11) {  // J, Q, K
+        
+            if (carta.valor >= 11) {  
                 total += 10;
-            } else if (carta.valor == 1) {  // As
+            } else if (carta.valor == 1) {  
                 total += 15;
             } else {
                 total += carta.valor;

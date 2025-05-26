@@ -3,7 +3,7 @@ Número de procesos: 8
 Procesos listos: 0
 Procesos bloqueados: 4
 Procesos terminados: 4
-Cambios de contexto: 30
+Cambios de contexto: 35
 Tiempo total de ejecución: 0 ms
 Tiempo total de espera: 0 ms
 Tiempo total de bloqueo: 0 ms
@@ -11,16 +11,16 @@ Tiempo total en E/S: 0 ms
 Turnos asignados: 0
 Turnos completados: 0
 Turnos interrumpidos: 0
-Tiempo total de simulación: 12.00 segundos
+Tiempo total de simulación: 16.00 segundos
 Uso de CPU: 0.00%
 
 DETALLES DE PROCESOS:
 Proceso 0: BLOQUEADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
-Proceso 1: BLOQUEADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 Proceso 3: BLOQUEADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 Proceso 2: BLOQUEADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
+Proceso 1: BLOQUEADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 Proceso 2: TERMINADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
+Proceso 0: TERMINADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 Proceso 1: TERMINADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 Proceso 3: TERMINADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
-Proceso 0: TERMINADO, Ejecución: 0 ms, Espera: 0 ms, Cartas: 0
 ===========================================

@@ -31,7 +31,7 @@ typedef struct {
     int idProceso;      // ID del proceso al que pertenece
     int numPagina;      // Número de página dentro del proceso
     int idCarta;        // ID de la carta almacenada en esta página (-1 si no hay carta)
-    int tiempoUltimoUso; // Tiempo del último uso (para LRU)
+    int tiempoUltimoUso; // CRÍTICO: Tiempo del último uso (para LRU) - SE ACTUALIZA EN CADA ACCESO
     bool bitReferencia;  // Bit de referencia (para algoritmos que lo requieran)
     bool bitModificacion; // Bit de modificación (para algoritmos que lo requieran)
     bool enMemoria;      // Indica si la página está en memoria principal
@@ -57,12 +57,14 @@ typedef struct {
     Pagina tablaPaginas[MAX_PAGINAS];
     int numPaginas;
     Marco marcosMemoria[NUM_MARCOS];
-    int contadorTiempo;    // Contador global para el algoritmo LRU
+    int contadorTiempo;    // CRÍTICO: Contador global para el algoritmo LRU - SE INCREMENTA EN CADA ACCESO
     int fallosPagina;      // Contador de fallos de página
     int aciertosMemoria;   // Contador de aciertos de memoria
-     // Para Mapa de Bits
-     unsigned char mapaBits[NUM_BLOQUES_BITMAP]; // O un tipo de datos adecuado para representar bits/bytes
-     int tamanoBloque; // Para almacenar el tamaño del bloque
+    
+    // Para Mapa de Bits
+    unsigned char mapaBits[NUM_BLOQUES_BITMAP];
+    int tamanoBloque;
+    
     // Contador de crecimiento de procesos
     int creceProc1;        // ID del primer proceso que puede crecer
     int creceProc2;        // ID del segundo proceso que puede crecer
