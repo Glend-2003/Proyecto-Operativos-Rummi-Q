@@ -1,21 +1,16 @@
 {
-    "configurations": [
-        {
-            "name": "Linux",
-            "includePath": [
-                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q",  // Busca en toda la carpeta del proyecto
-                "/usr/include",           // Librerías estándar del sistema
-                "/usr/local/include",     // Librerías instaladas localmente
-                "/usr/include/x86_64-linux-gnu",  // Librerías específicas para arquitectura x86_64
-                "/home/glend/Documentos/GitHub/Proyecto-Operativos-Rummi-Q/jugadores.h"
-                
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "gcc-x64"
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "linux-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
 }
